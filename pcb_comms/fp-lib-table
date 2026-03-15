@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "STM32WL5")(type "KiCad")(uri "${KIPRJMOD}/assets/STM32WL5")(options "")(descr ""))
+  (lib (name "MINISO6_CG21_CEL")(type "KiCad")(uri "${KIPRJMOD}/assets/MINISO6_CG21_CEL")(options "")(descr ""))
+)
