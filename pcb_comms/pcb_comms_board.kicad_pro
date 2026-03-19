@@ -625,6 +625,10 @@
     [
       "9ced98fe-3695-442f-a613-f1ea774ec3ca",
       "GPS"
+    ],
+    [
+      "a4d41170-f1e3-4812-89ef-2aa6a238f022",
+      "IO_CONN"
     ]
   ],
   "text_variables": {}

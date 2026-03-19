@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 135.89 31.75)
+		(at 133.35 31.75)
 		(size 34.29 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "9ced98fe-3695-442f-a613-f1ea774ec3ca")
 		(property "Sheetname" "GPS"
-			(at 135.89 31.0384 0)
+			(at 133.35 31.0384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +31,7 @@
 			)
 		)
 		(property "Sheetfile" "gps.kicad_sch"
-			(at 135.89 53.9246 0)
+			(at 133.35 53.9246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43,6 +43,48 @@
 			(project "pcb_comms_board"
 				(path "/ea597178-b44d-4db9-826c-8f86e8d231f0"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 175.26 31.75)
+		(size 40.64 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a4d41170-f1e3-4812-89ef-2aa6a238f022")
+		(property "Sheetname" "IO_CONN"
+			(at 175.26 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "io_conn.kicad_sch"
+			(at 175.26 52.6546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pcb_comms_board"
+				(path "/ea597178-b44d-4db9-826c-8f86e8d231f0"
+					(page "5")
 				)
 			)
 		)
