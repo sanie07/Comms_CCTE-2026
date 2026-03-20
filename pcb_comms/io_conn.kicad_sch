@@ -3375,7 +3375,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 39.37) (xy 217.17 39.37)
+			(xy 208.28 39.37) (xy 226.06 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3919,7 +3919,7 @@
 	)
 	(global_label "STM32_NRST"
 		(shape input)
-		(at 217.17 39.37 0)
+		(at 226.06 39.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3929,7 +3929,7 @@
 		)
 		(uuid "96ad15a0-b8b4-4cd8-9b87-b43445806428")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.9479 39.37 0)
+			(at 240.8379 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
