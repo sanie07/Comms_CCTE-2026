@@ -957,6 +957,24 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 71.12 -60.96 180)
+				(length 7.62)
+				(name "VDDPA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(symbol "STM32WLE5CCU6_1_1"
 			(pin power_out line
@@ -988,24 +1006,6 @@
 					)
 				)
 				(number "28"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 71.12 -60.96 180)
-				(length 7.62)
-				(name "VDDPA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "25"
 					(effects
 						(font
 							(size 1.27 1.27)

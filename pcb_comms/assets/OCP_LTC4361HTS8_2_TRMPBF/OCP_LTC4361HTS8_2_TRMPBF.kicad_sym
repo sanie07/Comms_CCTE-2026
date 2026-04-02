@@ -2,7 +2,7 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "CG2179M2"
+	(symbol "LTC4361HTS8-2-TRMPBF"
 		(pin_names
 			(offset 0.254)
 		)
@@ -10,23 +10,23 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 9.652 0)
+			(at 33.02 10.16 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "CG2179M2"
-			(at 0 7.112 0)
+		(property "Value" "LTC4361HTS8-2-TRMPBF"
+			(at 33.02 7.62 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "MINISO6_CG21_CEL"
-			(at 0.254 -8.89 0)
+		(property "Footprint" "TSOT-23_TS8_LIT"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35,8 +35,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CG2179M2"
-			(at -0.254 -7.112 0)
+		(property "Datasheet" "LTC4361HTS8-2-TRMPBF"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62,7 +62,7 @@
 				)
 			)
 		)
-		(property "ki_keywords" "CG2179M2"
+		(property "ki_keywords" "LTC4361HTS8-2#TRMPBF"
 			(at 0 0 0)
 			(effects
 				(font
@@ -71,7 +71,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "MINISO6_CG21_CEL MINISO6_CG21_CEL-M MINISO6_CG21_CEL-L"
+		(property "ki_fp_filters" "TSOT-23_TS8_LIT TSOT-23_TS8_LIT-M TSOT-23_TS8_LIT-L"
 			(at 0 0 0)
 			(effects
 				(font
@@ -80,10 +80,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "CG2179M2_0_1"
+		(symbol "LTC4361HTS8-2-TRMPBF_0_1"
 			(polyline
 				(pts
-					(xy -6.35 5.08) (xy -6.35 -5.08)
+					(xy 7.62 5.08) (xy 7.62 -12.7)
 				)
 				(stroke
 					(width 0.127)
@@ -95,7 +95,7 @@
 			)
 			(polyline
 				(pts
-					(xy -6.35 -5.08) (xy 6.35 -5.08)
+					(xy 7.62 -12.7) (xy 58.42 -12.7)
 				)
 				(stroke
 					(width 0.127)
@@ -107,7 +107,7 @@
 			)
 			(polyline
 				(pts
-					(xy 6.35 5.08) (xy -6.35 5.08)
+					(xy 58.42 5.08) (xy 7.62 5.08)
 				)
 				(stroke
 					(width 0.127)
@@ -119,7 +119,7 @@
 			)
 			(polyline
 				(pts
-					(xy 6.35 -5.08) (xy 6.35 5.08)
+					(xy 58.42 -12.7) (xy 58.42 5.08)
 				)
 				(stroke
 					(width 0.127)
@@ -129,10 +129,10 @@
 					(type none)
 				)
 			)
-			(pin bidirectional line
-				(at -13.97 2.54 0)
+			(pin input line
+				(at 0 0 0)
 				(length 7.62)
-				(name "RF1"
+				(name "*ON"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -147,10 +147,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -13.97 -2.54 0)
+			(pin unspecified line
+				(at 0 -5.08 0)
 				(length 7.62)
-				(name "RF2"
+				(name "GATEP"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -165,46 +165,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 13.97 2.54 180)
+			(pin power_in line
+				(at 0 -7.62 0)
 				(length 7.62)
-				(name "VC1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 13.97 0 180)
-				(length 7.62)
-				(name "RFC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 13.97 -2.54 180)
-				(length 7.62)
-				(name "VC2"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -219,12 +183,84 @@
 					)
 				)
 			)
-		)
-		(symbol "CG2179M2_1_1"
-			(pin power_in line
-				(at -13.97 0 0)
+			(pin output line
+				(at 66.04 0 180)
 				(length 7.62)
-				(name "GND"
+				(name "*PWRGD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 66.04 -2.54 180)
+				(length 7.62)
+				(name "GATE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 66.04 -5.08 180)
+				(length 7.62)
+				(name "SENSE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 66.04 -7.62 180)
+				(length 7.62)
+				(name "IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LTC4361HTS8-2-TRMPBF_1_1"
+			(pin power_out line
+				(at 0 -2.54 0)
+				(length 7.62)
+				(name "OUT"
 					(effects
 						(font
 							(size 1.27 1.27)

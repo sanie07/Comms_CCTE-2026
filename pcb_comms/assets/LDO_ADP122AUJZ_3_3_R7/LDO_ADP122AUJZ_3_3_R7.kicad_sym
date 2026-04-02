@@ -1,32 +1,32 @@
 (kicad_symbol_lib
-	(version 20241209)
+	(version 20231120)
 	(generator "kicad_symbol_editor")
-	(generator_version "9.0")
-	(symbol "CG2179M2"
+	(generator_version "8.0")
+	(symbol "ADP122AUJZ-3.3-R7"
 		(pin_names
 			(offset 0.254)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
-			(at 0 9.652 0)
+		(property "Reference" "U11"
+			(at 20.32 10.16 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "CG2179M2"
-			(at 0 7.112 0)
+		(property "Value" "ADP122AUJZ-3.3-R7"
+			(at 20.32 7.62 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "MINISO6_CG21_CEL"
-			(at 0.254 -8.89 0)
+		(property "Footprint" "ADP122AUJZ_3_3_R7:UJ_5_ADI"
+			(at 21.336 -21.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35,8 +35,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "CG2179M2"
-			(at -0.254 -7.112 0)
+		(property "Datasheet" "ADP122AUJZ-3.3-R7"
+			(at 20.574 -18.542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62,7 +62,7 @@
 				)
 			)
 		)
-		(property "ki_keywords" "CG2179M2"
+		(property "ki_keywords" "ADP122AUJZ-3.3-R7"
 			(at 0 0 0)
 			(effects
 				(font
@@ -71,7 +71,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "MINISO6_CG21_CEL MINISO6_CG21_CEL-M MINISO6_CG21_CEL-L"
+		(property "ki_fp_filters" "UJ_5_ADI UJ_5_ADI-M UJ_5_ADI-L"
 			(at 0 0 0)
 			(effects
 				(font
@@ -80,10 +80,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "CG2179M2_0_1"
+		(symbol "ADP122AUJZ-3.3-R7_0_1"
 			(polyline
 				(pts
-					(xy -6.35 5.08) (xy -6.35 -5.08)
+					(xy 7.62 -15.24) (xy 33.02 -15.24)
 				)
 				(stroke
 					(width 0.127)
@@ -95,7 +95,7 @@
 			)
 			(polyline
 				(pts
-					(xy -6.35 -5.08) (xy 6.35 -5.08)
+					(xy 7.62 5.08) (xy 7.62 -15.24)
 				)
 				(stroke
 					(width 0.127)
@@ -107,7 +107,7 @@
 			)
 			(polyline
 				(pts
-					(xy 6.35 5.08) (xy -6.35 5.08)
+					(xy 33.02 -15.24) (xy 33.02 5.08)
 				)
 				(stroke
 					(width 0.127)
@@ -119,7 +119,7 @@
 			)
 			(polyline
 				(pts
-					(xy 6.35 -5.08) (xy 6.35 5.08)
+					(xy 33.02 5.08) (xy 7.62 5.08)
 				)
 				(stroke
 					(width 0.127)
@@ -129,10 +129,12 @@
 					(type none)
 				)
 			)
-			(pin bidirectional line
-				(at -13.97 2.54 0)
+		)
+		(symbol "ADP122AUJZ-3.3-R7_1_1"
+			(pin power_in line
+				(at 0 0 0)
 				(length 7.62)
-				(name "RF1"
+				(name "VIN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -147,82 +149,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -13.97 -2.54 0)
-				(length 7.62)
-				(name "RF2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 13.97 2.54 180)
-				(length 7.62)
-				(name "VC1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 13.97 0 180)
-				(length 7.62)
-				(name "RFC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 13.97 -2.54 180)
-				(length 7.62)
-				(name "VC2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "CG2179M2_1_1"
 			(pin power_in line
-				(at -13.97 0 0)
+				(at 0 -10.16 0)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -239,7 +167,60 @@
 					)
 				)
 			)
+			(pin input line
+				(at 0 -5.08 0)
+				(length 7.62)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 40.64 -10.16 180)
+				(length 7.62)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 40.64 0 180)
+				(length 7.62)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
-		(embedded_fonts no)
 	)
 )

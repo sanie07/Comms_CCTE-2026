@@ -1988,7 +1988,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 71.12 0 180)
 					(length 7.62)
 					(name "GND"
@@ -2006,7 +2006,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 71.12 -2.54 180)
 					(length 7.62)
 					(name "VSSSMPS"
@@ -2348,24 +2348,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 71.12 -53.34 180)
-					(length 7.62)
-					(name "VDDRF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin output line
 					(at 71.12 -55.88 180)
 					(length 7.62)
@@ -2402,27 +2384,9 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 71.12 -60.96 180)
-					(length 7.62)
-					(name "VDDPA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(symbol "STM32WLE5CCU6_1_1"
-				(pin power_in line
+				(pin power_out line
 					(at 71.12 -5.08 180)
 					(length 7.62)
 					(name "VLXSMPS"
@@ -2433,6 +2397,42 @@
 						)
 					)
 					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 71.12 -53.34 180)
+					(length 7.62)
+					(name "VDDRF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 71.12 -60.96 180)
+					(length 7.62)
+					(name "VDDPA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3284,6 +3284,12 @@
 		(uuid "4656f6c9-cf7d-40fa-b5c4-b3c4a60ffa7a")
 	)
 	(junction
+		(at 76.2 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "515016bc-b4ce-4dcd-a0c6-7672f2213272")
+	)
+	(junction
 		(at 147.32 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3312,6 +3318,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c649f64-c1b3-44c8-9453-b3fda25a8fa2")
+	)
+	(junction
+		(at 167.64 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af643869-8064-4b3f-9974-6752e097ec31")
 	)
 	(junction
 		(at 68.58 36.83)
@@ -3372,10 +3384,6 @@
 		(uuid "101f4538-0b28-4564-8130-7043e6180896")
 	)
 	(no_connect
-		(at 208.28 125.73)
-		(uuid "1d751757-1795-4627-97a1-a07bcd6d632e")
-	)
-	(no_connect
 		(at 208.28 140.97)
 		(uuid "1e60142c-d56d-4fac-a85d-b6ab93b0252b")
 	)
@@ -3394,10 +3402,6 @@
 	(no_connect
 		(at 137.16 100.33)
 		(uuid "4c4cd007-c97e-4202-a5df-004a6f3f9722")
-	)
-	(no_connect
-		(at 208.28 113.03)
-		(uuid "736bcdde-b1e8-4d2d-bfda-9f40b0c9b8de")
 	)
 	(no_connect
 		(at 137.16 151.13)
@@ -3767,6 +3771,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 57.15) (xy 77.47 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f1efdd7-2c52-4fd3-92be-fb86419f9d59")
+	)
+	(wire
+		(pts
 			(xy 143.51 76.2) (xy 147.32 76.2)
 		)
 		(stroke
@@ -3807,7 +3821,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 57.15) (xy 77.47 57.15)
+			(xy 63.5 57.15) (xy 76.2 57.15)
 		)
 		(stroke
 			(width 0)
@@ -4047,6 +4061,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 76.2) (xy 168.91 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d6d5538-a84a-44a1-9c30-105e8d70698e")
+	)
+	(wire
+		(pts
 			(xy 60.96 132.08) (xy 64.77 132.08)
 		)
 		(stroke
@@ -4054,6 +4078,16 @@
 			(type default)
 		)
 		(uuid "5e0390fa-4fd0-4be1-8353-be4c2e4b8827")
+	)
+	(wire
+		(pts
+			(xy 208.28 125.73) (xy 227.33 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e11ee4e-09e9-414a-8115-65484c9205c9")
 	)
 	(wire
 		(pts
@@ -4217,7 +4251,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 76.2) (xy 168.91 76.2)
+			(xy 162.56 76.2) (xy 167.64 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4627,7 +4661,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 73.66) (xy 147.32 76.2)
+			(xy 147.32 69.85) (xy 147.32 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4754,6 +4788,16 @@
 			(type default)
 		)
 		(uuid "f38308e8-c7f6-48ef-8bc6-755f63517e70")
+	)
+	(wire
+		(pts
+			(xy 208.28 113.03) (xy 227.33 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f88470de-69f9-4736-a5c3-52853f46ab92")
 	)
 	(wire
 		(pts
@@ -5025,6 +5069,16 @@
 		)
 		(uuid "91b33962-7db5-4792-ac1b-188860c6bf65")
 	)
+	(label "VDDPA"
+		(at 147.32 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1f8d299-3980-4400-bfb2-45a396f226fd")
+	)
 	(label "VDDRF"
 		(at 127 76.2 180)
 		(effects
@@ -5124,6 +5178,28 @@
 			(justify left bottom)
 		)
 		(uuid "f41bb72c-3338-4ff2-8d35-048a669436a2")
+	)
+	(global_label "STM32_TO_OCP"
+		(shape input)
+		(at 227.33 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0d0dec31-d22d-4402-8ebf-742961e43a34")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 244.4665 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "RF_CRL1_TO_STM32"
 		(shape input)
@@ -5477,28 +5553,6 @@
 			)
 		)
 	)
-	(global_label "VDDPA"
-		(shape input)
-		(at 147.32 73.66 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c8bf28ae-fbfa-410f-8859-55480f4ca2cc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.32 64.6876 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "RFI_P"
 		(shape input)
 		(at 132.08 146.05 180)
@@ -5517,6 +5571,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "STM32_TO_BURN1"
+		(shape input)
+		(at 227.33 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "daad9e56-011a-4c80-82ca-3db65ccb673a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 247.0065 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6402,6 +6478,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 167.64 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "398c3d91-6453-4ed3-9dab-8d36591deeda")
+		(property "Reference" "#FLG06"
+			(at 167.64 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 167.64 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 167.64 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d140365-f6e7-480d-aa8a-8806a2c8bc32")
+		)
+		(instances
+			(project "pcb_comms_board"
+				(path "/ea597178-b44d-4db9-826c-8f86e8d231f0/e138949f-a904-4d13-88f3-88172523fe12"
+					(reference "#FLG06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 63.5 74.93 0)
 		(unit 1)
@@ -6530,6 +6671,72 @@
 			(project "pcb_comms_board"
 				(path "/ea597178-b44d-4db9-826c-8f86e8d231f0/e138949f-a904-4d13-88f3-88172523fe12"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 76.2 57.15 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6002b1d0-770f-4ff6-9921-c3ea57c998af")
+		(property "Reference" "#FLG05"
+			(at 76.2 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 76.2 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 76.2 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1aa46930-59c3-4996-ab25-e57c4989fd7f")
+		)
+		(instances
+			(project ""
+				(path "/ea597178-b44d-4db9-826c-8f86e8d231f0/e138949f-a904-4d13-88f3-88172523fe12"
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)

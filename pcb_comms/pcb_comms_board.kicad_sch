@@ -6,6 +6,90 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 216.535 31.75)
+		(size 31.115 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "177e7153-e267-47bf-abd3-8b553807255e")
+		(property "Sheetname" "OCP"
+			(at 216.535 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ocp.kicad_sch"
+			(at 216.535 52.6546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pcb_comms_board"
+				(path "/ea597178-b44d-4db9-826c-8f86e8d231f0"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 31.115 64.135)
+		(size 36.195 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7d91e0ae-c9ee-4e66-9dc6-4f6a7466f631")
+		(property "Sheetname" "Antenna Deployment"
+			(at 31.115 63.4234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "antenna_deploy.kicad_sch"
+			(at 31.115 87.5796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pcb_comms_board"
+				(path "/ea597178-b44d-4db9-826c-8f86e8d231f0"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 133.35 31.75)
 		(size 34.29 21.59)
 		(exclude_from_sim no)

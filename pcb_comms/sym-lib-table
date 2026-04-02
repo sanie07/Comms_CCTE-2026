@@ -9,4 +9,8 @@
   (lib (name "GPS_SAW_FILTER_B39162B4348P810")(type "KiCad")(uri "${KIPRJMOD}/assets/GPS_SAW_FILTER/GPS_SAW_FILTER_B39162B4348P810.kicad_sym")(options "")(descr ""))
   (lib (name "BGA525N6E6327XTSA1")(type "KiCad")(uri "${KIPRJMOD}/assets/GPS_EXT_LNA/BGA525N6E6327XTSA1.kicad_sym")(options "")(descr ""))
   (lib (name "ESD_PROTECTION_DIODE_PESD0402-140")(type "KiCad")(uri "${KIPRJMOD}/assets/ESD_PROTECTION_DIODE_PESD0402-140/ESD_PROTECTION_DIODE_PESD0402-140.kicad_sym")(options "")(descr ""))
+  (lib (name "OCP_DTC144EET1G")(type "KiCad")(uri "${KIPRJMOD}/assets/OCP_DTC144EET1G/OCP_DTC144EET1G.kicad_sym")(options "")(descr ""))
+  (lib (name "OCP_LTC4361HTS8_2_TRMPBF")(type "KiCad")(uri "${KIPRJMOD}/assets/OCP_LTC4361HTS8_2_TRMPBF/OCP_LTC4361HTS8_2_TRMPBF.kicad_sym")(options "")(descr ""))
+  (lib (name "OCP_SSM6K403TU_LF")(type "KiCad")(uri "${KIPRJMOD}/assets/OCP_SSM6K403TU_LF/OCP_SSM6K403TU_LF.kicad_sym")(options "")(descr ""))
+  (lib (name "LDO_ADP122AUJZ_3_3_R7")(type "KiCad")(uri "${KIPRJMOD}/assets/LDO_ADP122AUJZ_3_3_R7/LDO_ADP122AUJZ_3_3_R7.kicad_sym")(options "")(descr ""))
 )
