@@ -4,6 +4,14 @@
 	(generator_version "9.0")
 	(uuid "e09c5f84-167c-467f-af66-7c8a3f9705e5")
 	(paper "A4")
+	(title_block
+		(title "PC1: APRS & GPS")
+		(date "2026-04-01")
+		(rev "1.0")
+		(company "Sanie Peralta, Alejandro Campo")
+		(comment 1 "Introducción a la Ingeniería Satelital ")
+		(comment 2 "Primer Parcial")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -2947,7 +2955,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "CLOCK\n"
+	(text "RTC\n"
 		(exclude_from_sim no)
 		(at 46.99 83.82 0)
 		(effects
@@ -2995,7 +3003,7 @@
 		)
 		(uuid "66d5aaa7-7634-46d0-8ccb-ef0e75d6d3d0")
 	)
-	(text "RTC\n"
+	(text "CLOCK\n"
 		(exclude_from_sim no)
 		(at 238.252 22.098 0)
 		(effects
@@ -3062,7 +3070,7 @@
 	(text_box "\n"
 		(exclude_from_sim no)
 		(at 20.955 80.01 0)
-		(size 53.34 29.21)
+		(size 53.34 31.115)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -3236,7 +3244,7 @@
 		(uuid "1fc15b51-b286-4292-b6b3-f401f100447c")
 	)
 	(junction
-		(at 40.64 101.6)
+		(at 40.64 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "27e9cbd6-f4ad-4f11-bff7-724c4f2435b1")
@@ -3451,7 +3459,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 99.06) (xy 40.64 101.6)
+			(xy 40.64 100.33) (xy 40.64 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3561,7 +3569,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 101.6) (xy 52.07 101.6)
+			(xy 40.64 104.14) (xy 52.07 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3841,7 +3849,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 101.6) (xy 30.48 101.6)
+			(xy 29.21 104.14) (xy 30.48 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4181,7 +4189,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 96.52) (xy 43.18 96.52)
+			(xy 43.18 97.79) (xy 45.72 97.79)
 		)
 		(stroke
 			(width 0)
@@ -4211,7 +4219,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 101.6) (xy 40.64 101.6)
+			(xy 38.1 104.14) (xy 40.64 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4561,7 +4569,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 91.44) (xy 40.64 93.98)
+			(xy 40.64 91.44) (xy 40.64 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4880,7 +4888,7 @@
 		(uuid "18ffcd00-d833-46be-91e3-fbc24f631149")
 	)
 	(label "STM32_OSC_RTC_OUT"
-		(at 52.07 101.6 0)
+		(at 52.07 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6346,7 +6354,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 34.29 101.6 90)
+		(at 34.29 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6354,7 +6362,7 @@
 		(dnp no)
 		(uuid "2a4606af-77fd-4dab-baea-22e1574f3518")
 		(property "Reference" "C9"
-			(at 34.29 98.552 90)
+			(at 31.75 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6362,7 +6370,7 @@
 			)
 		)
 		(property "Value" "6.8pF"
-			(at 34.29 105.41 90)
+			(at 38.354 105.664 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6370,7 +6378,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 100.6348 0)
+			(at 38.1 103.1748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6379,7 +6387,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.29 101.6 0)
+			(at 34.29 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6388,7 +6396,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 34.29 101.6 0)
+			(at 34.29 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6882,7 +6890,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 29.21 101.6 270)
+		(at 29.21 104.14 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6890,7 +6898,7 @@
 		(dnp no)
 		(uuid "751c45da-9f48-4563-a227-188b86b060d5")
 		(property "Reference" "#PWR013"
-			(at 22.86 101.6 0)
+			(at 22.86 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6899,7 +6907,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 24.13 101.346 90)
+			(at 24.13 103.886 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6907,7 +6915,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 101.6 0)
+			(at 29.21 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6916,7 +6924,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 101.6 0)
+			(at 29.21 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6925,7 +6933,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 29.21 101.6 0)
+			(at 29.21 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7022,7 +7030,7 @@
 		(dnp no)
 		(uuid "7f79aa82-7bb5-451d-9926-f1c9710f591f")
 		(property "Reference" "C8"
-			(at 34.29 87.884 90)
+			(at 31.496 90.678 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7030,7 +7038,7 @@
 			)
 		)
 		(property "Value" "6.8pF"
-			(at 34.29 94.996 90)
+			(at 38.1 90.424 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7554,7 +7562,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 45.72 96.52 90)
+		(at 45.72 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7562,7 +7570,7 @@
 		(dnp no)
 		(uuid "956bb061-1b95-480a-a2d2-b2f303d02c49")
 		(property "Reference" "#PWR09"
-			(at 52.07 96.52 0)
+			(at 52.07 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7571,7 +7579,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 44.958 97.79 90)
+			(at 44.958 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7579,7 +7587,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 96.52 0)
+			(at 45.72 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7588,7 +7596,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 96.52 0)
+			(at 45.72 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7597,7 +7605,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 96.52 0)
+			(at 45.72 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8094,7 +8102,7 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal_GND24_Small")
-		(at 40.64 96.52 90)
+		(at 40.64 97.79 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8103,7 +8111,7 @@
 		(dnp no)
 		(uuid "b3e314e0-23dc-42ae-ae82-c8e097085e85")
 		(property "Reference" "Y1"
-			(at 39.116 93.726 90)
+			(at 39.116 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8111,7 +8119,7 @@
 			)
 		)
 		(property "Value" "32.768KHz"
-			(at 42.164 103.124 90)
+			(at 33.274 98.044 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8119,7 +8127,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 96.52 0)
+			(at 40.64 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8128,7 +8136,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 96.52 0)
+			(at 40.64 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8137,7 +8145,7 @@
 			)
 		)
 		(property "Description" "Four pin crystal, GND on pins 2 and 4, small symbol"
-			(at 40.64 96.52 0)
+			(at 40.64 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8146,7 +8154,7 @@
 			)
 		)
 		(property private "KLC_S3.3" "The rectangle is not a symbol body but a graphical element"
-			(at 50.8 96.52 0)
+			(at 50.8 97.79 0)
 			(show_name yes)
 			(effects
 				(font
@@ -8156,7 +8164,7 @@
 			)
 		)
 		(property private "KLC_S4.1" "Some pins are on 50mil grid to make the symbol small"
-			(at 53.34 96.52 0)
+			(at 53.34 97.79 0)
 			(show_name yes)
 			(effects
 				(font

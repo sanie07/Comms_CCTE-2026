@@ -4,6 +4,14 @@
 	(generator_version "9.0")
 	(uuid "28308462-a700-40ce-99df-13954daf0255")
 	(paper "A4")
+	(title_block
+		(title "PC1: APRS & GPS")
+		(date "2026-04-01")
+		(rev "1.0")
+		(company "Sanie Peralta, Alejandro Campo")
+		(comment 1 "Introducción a la Ingeniería Satelital ")
+		(comment 2 "Primer Parcial")
+	)
 	(lib_symbols
 		(symbol "Device:R"
 			(pin_numbers

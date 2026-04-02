@@ -4,6 +4,14 @@
 	(generator_version "9.0")
 	(uuid "21bd72bb-e70c-4c16-992b-8ed8890b148f")
 	(paper "A4")
+	(title_block
+		(title "PC1: APRS & GPS")
+		(date "2026-04-01")
+		(rev "1.0")
+		(company "Sanie Peralta, Alejandro Campo")
+		(comment 1 "Introducción a la Ingeniería Satelital ")
+		(comment 2 "Primer Parcial")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_Coaxial"
 			(pin_names
@@ -1053,12 +1061,6 @@
 		(color 0 0 0 0)
 		(uuid "e923f741-8187-4d59-b983-8d2588e16989")
 	)
-	(junction
-		(at 88.9 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f9a4c576-4375-4f31-8a04-6dd0780b8a41")
-	)
 	(wire
 		(pts
 			(xy 166.37 60.96) (xy 160.02 60.96)
@@ -1101,7 +1103,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 48.26) (xy 87.63 48.26)
+			(xy 93.98 48.26) (xy 87.63 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1211,7 +1213,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 48.26) (xy 100.33 48.26)
+			(xy 107.95 48.26) (xy 101.6 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1321,16 +1323,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 85.09) (xy 82.55 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5535e7ec-0e9c-41fc-9c44-be0e572d5ce1")
-	)
-	(wire
-		(pts
 			(xy 242.57 74.93) (xy 242.57 78.74)
 		)
 		(stroke
@@ -1368,16 +1360,6 @@
 			(type default)
 		)
 		(uuid "6e06ad0c-639f-43e0-a28b-281441a4d9da")
-	)
-	(wire
-		(pts
-			(xy 88.9 96.52) (xy 88.9 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70f5dc5b-90a7-4550-a68b-eaae9c5e6b59")
 	)
 	(wire
 		(pts
@@ -1541,7 +1523,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 85.09) (xy 166.37 85.09)
+			(xy 82.55 85.09) (xy 166.37 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1651,16 +1633,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 104.14) (xy 88.9 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f44cde92-567a-45ab-947c-85b6bcf55048")
-	)
-	(wire
-		(pts
 			(xy 64.77 85.09) (xy 64.77 86.36)
 		)
 		(stroke
@@ -1678,16 +1650,6 @@
 			(type default)
 		)
 		(uuid "f78ae98d-6bc6-4c38-9048-53f4723a1ad7")
-	)
-	(wire
-		(pts
-			(xy 87.63 66.04) (xy 87.63 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f925700e-200c-4c91-85bc-3f56558edf80")
 	)
 	(wire
 		(pts
@@ -1838,72 +1800,6 @@
 				)
 				(justify right)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 87.63 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "01168175-aa4e-43af-9fe2-15c79ea2f233")
-		(property "Reference" "#PWR020"
-			(at 87.63 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 87.63 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3eeb5bf6-5094-47c4-9e52-c87733763be8")
-		)
-		(instances
-			(project "pcb_comms_board"
-				(path "/ea597178-b44d-4db9-826c-8f86e8d231f0/f2ec5e10-3e2b-4fad-b66b-c622a3150eea"
-					(reference "#PWR020")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2995,75 +2891,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 87.63 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "887b3a81-606b-4a08-9106-cc1bebf4e70c")
-		(property "Reference" "C20"
-			(at 90.424 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NC"
-			(at 90.678 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.5952 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 87.63 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 87.63 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3d33ed75-45db-44d8-9731-8a48bb6622b9")
-		)
-		(pin "1"
-			(uuid "d83447ba-ab86-44f4-b933-840606a1f8eb")
-		)
-		(instances
-			(project "pcb_comms_board"
-				(path "/ea597178-b44d-4db9-826c-8f86e8d231f0/f2ec5e10-3e2b-4fad-b66b-c622a3150eea"
-					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 137.16 100.33 0)
 		(unit 1)
@@ -3530,72 +3357,6 @@
 			(project "pcb_comms_board"
 				(path "/ea597178-b44d-4db9-826c-8f86e8d231f0/f2ec5e10-3e2b-4fad-b66b-c622a3150eea"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 88.9 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c3854d5f-daf9-41db-846f-368d1010858b")
-		(property "Reference" "#PWR019"
-			(at 88.9 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 88.9 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a2cb5533-e053-4657-be9b-e9ad6db3e33d")
-		)
-		(instances
-			(project "pcb_comms_board"
-				(path "/ea597178-b44d-4db9-826c-8f86e8d231f0/f2ec5e10-3e2b-4fad-b66b-c622a3150eea"
-					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -4290,76 +4051,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 88.9 100.33 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f099cb26-3d93-4102-b983-d72d441f8028")
-		(property "Reference" "C27"
-			(at 95.25 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NC (0402)"
-			(at 101.6 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.9348 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 88.9 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 88.9 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4a004646-4cb8-4f1e-ae87-060ada119063")
-		)
-		(pin "1"
-			(uuid "78490354-26c9-4e61-822e-a835e35b4e94")
-		)
-		(instances
-			(project "pcb_comms_board"
-				(path "/ea597178-b44d-4db9-826c-8f86e8d231f0/f2ec5e10-3e2b-4fad-b66b-c622a3150eea"
-					(reference "C27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 96.52 48.26 90)
+		(at 97.79 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4367,7 +4059,7 @@
 		(dnp no)
 		(uuid "fa59275c-4fa7-4161-8420-25c7d59ac34d")
 		(property "Reference" "C17"
-			(at 98.298 44.45 90)
+			(at 99.568 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4376,7 +4068,7 @@
 			)
 		)
 		(property "Value" "2.7pF"
-			(at 99.06 52.07 90)
+			(at 100.33 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4385,7 +4077,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 47.2948 0)
+			(at 101.6 47.2948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4394,7 +4086,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 48.26 0)
+			(at 97.79 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4403,7 +4095,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 96.52 48.26 0)
+			(at 97.79 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
