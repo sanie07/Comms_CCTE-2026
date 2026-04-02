@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "FL"
-			(at 25.4 10.16 0)
+			(at -0.762 7.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16,7 +16,7 @@
 			)
 		)
 		(property "Value" "B39162B4348P810"
-			(at 25.4 7.62 0)
+			(at -8.89 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -125,8 +125,8 @@
 		)
 		(symbol "B39162B4348P810_1_1"
 			(rectangle
-				(start -24.13 5.08)
-				(end 24.13 -5.08)
+				(start -8.89 5.08)
+				(end 8.89 -5.08)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -136,7 +136,7 @@
 				)
 			)
 			(pin passive line
-				(at -29.21 2.54 0)
+				(at -13.97 2.54 0)
 				(length 5.08)
 				(name "INPUT"
 					(effects
@@ -154,7 +154,7 @@
 				)
 			)
 			(pin passive line
-				(at -29.21 0 0)
+				(at -13.97 0 0)
 				(length 5.08)
 				(name "GND1"
 					(effects
@@ -172,7 +172,7 @@
 				)
 			)
 			(pin passive line
-				(at -29.21 -2.54 0)
+				(at -13.97 -2.54 0)
 				(length 5.08)
 				(name "GND2"
 					(effects
@@ -190,7 +190,7 @@
 				)
 			)
 			(pin passive line
-				(at 29.21 2.54 180)
+				(at 13.97 2.54 180)
 				(length 5.08)
 				(name "OUTPUT"
 					(effects
@@ -208,7 +208,7 @@
 				)
 			)
 			(pin passive line
-				(at 29.21 0 180)
+				(at 13.97 0 180)
 				(length 5.08)
 				(name "GND3"
 					(effects

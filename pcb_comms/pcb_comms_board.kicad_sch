@@ -49,7 +49,7 @@
 	)
 	(sheet
 		(at 175.26 31.75)
-		(size 40.64 20.32)
+		(size 35.56 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
