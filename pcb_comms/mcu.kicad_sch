@@ -3003,6 +3003,16 @@
 		)
 		(uuid "66d5aaa7-7634-46d0-8ccb-ef0e75d6d3d0")
 	)
+	(text "Capactiores cerca \ndel STM32"
+		(exclude_from_sim no)
+		(at 88.392 174.752 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "74937b58-363a-4638-9b02-a10cf57e0a88")
+	)
 	(text "CLOCK\n"
 		(exclude_from_sim no)
 		(at 238.252 22.098 0)
@@ -3170,7 +3180,7 @@
 	(text_box ""
 		(exclude_from_sim no)
 		(at 19.05 161.29 0)
-		(size 64.135 33.02)
+		(size 80.01 33.02)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -3206,6 +3216,26 @@
 			(justify left top)
 		)
 		(uuid "a47b0bee-7843-4654-8209-8967ed1600ca")
+	)
+	(text_box "\n"
+		(exclude_from_sim no)
+		(at 81.28 170.815 0)
+		(size 13.97 6.985)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d8a06daa-464d-4216-993f-58ef179e66b1")
 	)
 	(junction
 		(at 54.61 26.67)
@@ -3382,6 +3412,12 @@
 		(uuid "e1402bcf-1d99-4fec-8288-6d0f10769f79")
 	)
 	(junction
+		(at 40.64 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e476e532-0ae3-4651-a970-0efaacce684b")
+	)
+	(junction
 		(at 68.58 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3476,6 +3512,16 @@
 			(type default)
 		)
 		(uuid "02900b99-6da2-4a30-bdb2-5752437e8316")
+	)
+	(wire
+		(pts
+			(xy 36.83 139.7) (xy 40.64 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03262330-4289-4f9d-9887-9c4675e2a3b8")
 	)
 	(wire
 		(pts
@@ -4179,6 +4225,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 139.7) (xy 40.64 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71a71df2-86a7-483c-a729-d1766a675865")
+	)
+	(wire
+		(pts
 			(xy 113.03 38.1) (xy 113.03 41.91)
 		)
 		(stroke
@@ -4246,6 +4302,16 @@
 			(type default)
 		)
 		(uuid "78cfe3cf-a73e-4054-b10b-444f5b2ce0d7")
+	)
+	(wire
+		(pts
+			(xy 40.64 139.7) (xy 53.34 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ad11709-fe83-42ef-afd5-b6c635aeca9a")
 	)
 	(wire
 		(pts
@@ -4699,16 +4765,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 140.97) (xy 53.34 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1243f22-9621-44c3-b813-7cbbbe59d58e")
-	)
-	(wire
-		(pts
 			(xy 212.09 110.49) (xy 208.28 110.49)
 		)
 		(stroke
@@ -4759,16 +4815,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 140.97) (xy 40.64 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eacbbcfe-be84-4a4a-b7ff-ed8e2a9cbefe")
-	)
-	(wire
-		(pts
 			(xy 46.99 129.54) (xy 50.8 129.54)
 		)
 		(stroke
@@ -4806,6 +4852,16 @@
 			(type default)
 		)
 		(uuid "f88470de-69f9-4736-a5c3-52853f46ab92")
+	)
+	(wire
+		(pts
+			(xy 53.34 140.97) (xy 53.34 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9dc8c54-f00c-4fd8-bf13-917278c2cd09")
 	)
 	(wire
 		(pts
@@ -5108,7 +5164,7 @@
 		(uuid "ad0b3b41-97f8-4e50-a4e7-b9171d07095c")
 	)
 	(label "STM32_NRST"
-		(at 53.34 140.97 180)
+		(at 36.83 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8916,7 +8972,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7nF"
+		(property "Value" "4.7uF"
 			(at 52.832 67.564 0)
 			(effects
 				(font
