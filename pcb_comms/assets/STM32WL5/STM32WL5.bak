@@ -544,24 +544,6 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -58.42 0)
-				(length 7.62)
-				(name "VR_PA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "24"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
 				(at 71.12 0 180)
 				(length 7.62)
 				(name "GND"
@@ -957,17 +939,19 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 71.12 -60.96 180)
+		)
+		(symbol "STM32WLE5CCU6_1_1"
+			(pin power_out line
+				(at 0 -58.42 0)
 				(length 7.62)
-				(name "VDDPA"
+				(name "VR_PA"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "25"
+				(number "24"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -975,8 +959,6 @@
 					)
 				)
 			)
-		)
-		(symbol "STM32WLE5CCU6_1_1"
 			(pin power_out line
 				(at 71.12 -5.08 180)
 				(length 7.62)
@@ -995,7 +977,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 71.12 -53.34 180)
 				(length 7.62)
 				(name "VDDRF"
@@ -1006,6 +988,24 @@
 					)
 				)
 				(number "28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 71.12 -60.96 180)
+				(length 7.62)
+				(name "VDDPA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
 					(effects
 						(font
 							(size 1.27 1.27)

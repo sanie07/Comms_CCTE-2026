@@ -3054,7 +3054,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 132.08) (xy 48.26 137.16)
+			(xy 48.26 130.81) (xy 48.26 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3692,16 +3692,6 @@
 		)
 		(uuid "bb627134-0bd0-4a73-b0c5-d5129783d1a9")
 	)
-	(label "MAX_PPS_TO_STM32"
-		(at 48.26 132.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c75747ca-32bd-4f49-961e-e3e92e5ae102")
-	)
 	(label "MAX_PPS"
 		(at 168.91 53.34 0)
 		(effects
@@ -3731,6 +3721,28 @@
 			(justify right bottom)
 		)
 		(uuid "f8d02dc0-aecd-4988-beb6-5793f5d0134d")
+	)
+	(global_label "MAX_PPS_TO_STM32"
+		(shape input)
+		(at 48.26 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "063efc66-ea17-48e0-bbfa-9d31a0594a75")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.9926 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "MAX_INT_TO_STM32"
 		(shape input)
@@ -5886,7 +5898,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MAX-M10S-00B:XCVR_MAX-M10S-00B"
+		(property "Footprint" ""
 			(at 133.35 58.42 0)
 			(effects
 				(font
