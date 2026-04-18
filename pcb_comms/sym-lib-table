@@ -1,7 +1,5 @@
 (sym_lib_table
   (version 7)
-  (lib (name "MINISO6_CG21_CEL")(type "KiCad")(uri "${KIPRJMOD}/assets/MINISO6_CG21_CEL/MINISO6_CG21_CEL.kicad_sym")(options "")(descr ""))
-  (lib (name "STM32WL5")(type "KiCad")(uri "${KIPRJMOD}/assets/STM32WL5/STM32WL5.kicad_sym")(options "")(descr ""))
   (lib (name "USB_TO_UART_BRIDGE_CP2102N-A02-GQFN28")(type "KiCad")(uri "${KIPRJMOD}/assets/USB_TO_UART_BRIDGE_CP2102N/USB_TO_UART_BRIDGE_CP2102N-A02-GQFN28.kicad_sym")(options "")(descr ""))
   (lib (name "SCHOTTKY_DIODE_SD1206S040S1R0")(type "KiCad")(uri "${KIPRJMOD}/assets/SCHOTTKY_DIODE_SD1206S040S1R0/SCHOTTKY_DIODE_SD1206S040S1R0.kicad_sym")(options "")(descr ""))
   (lib (name "ESD_PROTECTION_DIODE_AQ3530-01FTG")(type "KiCad")(uri "${KIPRJMOD}/assets/ESD_PROTECTION_DIODE_AQ3530-01FTG/ESD_PROTECTION_DIODE_AQ3530-01FTG.kicad_sym")(options "")(descr ""))
@@ -13,4 +11,6 @@
   (lib (name "RF_SWITCH_BGS12WN6E6329XTSA1")(type "KiCad")(uri "${KIPRJMOD}/assets/RF_SWITCH_BGS12WN6E6329XTSA1/RF_SWITCH_BGS12WN6E6329XTSA1.kicad_sym")(options "")(descr ""))
   (lib (name "OCP_TPS2553QDBVRQ1")(type "KiCad")(uri "${KIPRJMOD}/assets/OCP_TPS2553QDBVRQ1/OCP_TPS2553QDBVRQ1.kicad_sym")(options "")(descr ""))
   (lib (name "USB_RECEPTACLE_105164-0001")(type "KiCad")(uri "${KIPRJMOD}/assets/USB_RECEPTACLE_105164-0001_MOLEX/USB_RECEPTACLE_105164-0001.kicad_sym")(options "")(descr ""))
+  (lib (name "STM32WLE5_Crystal_32MHz_ECS-320-8-37-CKM-TR3")(type "KiCad")(uri "${KIPRJMOD}/assets/STM32WLE5_Crystal_32MHz/STM32WLE5_Crystal_32MHz_ECS-320-8-37-CKM-TR3.kicad_sym")(options "")(descr ""))
+  (lib (name "STM32WLE5")(type "KiCad")(uri "${KIPRJMOD}/assets/STM32WLE5/STM32WLE5.kicad_sym")(options "")(descr ""))
 )

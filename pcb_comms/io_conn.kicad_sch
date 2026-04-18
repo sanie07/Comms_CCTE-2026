@@ -5163,7 +5163,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 76.2) (xy 233.68 76.2)
+			(xy 227.33 76.2) (xy 233.68 76.2)
 		)
 		(stroke
 			(width 0)
@@ -5477,6 +5477,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OCP_NFAULT"
+		(shape input)
+		(at 227.33 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a5e42788-bf99-4523-964c-ee9b29d19373")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 212.6728 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6150,7 +6172,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1K"
 			(at 111.76 182.8799 0)
 			(effects
 				(font
@@ -6656,7 +6678,7 @@
 		(dnp no)
 		(uuid "51bf7651-17cb-4799-87ce-47a013903c88")
 		(property "Reference" "C39"
-			(at 178.308 65.278 0)
+			(at 180.34 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6664,11 +6686,11 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF/25V(20%)"
-			(at 176.53 79.502 90)
+		(property "Value" "10uF"
+			(at 180.34 68.326 0)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -7753,73 +7775,6 @@
 			(project ""
 				(path "/ea597178-b44d-4db9-826c-8f86e8d231f0/a4d41170-f1e3-4812-89ef-2aa6a238f022"
 					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 226.06 76.2 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a90329d1-895a-42c4-a665-3bd39bc7ac5b")
-		(property "Reference" "#PWR060"
-			(at 219.71 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 222.25 76.1999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 226.06 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 226.06 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ef8027af-8152-4895-a62a-038dbb65e74e")
-		)
-		(instances
-			(project "pcb_comms_board"
-				(path "/ea597178-b44d-4db9-826c-8f86e8d231f0/a4d41170-f1e3-4812-89ef-2aa6a238f022"
-					(reference "#PWR060")
 					(unit 1)
 				)
 			)

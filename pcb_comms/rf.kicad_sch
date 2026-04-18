@@ -1115,10 +1115,10 @@
 		)
 		(uuid "fa274d16-7546-4325-9de5-deaa2b2c77dc")
 	)
-	(text_box "IND_MURATA_LQW15A"
+	(text_box "RCS04020000Z0ED"
 		(exclude_from_sim no)
-		(at 68.58 73.66 0)
-		(size 12.7 2.54)
+		(at 69.215 73.66 0)
+		(size 9.525 2.54)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -3164,7 +3164,7 @@
 				)
 			)
 		)
-		(property "Value" "0 Ohm"
+		(property "Value" "0R"
 			(at 73.914 72.644 90)
 			(effects
 				(font

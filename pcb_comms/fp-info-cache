@@ -1,4 +1,4 @@
-27233201368965624
+27226111058445017
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -71805,27 +71805,6 @@ Yellow 5381 Series LED
 0
 2
 2
-MINISO6_CG21_CEL
-MINISO6_CG21_CEL
-
-CG2179M2 
-0
-6
-6
-MINISO6_CG21_CEL
-MINISO6_CG21_CEL-L
-
-CG2179M2 
-0
-6
-6
-MINISO6_CG21_CEL
-MINISO6_CG21_CEL-M
-
-CG2179M2 
-0
-6
-6
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -98678,41 +98657,34 @@ rotary encoder illuminated switch vertical
 0
 9
 8
-STM32WL5
+STM32WLE5
 UFQFPN48_STM
 
 STM32WLE5CCU6 
 0
 49
 49
-STM32WL5
+STM32WLE5
 UFQFPN48_STM-L
 
 STM32WLE5CCU6 
 0
 49
 49
-STM32WL5
+STM32WLE5
 UFQFPN48_STM-M
 
 STM32WLE5CCU6 
 0
 49
 49
-SWITCH_CG2179M2
-SC70-6-CNC
-
-
+STM32WLE5_Crystal_32MHz
+STM32WLE5_Crystal_32MHz_ECS320837CKMTR3
+ECS-320-8-37-CKM-TR3-4
+Crystal or Oscillator
 0
-6
-6
-SWITCH_CG2179M2
-SC70-6-CNC04
-
-
-0
-6
-6
+4
+4
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
