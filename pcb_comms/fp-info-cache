@@ -1,4 +1,4 @@
-27226111058445017
+27258059305257517
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -62194,6 +62194,27 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+ESD_PROTECTION_DIODE_AQ3530-01FTG
+ESD_PROTECTION_DIODE_AQ3530-01FTG
+SOD323-
+TVS Diode (Uni-directional)
+0
+2
+2
+ESD_PROTECTION_DIODE_PESD0402-140
+ESD_PROTECTION_DIODE_PESD0402-140
+PESD0402-140
+TVS Diode (Bi-directional)
+0
+2
+2
+ESD_PROTECTION_DIODE_SP0503BAHTG
+ESD_PROTECTION_DIODE_SP0503BAHTG
+SP0503BAHTG-1
+TVS Diode (Uni-directional)
+0
+4
+4
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -63272,6 +63293,34 @@ GDT 3R-6
 0
 3
 3
+GPS_Antenna_SGGP.18.4.A.08
+GPS_Antenna_SGGP.18.4.A.08
+SGGP.18.4.A.08-1
+Antenna
+0
+9
+9
+GPS_BATTERY_HOLDER_2994
+GPS_BATTERY_HOLDER_2994
+2994TR-3
+Undefined or Miscellaneous
+0
+3
+3
+GPS_MAX_M10S
+XCVR_MAX-M10S-00B
+
+
+0
+18
+18
+GPS_SAW_FILTER
+B39162B4348P810
+B39162B4348P810-1
+Filter
+0
+5
+5
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -63489,6 +63538,13 @@ heatsink
 0
 0
 0
+Inductor_0805_2015metric
+Inductor_0805_2015metric
+0805 (2015) T=1.42±0.1mm
+Inductor
+0
+2
+2
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
@@ -70552,6 +70608,27 @@ solder jumper open
 0
 3
 3
+LDO_ADP122AUJZ_3_3_R7
+UJ_5_ADI
+
+ADP122AUJZ-3.3-R7 
+0
+5
+5
+LDO_ADP122AUJZ_3_3_R7
+UJ_5_ADI-L
+
+ADP122AUJZ-3.3-R7 
+0
+5
+5
+LDO_ADP122AUJZ_3_3_R7
+UJ_5_ADI-M
+
+ADP122AUJZ-3.3-R7 
+0
+5
+5
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -74738,6 +74815,13 @@ net tie
 0
 4
 4
+OCP_TPS2553QDBVRQ1
+SOT95P280X145-6N
+TPS2553-Q1
+Integrated Circuit
+0
+6
+6
 OptoDevice
 ADNS-9800
 Laser Gaming Sensor ADNS-9800
@@ -96116,6 +96200,13 @@ nRF24L01 adapter breakout
 0
 8
 8
+RF_SWITCH_BGS12WN6E6329XTSA1
+BGS12WN6E6329XTSA1
+BGS12WN6E6329XTSA1-1
+Integrated Circuit
+0
+6
+6
 RF_Shielding
 Laird_Technologies_97-2002_25.40x25.40mm
 Laird Technologies 97-2002 EZ PEEL Shielding Cabinet One Piece SMD 25.40x25.40mm, http://cdn.lairdtech.com/home/brandworld/files/Board%20Level%20Shields%20Catalog%20Download.pdf
@@ -98657,6 +98748,20 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SCHOTTKY_DIODE_CUS10S30,H3F
+SCHOTTKY_DIODE_CUS10S30,H3F
+USC (1-1E1A)
+Schottky Diode
+0
+2
+2
+SCHOTTKY_DIODE_SD1206S040S1R0
+SCHOTTKY_DIODE_SD1206S040S1R0
+
+SD1206S040S1R0 
+0
+2
+2
 STM32WLE5
 UFQFPN48_STM
 
@@ -98685,6 +98790,13 @@ Crystal or Oscillator
 0
 4
 4
+SW_BOOT_CJS-1200B1
+SW_BOOT_CJS-1200B1
+CJS-1200B1
+Switch
+0
+3
+3
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -107148,6 +107260,20 @@ igbt diode module
 0
 25
 25
+USB_RECEPTACLE_105164-0001_MOLEX
+USB_RECEPTACLE_105164-0001
+105164-0001-1
+Connector
+0
+11
+11
+USB_TO_UART_BRIDGE_CP2102N
+USB_TO_UART_BRIDGE_CP2102N-A02-GQFN28
+QFN28
+Integrated Circuit
+0
+29
+29
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
