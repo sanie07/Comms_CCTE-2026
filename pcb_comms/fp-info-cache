@@ -1,4 +1,4 @@
-27258059305257517
+27263389471586143
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -60171,6 +60171,13 @@ ceramic
 0
 3
 3
+DRA818V
+DORJI_DRA818V
+
+
+0
+20
+20
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -95311,6 +95318,13 @@ http://www.susumu-usa.com/pdf/Foot_Print_38.pdf, https://www.susumu.co.jp/common
 0
 3
 3
+RF_FILTER_LFCN-160+
+RF_FILTER_LFCN-160+
+LFCN-160+-2
+Filter
+0
+4
+4
 RF_GPS
 Linx_RXM-GPS
 GPS Module, Linx (https://linxtechnologies.com/wp/wp-content/uploads/rxm-gps-rm.pdf)
@@ -98762,6 +98776,13 @@ SD1206S040S1R0
 0
 2
 2
+SMA_ANTENNA_CONSMA002-SMD-G
+SMA_ANTENNA_CONSMA002-SMD-G
+CONSMA002-SMD-G-2
+Connector
+0
+3
+3
 STM32WLE5
 UFQFPN48_STM
 

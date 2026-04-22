@@ -2966,7 +2966,7 @@
 	)
 	(text_box ""
 		(exclude_from_sim no)
-		(at 84.455 22.86 0)
+		(at 80.645 22.86 0)
 		(size 193.675 67.945)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke

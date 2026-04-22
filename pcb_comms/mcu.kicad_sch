@@ -3039,16 +3039,8 @@
 		(uuid "f362a940-0ff0-4e7e-b6c4-98f96c01d891")
 	)
 	(no_connect
-		(at 217.17 125.73)
-		(uuid "1b5f1ae8-9652-4705-bd34-5e72c852121f")
-	)
-	(no_connect
 		(at 217.17 140.97)
 		(uuid "1e60142c-d56d-4fac-a85d-b6ab93b0252b")
-	)
-	(no_connect
-		(at 217.17 123.19)
-		(uuid "67368e9d-670f-4c2a-9492-3694f7ac3c5d")
 	)
 	(no_connect
 		(at 146.05 151.13)
@@ -3057,10 +3049,6 @@
 	(no_connect
 		(at 217.17 146.05)
 		(uuid "9667729d-b463-4ef9-acc8-af4c6c2bc607")
-	)
-	(no_connect
-		(at 217.17 120.65)
-		(uuid "d8bdceb6-7cca-4163-9fef-312d6c71e1d1")
 	)
 	(wire
 		(pts
@@ -3564,6 +3552,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 125.73) (xy 236.22 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4920ec06-ba44-4622-b43c-0b1a7efa6202")
+	)
+	(wire
+		(pts
 			(xy 130.81 120.65) (xy 146.05 120.65)
 		)
 		(stroke
@@ -3931,6 +3929,16 @@
 			(type default)
 		)
 		(uuid "98dfba1f-d3d8-4527-b63e-54f13dfaa5cb")
+	)
+	(wire
+		(pts
+			(xy 217.17 123.19) (xy 236.22 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99d8de45-72b9-4a2f-bef6-7f9cbc736da5")
 	)
 	(wire
 		(pts
@@ -4371,6 +4379,16 @@
 			(type default)
 		)
 		(uuid "ee23cb55-878d-46e6-9fc4-a2f556153b1d")
+	)
+	(wire
+		(pts
+			(xy 217.17 120.65) (xy 236.22 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eea48c47-dfa4-4c68-9054-71dea11913ff")
 	)
 	(wire
 		(pts
@@ -4868,6 +4886,50 @@
 			)
 		)
 	)
+	(global_label "STM32_TO_DRA_AUDIO"
+		(shape input)
+		(at 236.22 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "35f6ce09-0f45-48a9-982e-f460bda920f5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 259.7066 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DRA_ENA"
+		(shape input)
+		(at 236.22 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "43623bd5-ce4b-415d-9ab2-a5b88694a46b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 247.3695 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SPI2_MOSI"
 		(shape input)
 		(at 236.22 138.43 0)
@@ -4903,28 +4965,6 @@
 		(uuid "459e2721-9746-44e8-8014-c990cbb82d3f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 27.1321 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB_TX_TO_STM32"
-		(shape input)
-		(at 130.81 107.95 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "46f13fe5-85cf-4c6b-a236-58b26a7d5dc9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.5893 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5044,6 +5084,28 @@
 			)
 		)
 	)
+	(global_label "DRA_TX_UART1"
+		(shape input)
+		(at 130.81 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5dea349f-792b-4dc0-a09c-1a4604fbb67f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.2177 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MAX_RESET_N_TO_STM32"
 		(shape input)
 		(at 130.81 125.73 180)
@@ -5066,6 +5128,28 @@
 			)
 		)
 	)
+	(global_label "DRA_PTT"
+		(shape input)
+		(at 236.22 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "650ece0c-1429-400b-97fc-0bcca9cdbd70")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 247.0066 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VDDRF"
 		(shape input)
 		(at 236.22 151.13 0)
@@ -5084,6 +5168,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DRA_RX_UART1"
+		(shape input)
+		(at 130.81 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "771502a3-50ee-4581-9acc-1ed3430f8473")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.9153 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5189,28 +5295,6 @@
 		(uuid "97ab231a-93bb-4de8-93a6-f603af7372be")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 20.2376 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB_RX_TO_STM32"
-		(shape input)
-		(at 130.81 105.41 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9b8b1e3b-76af-4cf5-918e-7f2f89794d88")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.2869 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
