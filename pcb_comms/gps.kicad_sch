@@ -4076,6 +4076,28 @@
 			)
 		)
 	)
+	(global_label "MAX_PPS_TO_STM32"
+		(shape input)
+		(at 115.57 175.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1a8eef26-dbcb-4fd9-b2e5-b3f54d32bf16")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.8374 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MAX_RXI_TO_STM32"
 		(shape input)
 		(at 241.3 77.47 0)
@@ -4094,6 +4116,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MAX_TXO_TO_STM32"
+		(shape input)
+		(at 115.57 182.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3f895c30-e297-490e-be26-ded4b084d94e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.0793 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4122,6 +4166,50 @@
 	)
 	(global_label "MAX_RESET_N_TO_STM32"
 		(shape input)
+		(at 115.57 185.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6dcb327c-54c8-441c-89c5-f6fe070e6a0a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 89.5437 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MAX_RXI_TO_STM32"
+		(shape input)
+		(at 115.57 180.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "99b2d643-f226-48f8-b7bd-b6140a1c0186")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.5026 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MAX_RESET_N_TO_STM32"
+		(shape input)
 		(at 243.84 43.18 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4138,6 +4226,50 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MAX_INT_TO_STM32"
+		(shape input)
+		(at 115.57 172.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bc4d92d2-de62-4534-9eea-9f040fca1110")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.684 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OCP_NFAULT_GPS"
+		(shape input)
+		(at 115.57 187.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "be6c32a1-1be8-4edf-9646-75e6d7d98490")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.1957 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4226,6 +4358,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MAX_SAFE_N_TO_STM32"
+		(shape input)
+		(at 115.57 177.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f72dae58-d3ae-48eb-89c2-046c9d1b9841")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.7531 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)

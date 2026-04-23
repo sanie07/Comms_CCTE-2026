@@ -14,7 +14,7 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 216.535 31.75)
+		(at 172.085 31.75)
 		(size 31.115 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30,7 +30,7 @@
 		)
 		(uuid "177e7153-e267-47bf-abd3-8b553807255e")
 		(property "Sheetname" "OCP"
-			(at 216.535 31.0384 0)
+			(at 172.085 31.0384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39,7 +39,7 @@
 			)
 		)
 		(property "Sheetfile" "ocp.kicad_sch"
-			(at 216.535 52.6546 0)
+			(at 172.085 52.6546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56,49 +56,7 @@
 		)
 	)
 	(sheet
-		(at 133.35 31.75)
-		(size 34.29 21.59)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "9ced98fe-3695-442f-a613-f1ea774ec3ca")
-		(property "Sheetname" "GPS"
-			(at 133.35 31.0384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "gps.kicad_sch"
-			(at 133.35 53.9246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "pcb_comms_board"
-				(path "/ea597178-b44d-4db9-826c-8f86e8d231f0"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 175.26 31.75)
+		(at 130.81 31.75)
 		(size 35.56 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -114,7 +72,7 @@
 		)
 		(uuid "a4d41170-f1e3-4812-89ef-2aa6a238f022")
 		(property "Sheetname" "IO_CONN"
-			(at 175.26 31.0384 0)
+			(at 130.81 31.0384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -123,7 +81,7 @@
 			)
 		)
 		(property "Sheetfile" "io_conn.kicad_sch"
-			(at 175.26 52.6546 0)
+			(at 130.81 52.6546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -140,7 +98,7 @@
 		)
 	)
 	(sheet
-		(at 30.48 31.75)
+		(at 35.56 31.75)
 		(size 40.64 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -156,7 +114,7 @@
 		)
 		(uuid "e138949f-a904-4d13-88f3-88172523fe12")
 		(property "Sheetname" "MCU"
-			(at 30.48 31.0384 0)
+			(at 35.56 31.0384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -165,7 +123,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 30.48 53.9246 0)
+			(at 35.56 53.9246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -182,7 +140,7 @@
 		)
 	)
 	(sheet
-		(at 81.28 31.75)
+		(at 81.915 31.75)
 		(size 41.91 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -198,7 +156,7 @@
 		)
 		(uuid "f2ec5e10-3e2b-4fad-b66b-c622a3150eea")
 		(property "Sheetname" "RF"
-			(at 81.28 31.0384 0)
+			(at 81.915 31.0384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -207,7 +165,7 @@
 			)
 		)
 		(property "Sheetfile" "rf.kicad_sch"
-			(at 81.28 53.9246 0)
+			(at 81.915 53.9246 0)
 			(effects
 				(font
 					(size 1.27 1.27)

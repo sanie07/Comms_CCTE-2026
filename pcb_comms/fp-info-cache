@@ -1,4 +1,4 @@
-27263389471586143
+27266943152026685
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -70636,6 +70636,13 @@ ADP122AUJZ-3.3-R7
 0
 5
 5
+LDO_LDL1117S33R
+LDO_LDL1117S33R
+SOT223-3
+Integrated Circuit
+0
+4
+4
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -100925,6 +100932,13 @@ Logo WEEE
 0
 0
 0
+TRIMPOT_10K_3314J-1-103E
+TRIMPOT_10K_3314J-1-103E
+3314J-1
+Resistor
+0
+3
+3
 TerminalBlock
 TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm
 terminal block MaiXu MX126-5.0-02P, 2 pins, pitch 5mm, size 10.5x7.8mm, drill diameter 1.3mm, pad diameter 2.8mm, https://www.lcsc.com/datasheet/lcsc_datasheet_2309150913_MAX-MX126-5-0-03P-GN01-Cu-S-A_C5188435.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_MaiXu
