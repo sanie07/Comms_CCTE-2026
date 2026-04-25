@@ -559,19 +559,19 @@
       {
         "bus_width": 12,
         "line_style": 0,
-        "name": "POWER_GND",
+        "name": "POWER_DIST",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
-        "schematic_color": "rgb(0, 0, 0)",
+        "priority": 7,
+        "schematic_color": "rgb(255, 0, 0)",
         "wire_width": 6
       },
       {
         "bus_width": 12,
         "line_style": 0,
-        "name": "POWER_SUPPLY",
+        "name": "POWER_GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
-        "schematic_color": "rgb(255, 0, 0)",
+        "priority": 6,
+        "schematic_color": "rgb(0, 0, 0)",
         "wire_width": 6
       },
       {
@@ -615,27 +615,27 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "POWER_SUPPLY",
+        "netclass": "POWER_DIST",
         "pattern": "VBAT_IN"
       },
       {
-        "netclass": "POWER_SUPPLY",
+        "netclass": "POWER_DIST",
         "pattern": "/IO_CONN/VBUS"
       },
       {
-        "netclass": "POWER_SUPPLY",
+        "netclass": "POWER_DIST",
         "pattern": "VBAT"
       },
       {
-        "netclass": "POWER_SUPPLY",
+        "netclass": "POWER_DIST",
         "pattern": "OCP_TO_GPS"
       },
       {
-        "netclass": "POWER_SUPPLY",
+        "netclass": "POWER_DIST",
         "pattern": "/MCU/VDDRF1V55"
       },
       {
-        "netclass": "POWER_SUPPLY",
+        "netclass": "POWER_DIST",
         "pattern": "/MCU/VDDA"
       },
       {
@@ -659,7 +659,7 @@
         "pattern": "STM32_NRST"
       },
       {
-        "netclass": "POWER_SUPPLY",
+        "netclass": "POWER_DIST",
         "pattern": "VR_PA"
       },
       {
@@ -715,7 +715,7 @@
         "pattern": "RF_CRL_TO_STM32"
       },
       {
-        "netclass": "POWER_SUPPLY",
+        "netclass": "POWER_DIST",
         "pattern": "/RF/CRL"
       },
       {
@@ -723,7 +723,7 @@
         "pattern": "/RF/SWITCH_TO_CRL"
       },
       {
-        "netclass": "POWER_SUPPLY",
+        "netclass": "POWER_DIST",
         "pattern": "/RF/VDD_SWITCH_RF"
       },
       {
@@ -757,6 +757,22 @@
       {
         "netclass": "ANALOG",
         "pattern": "STM32_TO_DRA_AUDIO"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "SPI1_MISO"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "SPI1_MOSI"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "DRA_RX_UART1"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "DRA_TX_UART1"
       }
     ]
   },

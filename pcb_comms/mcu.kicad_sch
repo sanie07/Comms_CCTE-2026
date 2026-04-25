@@ -3624,6 +3624,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 118.11) (xy 146.05 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fde515e-28b0-4043-9ec9-461648e2d31b")
+	)
+	(wire
+		(pts
 			(xy 170.18 31.75) (xy 162.56 31.75)
 		)
 		(stroke
@@ -3741,16 +3751,6 @@
 			(type default)
 		)
 		(uuid "78cfe3cf-a73e-4054-b10b-444f5b2ce0d7")
-	)
-	(wire
-		(pts
-			(xy 130.81 118.11) (xy 146.05 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7acb25bf-6f73-418a-8ed3-85c85bb40596")
 	)
 	(wire
 		(pts
@@ -4101,6 +4101,16 @@
 			(type default)
 		)
 		(uuid "ba161b69-47b9-418a-98a7-e31498abbe36")
+	)
+	(wire
+		(pts
+			(xy 130.81 120.65) (xy 146.05 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc08d241-0169-4a7a-b46e-c297733f24ff")
 	)
 	(wire
 		(pts
@@ -4461,16 +4471,6 @@
 			(type default)
 		)
 		(uuid "faa3adb8-2da5-486f-a569-75bd82828611")
-	)
-	(wire
-		(pts
-			(xy 130.81 120.65) (xy 146.05 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbf3bc5c-2308-40a8-b4f9-81871f82101c")
 	)
 	(wire
 		(pts
@@ -4875,7 +4875,7 @@
 			)
 		)
 	)
-	(global_label "DRA_TX_UART1"
+	(global_label "USB_TX_UART2"
 		(shape input)
 		(at 130.81 120.65 180)
 		(fields_autoplaced yes)
@@ -4885,9 +4885,9 @@
 			)
 			(justify right)
 		)
-		(uuid "22e2188e-9749-4ce8-af54-b97e6df9b2a4")
+		(uuid "1a6601a5-c029-4a4f-a609-a7c8c3d45df6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.2177 120.65 0)
+			(at 114.0363 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5064,6 +5064,28 @@
 		(uuid "4dfec4b2-6acc-4668-88fc-60c4eacb2ad4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 116.0321 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_RX_UART2"
+		(shape input)
+		(at 130.81 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "509f6f37-3724-4e64-b148-d8d0333cea00")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.7339 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5482,28 +5504,6 @@
 		(uuid "d0e645e7-4dd3-411d-bee5-8be3bf0ec0cb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 122.6238 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DRA_RX_UART1"
-		(shape input)
-		(at 130.81 118.11 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d4d3f13f-5d33-4556-9ef7-1ce04b532a8f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.9153 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
