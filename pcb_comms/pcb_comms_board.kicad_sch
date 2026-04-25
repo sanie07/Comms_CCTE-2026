@@ -56,6 +56,48 @@
 		)
 	)
 	(sheet
+		(at 210.185 31.75)
+		(size 29.21 20.955)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "30ba8b84-3a26-43d9-a2eb-61726928da4d")
+		(property "Sheetname" "APRS_RADIO"
+			(at 210.185 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "aprs_radio.kicad_sch"
+			(at 210.185 53.2896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pcb_comms_board"
+				(path "/ea597178-b44d-4db9-826c-8f86e8d231f0"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 130.81 31.75)
 		(size 35.56 20.32)
 		(exclude_from_sim no)

@@ -23,4 +23,5 @@
   (lib (name "RF_FILTER_LFCN-160+")(type "KiCad")(uri "${KIPRJMOD}/assets/RF_FILTER_LFCN-160+")(options "")(descr ""))
   (lib (name "LDO_LDL1117S33R")(type "KiCad")(uri "${KIPRJMOD}/assets/LDO_LDL1117S33R")(options "")(descr ""))
   (lib (name "TRIMPOT_10K_3314J-1-103E")(type "KiCad")(uri "${KIPRJMOD}/assets/TRIMPOT_10K_3314J-1-103E")(options "")(descr ""))
+  (lib (name "TRANSISTOR_DTC144EET1G")(type "KiCad")(uri "${KIPRJMOD}/assets/TRANSISTOR_DTC144EET1G")(options "")(descr ""))
 )
