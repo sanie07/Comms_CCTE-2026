@@ -3471,7 +3471,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT50P160X90-3N"
+		(property "Footprint" "TRANSISTOR_DTC144EET1G:TRANSISTOR_DTC144EET1G"
 			(at 57.15 220.65 0)
 			(effects
 				(font
