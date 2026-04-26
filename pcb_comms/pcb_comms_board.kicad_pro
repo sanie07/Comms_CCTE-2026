@@ -117,7 +117,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.09,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -130,8 +130,8 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
-        "min_via_annular_width": 0.1,
+        "min_track_width": 0.09,
+        "min_via_annular_width": 0.2,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -470,56 +470,104 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.6,
+        "via_diameter": 0.7,
         "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "POWER_DIST",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 5,
         "schematic_color": "rgb(255, 0, 0)",
+        "track_width": 0.7,
+        "via_diameter": 0.7,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "POWER_GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 4,
         "schematic_color": "rgb(0, 0, 0)",
+        "track_width": 0.4,
+        "via_diameter": 0.7,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "SIGNAL_ANALOG",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgb(194, 194, 0)",
+        "track_width": 0.2,
+        "via_diameter": 0.7,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "SIGNAL_COMM",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
         "schematic_color": "rgb(255, 153, 0)",
+        "track_width": 0.15,
+        "via_diameter": 0.7,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "SIGNAL_DIGITAL",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 3,
         "schematic_color": "rgb(0, 0, 255)",
+        "track_width": 0.2,
+        "via_diameter": 0.7,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "SIGNAL_RF",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgb(194, 0, 194)",
+        "track_width": 0.15,
+        "via_diameter": 0.7,
+        "via_drill": 0.3,
         "wire_width": 6
       }
     ],
@@ -529,14 +577,6 @@
     "net_colors": null,
     "netclass_assignments": null,
     "netclass_patterns": [
-      {
-        "netclass": "Default",
-        "pattern": "VBAT_IN"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/IO_CONN/VBUS"
-      },
       {
         "netclass": "Default",
         "pattern": "VBAT"
@@ -620,18 +660,6 @@
       {
         "netclass": "Default",
         "pattern": "/RF/CRL"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "RF_CRL_TO_STM32"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/RF/SWITCH_TO_CRL"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/RF/VDD_SWITCH_RF"
       },
       {
         "netclass": "Default",
@@ -962,10 +990,6 @@
         "pattern": "/RF/RF1"
       },
       {
-        "netclass": "SIGNAL_DIGITAL",
-        "pattern": "/RF/SWITCH_TO_CRL"
-      },
-      {
         "netclass": "SIGNAL_RF",
         "pattern": "/RF/RFIN"
       },
@@ -976,10 +1000,6 @@
       {
         "netclass": "SIGNAL_RF",
         "pattern": "/RF/SMA1"
-      },
-      {
-        "netclass": "POWER_DIST",
-        "pattern": "/RF/VDD_SWITCH_RF"
       },
       {
         "netclass": "POWER_DIST",
@@ -1056,6 +1076,18 @@
       {
         "netclass": "SIGNAL_DIGITAL",
         "pattern": "STM32_TO_DRA_ENA"
+      },
+      {
+        "netclass": "POWER_DIST",
+        "pattern": "/OCP/D6_TO_R9"
+      },
+      {
+        "netclass": "SIGNAL_RF",
+        "pattern": "/RF/SWITCH_TO_CRL"
+      },
+      {
+        "netclass": "SIGNAL_RF",
+        "pattern": "/RF/VDD_SWITCH_RF"
       }
     ]
   },
