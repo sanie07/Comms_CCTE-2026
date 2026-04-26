@@ -24,4 +24,5 @@
   (lib (name "LDO_LDL1117S33R")(type "KiCad")(uri "${KIPRJMOD}/assets/LDO_LDL1117S33R")(options "")(descr ""))
   (lib (name "TRIMPOT_10K_3314J-1-103E")(type "KiCad")(uri "${KIPRJMOD}/assets/TRIMPOT_10K_3314J-1-103E")(options "")(descr ""))
   (lib (name "TRANSISTOR_DTC144EET1G")(type "KiCad")(uri "${KIPRJMOD}/assets/TRANSISTOR_DTC144EET1G")(options "")(descr ""))
+  (lib (name "CRYSTAL_32.687KHz_G43270018")(type "KiCad")(uri "${KIPRJMOD}/assets/CRYSTAL_32.687KHz_G43270018")(options "")(descr ""))
 )

@@ -1,4 +1,4 @@
-27266943152026685
+27270502489139646
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2813,6 +2813,13 @@ speaker CUI
 0
 2
 2
+CRYSTAL_32.687KHz_G43270018
+CRYSTAL_32.687KHz_G43270018
+G43270018-1
+Crystal or Oscillator
+0
+4
+4
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
@@ -100932,6 +100939,13 @@ Logo WEEE
 0
 0
 0
+TRANSISTOR_DTC144EET1G
+TRANSISTOR_DTC144EET1G
+SC-75/SOT-416 CASE 463
+Transistor
+0
+3
+3
 TRIMPOT_10K_3314J-1-103E
 TRIMPOT_10K_3314J-1-103E
 3314J-1

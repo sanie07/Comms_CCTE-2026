@@ -226,72 +226,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "multiple_net_names|1435100|1231900|25dbc544-e680-462b-a1f0-b1a44b5fa58f|7f241f48-efbe-4615-ac4e-1e75ef29b31d|/ea597178-b44d-4db9-826c-8f86e8d231f0/e138949f-a904-4d13-88f3-88172523fe12|/ea597178-b44d-4db9-826c-8f86e8d231f0/e138949f-a904-4d13-88f3-88172523fe12|/ea597178-b44d-4db9-826c-8f86e8d231f0/e138949f-a904-4d13-88f3-88172523fe12",
-        ""
-      ],
-      [
-        "multiple_net_names|1701800|317500|20534051-3122-491b-a6c7-a963b0814c64|0581bb2e-dcfd-4490-a95d-50b5554bdd7c|/ea597178-b44d-4db9-826c-8f86e8d231f0/e138949f-a904-4d13-88f3-88172523fe12|/ea597178-b44d-4db9-826c-8f86e8d231f0/e138949f-a904-4d13-88f3-88172523fe12|/ea597178-b44d-4db9-826c-8f86e8d231f0/e138949f-a904-4d13-88f3-88172523fe12",
-        ""
-      ],
-      [
-        "multiple_net_names|2209800|1054100|ffb5b5d2-6edc-4747-bba3-2b8f6a8b90a1|36c4841e-b633-4261-a96b-1a434e906c48|/ea597178-b44d-4db9-826c-8f86e8d231f0/e138949f-a904-4d13-88f3-88172523fe12|/ea597178-b44d-4db9-826c-8f86e8d231f0/e138949f-a904-4d13-88f3-88172523fe12|/ea597178-b44d-4db9-826c-8f86e8d231f0/e138949f-a904-4d13-88f3-88172523fe12",
-        ""
-      ],
-      [
-        "multiple_net_names|292100|990600|25dbc544-e680-462b-a1f0-b1a44b5fa58f|97ab231a-93bb-4de8-93a6-f603af7372be|/ea597178-b44d-4db9-826c-8f86e8d231f0/e138949f-a904-4d13-88f3-88172523fe12|/ea597178-b44d-4db9-826c-8f86e8d231f0/e138949f-a904-4d13-88f3-88172523fe12|/ea597178-b44d-4db9-826c-8f86e8d231f0/e138949f-a904-4d13-88f3-88172523fe12",
-        ""
-      ],
-      [
-        "multiple_net_names|749300|444500|25dbc544-e680-462b-a1f0-b1a44b5fa58f|5631b190-1466-4c8f-8892-b7bf0c713655|/ea597178-b44d-4db9-826c-8f86e8d231f0/e138949f-a904-4d13-88f3-88172523fe12|/ea597178-b44d-4db9-826c-8f86e8d231f0/e138949f-a904-4d13-88f3-88172523fe12|/ea597178-b44d-4db9-826c-8f86e8d231f0/e138949f-a904-4d13-88f3-88172523fe12",
-        ""
-      ],
-      [
-        "multiple_net_names|787400|1511300|25dbc544-e680-462b-a1f0-b1a44b5fa58f|5476b5a3-64c0-4b57-a099-9403de471c30|/ea597178-b44d-4db9-826c-8f86e8d231f0/e138949f-a904-4d13-88f3-88172523fe12|/ea597178-b44d-4db9-826c-8f86e8d231f0/e138949f-a904-4d13-88f3-88172523fe12|/ea597178-b44d-4db9-826c-8f86e8d231f0/e138949f-a904-4d13-88f3-88172523fe12",
-        ""
-      ],
-      [
-        "pin_to_pin|1333500|406400|d9d6cac4-1402-4fb5-94ce-ab52b0060a9f|b044a1f0-f7f1-48bc-98f6-2dcba519b822|/ea597178-b44d-4db9-826c-8f86e8d231f0/a4d41170-f1e3-4812-89ef-2aa6a238f022|/ea597178-b44d-4db9-826c-8f86e8d231f0/a4d41170-f1e3-4812-89ef-2aa6a238f022|/ea597178-b44d-4db9-826c-8f86e8d231f0/a4d41170-f1e3-4812-89ef-2aa6a238f022",
-        ""
-      ],
-      [
-        "pin_to_pin|1435100|406400|b7575425-e973-4a78-96df-91a63ea2789f|bab028cc-e1b3-4bb9-8b47-fbb553b651d2|/ea597178-b44d-4db9-826c-8f86e8d231f0/a4d41170-f1e3-4812-89ef-2aa6a238f022|/ea597178-b44d-4db9-826c-8f86e8d231f0/a4d41170-f1e3-4812-89ef-2aa6a238f022|/ea597178-b44d-4db9-826c-8f86e8d231f0/a4d41170-f1e3-4812-89ef-2aa6a238f022",
-        ""
-      ],
-      [
-        "pin_to_pin|1549400|571500|d9d6cac4-1402-4fb5-94ce-ab52b0060a9f|b6ebe5bd-9440-49df-b3ff-6e14ceb72b7c|/ea597178-b44d-4db9-826c-8f86e8d231f0/a4d41170-f1e3-4812-89ef-2aa6a238f022|/ea597178-b44d-4db9-826c-8f86e8d231f0/a4d41170-f1e3-4812-89ef-2aa6a238f022|/ea597178-b44d-4db9-826c-8f86e8d231f0/a4d41170-f1e3-4812-89ef-2aa6a238f022",
-        ""
-      ],
-      [
-        "pin_to_pin|1651000|571500|b7575425-e973-4a78-96df-91a63ea2789f|bab028cc-e1b3-4bb9-8b47-fbb553b651d2|/ea597178-b44d-4db9-826c-8f86e8d231f0/a4d41170-f1e3-4812-89ef-2aa6a238f022|/ea597178-b44d-4db9-826c-8f86e8d231f0/a4d41170-f1e3-4812-89ef-2aa6a238f022|/ea597178-b44d-4db9-826c-8f86e8d231f0/a4d41170-f1e3-4812-89ef-2aa6a238f022",
-        ""
-      ],
-      [
-        "pin_to_pin|2032000|482600|b071e1ed-4b96-413f-80a8-9c0f66ef52d6|ec5c1c94-69fd-4651-8556-c295a99535e1|/ea597178-b44d-4db9-826c-8f86e8d231f0/a4d41170-f1e3-4812-89ef-2aa6a238f022|/ea597178-b44d-4db9-826c-8f86e8d231f0/a4d41170-f1e3-4812-89ef-2aa6a238f022|/ea597178-b44d-4db9-826c-8f86e8d231f0/a4d41170-f1e3-4812-89ef-2aa6a238f022",
-        ""
-      ],
-      [
-        "pin_to_pin|2133600|482600|acb8d902-3642-42de-9e94-d612450e8584|41877a85-ed47-47cf-b316-1af1bbfec530|/ea597178-b44d-4db9-826c-8f86e8d231f0/a4d41170-f1e3-4812-89ef-2aa6a238f022|/ea597178-b44d-4db9-826c-8f86e8d231f0/a4d41170-f1e3-4812-89ef-2aa6a238f022|/ea597178-b44d-4db9-826c-8f86e8d231f0/a4d41170-f1e3-4812-89ef-2aa6a238f022",
-        ""
-      ],
-      [
-        "pin_to_pin|2476500|419100|b071e1ed-4b96-413f-80a8-9c0f66ef52d6|ec5c1c94-69fd-4651-8556-c295a99535e1|/ea597178-b44d-4db9-826c-8f86e8d231f0/a4d41170-f1e3-4812-89ef-2aa6a238f022|/ea597178-b44d-4db9-826c-8f86e8d231f0/a4d41170-f1e3-4812-89ef-2aa6a238f022|/ea597178-b44d-4db9-826c-8f86e8d231f0/a4d41170-f1e3-4812-89ef-2aa6a238f022",
-        ""
-      ],
-      [
-        "pin_to_pin|2578100|419100|acb8d902-3642-42de-9e94-d612450e8584|41877a85-ed47-47cf-b316-1af1bbfec530|/ea597178-b44d-4db9-826c-8f86e8d231f0/a4d41170-f1e3-4812-89ef-2aa6a238f022|/ea597178-b44d-4db9-826c-8f86e8d231f0/a4d41170-f1e3-4812-89ef-2aa6a238f022|/ea597178-b44d-4db9-826c-8f86e8d231f0/a4d41170-f1e3-4812-89ef-2aa6a238f022",
-        ""
-      ],
-      [
-        "pin_to_pin|736600|482600|d9d6cac4-1402-4fb5-94ce-ab52b0060a9f|93bee03f-8a19-4327-b19a-ad9608df1355|/ea597178-b44d-4db9-826c-8f86e8d231f0/a4d41170-f1e3-4812-89ef-2aa6a238f022|/ea597178-b44d-4db9-826c-8f86e8d231f0/a4d41170-f1e3-4812-89ef-2aa6a238f022|/ea597178-b44d-4db9-826c-8f86e8d231f0/a4d41170-f1e3-4812-89ef-2aa6a238f022",
-        ""
-      ],
-      [
-        "pin_to_pin|838200|482600|b7575425-e973-4a78-96df-91a63ea2789f|bab028cc-e1b3-4bb9-8b47-fbb553b651d2|/ea597178-b44d-4db9-826c-8f86e8d231f0/a4d41170-f1e3-4812-89ef-2aa6a238f022|/ea597178-b44d-4db9-826c-8f86e8d231f0/a4d41170-f1e3-4812-89ef-2aa6a238f022|/ea597178-b44d-4db9-826c-8f86e8d231f0/a4d41170-f1e3-4812-89ef-2aa6a238f022",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -541,7 +476,23 @@
       },
       {
         "bus_width": 12,
-        "name": "ANALOG",
+        "name": "POWER_DIST",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgb(255, 0, 0)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "POWER_GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgb(0, 0, 0)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "SIGNAL_ANALOG",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgb(194, 194, 0)",
@@ -549,62 +500,26 @@
       },
       {
         "bus_width": 12,
-        "line_style": 0,
-        "name": "CRYSTAL",
+        "name": "SIGNAL_COMM",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
-        "schematic_color": "rgb(0, 255, 0)",
+        "priority": 2,
+        "schematic_color": "rgb(255, 153, 0)",
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "line_style": 0,
-        "name": "POWER_DIST",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
-        "schematic_color": "rgb(255, 0, 0)",
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "line_style": 0,
-        "name": "POWER_GND",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
-        "schematic_color": "rgb(0, 0, 0)",
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "name": "RF_LINE",
+        "name": "SIGNAL_DIGITAL",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 3,
-        "schematic_color": "rgb(194, 0, 194)",
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "line_style": 0,
-        "name": "SIGNAL_MISC",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
         "schematic_color": "rgb(0, 0, 255)",
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "name": "SPI",
+        "name": "SIGNAL_RF",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
-        "schematic_color": "rgb(0, 194, 194)",
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "name": "UART",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgb(0, 255, 255)",
+        "schematic_color": "rgb(194, 0, 194)",
         "wire_width": 6
       }
     ],
@@ -615,8 +530,460 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "POWER_DIST",
+        "netclass": "Default",
         "pattern": "VBAT_IN"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/IO_CONN/VBUS"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "VBAT"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "OCP_TO_GPS"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/MCU/VDDRF1V55"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/MCU/VDDA"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/MCU/STM32_OSC_OUT"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/MCU/STM32_OSC_IN"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/MCU/STM32_BOOT"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "STM32_NRST"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "VR_PA"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "RFO_HP"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/RF/RFO_TO_CAP"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/RF/RF_NODO1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/RF/RF_NODO2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/RF/RF_C19_TO_L5"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "RFI_P"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "RFI_N"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/RF/RF2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/RF/RF1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/RF/RFIN"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/RF/CRL"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "RF_CRL_TO_STM32"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/RF/SWITCH_TO_CRL"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/RF/VDD_SWITCH_RF"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/RF/RFIN2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/RF/SMA1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/RF/DRA_ANT"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/RF/DRA_ANT_NO_FILTER"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DRA_PTT"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DRA_ENA"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/RF/MIC_IN"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "STM32_TO_DRA_AUDIO"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SPI1_MISO"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SPI1_MOSI"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DRA_RX_UART1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DRA_TX_UART1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "USB_RX_UART2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "USB_TX_UART2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SPI1_CS"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "SPI1_SCK"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "AUX9"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DRA_SQ_TO_STM32"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "STM32_TO_DRA_PTT"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "AUX8"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "AUX7"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "AUX6"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "AUX0_SDA"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "AUX2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "OCP_NFAULT"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "AUX10"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "AUX1_SCL"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "STM32_DAC_TO_DRA"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DRA_TO_STM32_ADC"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "AUX5"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "AUX4"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "AUX3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "JTDO_SWO_TO_STM32"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "OSC_RTC_OUT"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "OSC_RTC_IN"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "OCP_EN"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "AUX0"
+      },
+      {
+        "netclass": "POWER_DIST",
+        "pattern": "VBAT"
+      },
+      {
+        "netclass": "POWER_GND",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "POWER_DIST",
+        "pattern": "/MCU/VDDRF1V55"
+      },
+      {
+        "netclass": "SIGNAL_DIGITAL",
+        "pattern": "/MCU/STM32_BOOT"
+      },
+      {
+        "netclass": "SIGNAL_DIGITAL",
+        "pattern": "STM32_NRST"
+      },
+      {
+        "netclass": "POWER_DIST",
+        "pattern": "/MCU/VDDA"
+      },
+      {
+        "netclass": "SIGNAL_COMM",
+        "pattern": "OSC_RTC_OUT"
+      },
+      {
+        "netclass": "SIGNAL_COMM",
+        "pattern": "OSC_RTC_IN"
+      },
+      {
+        "netclass": "SIGNAL_COMM",
+        "pattern": "/MCU/STM32_OSC_IN"
+      },
+      {
+        "netclass": "SIGNAL_COMM",
+        "pattern": "/MCU/STM32_OSC_OUT"
+      },
+      {
+        "netclass": "SIGNAL_COMM",
+        "pattern": "JTDO_SWO_TO_STM32"
+      },
+      {
+        "netclass": "SIGNAL_COMM",
+        "pattern": "SPI1_MISO"
+      },
+      {
+        "netclass": "SIGNAL_COMM",
+        "pattern": "SPI1_MOSI"
+      },
+      {
+        "netclass": "SIGNAL_COMM",
+        "pattern": "DRA_RX_UART1_TX"
+      },
+      {
+        "netclass": "SIGNAL_COMM",
+        "pattern": "DRA_TX_UART1_RX"
+      },
+      {
+        "netclass": "SIGNAL_DIGITAL",
+        "pattern": "AUX0"
+      },
+      {
+        "netclass": "SIGNAL_DIGITAL",
+        "pattern": "SPI1_CS"
+      },
+      {
+        "netclass": "SIGNAL_COMM",
+        "pattern": "SPI1_SCK"
+      },
+      {
+        "netclass": "SIGNAL_COMM",
+        "pattern": "UART2_TX"
+      },
+      {
+        "netclass": "SIGNAL_COMM",
+        "pattern": "UART_RX"
+      },
+      {
+        "netclass": "SIGNAL_DIGITAL",
+        "pattern": "RF_CRL_TO_STM32"
+      },
+      {
+        "netclass": "SIGNAL_DIGITAL",
+        "pattern": "DRA_SQ_TO_STM32"
+      },
+      {
+        "netclass": "SIGNAL_DIGITAL",
+        "pattern": "STM32_TO_DRA_PTT"
+      },
+      {
+        "netclass": "SIGNAL_DIGITAL",
+        "pattern": "AUX1"
+      },
+      {
+        "netclass": "SIGNAL_DIGITAL",
+        "pattern": "AUX2"
+      },
+      {
+        "netclass": "SIGNAL_DIGITAL",
+        "pattern": "AUX3"
+      },
+      {
+        "netclass": "SIGNAL_RF",
+        "pattern": "RFI_P"
+      },
+      {
+        "netclass": "SIGNAL_RF",
+        "pattern": "RFI_N"
+      },
+      {
+        "netclass": "SIGNAL_RF",
+        "pattern": "RFO_HP"
+      },
+      {
+        "netclass": "SIGNAL_RF",
+        "pattern": "VR_PA"
+      },
+      {
+        "netclass": "SIGNAL_COMM",
+        "pattern": "I2C2_SDA"
+      },
+      {
+        "netclass": "SIGNAL_COMM",
+        "pattern": "JTCK_SWCLK_TO_STM32"
+      },
+      {
+        "netclass": "SIGNAL_DIGITAL",
+        "pattern": "OCP_NFAULT"
+      },
+      {
+        "netclass": "SIGNAL_COMM",
+        "pattern": "JTMS_SWDIO_TO_STM32"
+      },
+      {
+        "netclass": "SIGNAL_COMM",
+        "pattern": "I2C2_SCL"
+      },
+      {
+        "netclass": "SIGNAL_ANALOG",
+        "pattern": "DRA_TO_STM32_ADC"
+      },
+      {
+        "netclass": "SIGNAL_ANALOG",
+        "pattern": "STM32_DAC_TO_DRA"
+      },
+      {
+        "netclass": "SIGNAL_DIGITAL",
+        "pattern": "AUX6"
+      },
+      {
+        "netclass": "SIGNAL_DIGITAL",
+        "pattern": "AUX5"
+      },
+      {
+        "netclass": "SIGNAL_DIGITAL",
+        "pattern": "AUX4"
+      },
+      {
+        "netclass": "SIGNAL_RF",
+        "pattern": "/RF/RFO_TO_CAP"
+      },
+      {
+        "netclass": "SIGNAL_RF",
+        "pattern": "/RF/RF_NODO1"
+      },
+      {
+        "netclass": "SIGNAL_RF",
+        "pattern": "/RF/RF_C19_TO_L5"
+      },
+      {
+        "netclass": "SIGNAL_RF",
+        "pattern": "/RF/RF2"
+      },
+      {
+        "netclass": "SIGNAL_RF",
+        "pattern": "/RF/RF1"
+      },
+      {
+        "netclass": "SIGNAL_DIGITAL",
+        "pattern": "/RF/SWITCH_TO_CRL"
+      },
+      {
+        "netclass": "SIGNAL_RF",
+        "pattern": "/RF/RFIN"
+      },
+      {
+        "netclass": "SIGNAL_RF",
+        "pattern": "/RF/RFIN2"
+      },
+      {
+        "netclass": "SIGNAL_RF",
+        "pattern": "/RF/SMA1"
+      },
+      {
+        "netclass": "POWER_DIST",
+        "pattern": "/RF/VDD_SWITCH_RF"
+      },
+      {
+        "netclass": "POWER_DIST",
+        "pattern": "+5V"
       },
       {
         "netclass": "POWER_DIST",
@@ -624,155 +991,71 @@
       },
       {
         "netclass": "POWER_DIST",
-        "pattern": "VBAT"
+        "pattern": "VBAT_IN"
+      },
+      {
+        "netclass": "SIGNAL_DIGITAL",
+        "pattern": "OCP_EN"
       },
       {
         "netclass": "POWER_DIST",
-        "pattern": "OCP_TO_GPS"
+        "pattern": "/OCP/ILIM"
       },
       {
         "netclass": "POWER_DIST",
-        "pattern": "/MCU/VDDRF1V55"
+        "pattern": "/APRS_RADIO/3V3_DRA"
+      },
+      {
+        "netclass": "SIGNAL_ANALOG",
+        "pattern": "/APRS_RADIO/AF_OUT"
+      },
+      {
+        "netclass": "SIGNAL_ANALOG",
+        "pattern": "/APRS_RADIO/AF_OUT2"
+      },
+      {
+        "netclass": "SIGNAL_DIGITAL",
+        "pattern": "/APRS_RADIO/DRA_PTT"
+      },
+      {
+        "netclass": "SIGNAL_DIGITAL",
+        "pattern": "/APRS_RADIO/DRA_PTT2"
+      },
+      {
+        "netclass": "SIGNAL_ANALOG",
+        "pattern": "/APRS_RADIO/MIC_IN"
+      },
+      {
+        "netclass": "SIGNAL_ANALOG",
+        "pattern": "/APRS_RADIO/MIC_IN1"
+      },
+      {
+        "netclass": "SIGNAL_ANALOG",
+        "pattern": "/APRS_RADIO/MIC_IN2"
       },
       {
         "netclass": "POWER_DIST",
-        "pattern": "/MCU/VDDA"
+        "pattern": "/APRS_RADIO/3V3_DRA1"
       },
       {
-        "netclass": "POWER_GND",
-        "pattern": "GND"
+        "netclass": "SIGNAL_RF",
+        "pattern": "/APRS_RADIO/DRA_ANT_NO_FILTER"
       },
       {
-        "netclass": "CRYSTAL",
-        "pattern": "/MCU/STM32_OSC_OUT"
+        "netclass": "SIGNAL_RF",
+        "pattern": "/APRS_RADIO/ANT1"
       },
       {
-        "netclass": "CRYSTAL",
-        "pattern": "/MCU/STM32_OSC_IN"
+        "netclass": "SIGNAL_RF",
+        "pattern": "/APRS_RADIO/ANT2"
       },
       {
-        "netclass": "SIGNAL_MISC",
-        "pattern": "/MCU/STM32_BOOT"
+        "netclass": "SIGNAL_RF",
+        "pattern": "/APRS_RADIO/DRA_ANT"
       },
       {
-        "netclass": "SIGNAL_MISC",
-        "pattern": "STM32_NRST"
-      },
-      {
-        "netclass": "POWER_DIST",
-        "pattern": "VR_PA"
-      },
-      {
-        "netclass": "RF_LINE",
-        "pattern": "RFO_HP"
-      },
-      {
-        "netclass": "RF_LINE",
-        "pattern": "/RF/RFO_TO_CAP"
-      },
-      {
-        "netclass": "RF_LINE",
-        "pattern": "/RF/RF_NODO1"
-      },
-      {
-        "netclass": "RF_LINE",
-        "pattern": "/RF/RF_NODO2"
-      },
-      {
-        "netclass": "RF_LINE",
-        "pattern": "/RF/RF_C19_TO_L5"
-      },
-      {
-        "netclass": "RF_LINE",
-        "pattern": "RFI_P"
-      },
-      {
-        "netclass": "RF_LINE",
-        "pattern": "RFI_N"
-      },
-      {
-        "netclass": "RF_LINE",
-        "pattern": "/RF/RF2"
-      },
-      {
-        "netclass": "RF_LINE",
-        "pattern": "/RF/RF1"
-      },
-      {
-        "netclass": "RF_LINE",
-        "pattern": "/RF/RFIN"
-      },
-      {
-        "netclass": "RF_LINE",
-        "pattern": "/RF/CRL"
-      },
-      {
-        "netclass": "SIGNAL_MISC",
-        "pattern": "/RF/CRL"
-      },
-      {
-        "netclass": "SIGNAL_MISC",
-        "pattern": "RF_CRL_TO_STM32"
-      },
-      {
-        "netclass": "POWER_DIST",
-        "pattern": "/RF/CRL"
-      },
-      {
-        "netclass": "SIGNAL_MISC",
-        "pattern": "/RF/SWITCH_TO_CRL"
-      },
-      {
-        "netclass": "POWER_DIST",
-        "pattern": "/RF/VDD_SWITCH_RF"
-      },
-      {
-        "netclass": "RF_LINE",
-        "pattern": "/RF/RFIN2"
-      },
-      {
-        "netclass": "RF_LINE",
-        "pattern": "/RF/SMA1"
-      },
-      {
-        "netclass": "RF_LINE",
-        "pattern": "/RF/DRA_ANT"
-      },
-      {
-        "netclass": "RF_LINE",
-        "pattern": "/RF/DRA_ANT_NO_FILTER"
-      },
-      {
-        "netclass": "SIGNAL_MISC",
-        "pattern": "DRA_PTT"
-      },
-      {
-        "netclass": "SIGNAL_MISC",
-        "pattern": "DRA_ENA"
-      },
-      {
-        "netclass": "ANALOG",
-        "pattern": "/RF/MIC_IN"
-      },
-      {
-        "netclass": "ANALOG",
-        "pattern": "STM32_TO_DRA_AUDIO"
-      },
-      {
-        "netclass": "SPI",
-        "pattern": "SPI1_MISO"
-      },
-      {
-        "netclass": "SPI",
-        "pattern": "SPI1_MOSI"
-      },
-      {
-        "netclass": "UART",
-        "pattern": "DRA_RX_UART1"
-      },
-      {
-        "netclass": "UART",
-        "pattern": "DRA_TX_UART1"
+        "netclass": "SIGNAL_DIGITAL",
+        "pattern": "STM32_TO_DRA_ENA"
       }
     ]
   },
