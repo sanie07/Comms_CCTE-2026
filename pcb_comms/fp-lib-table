@@ -25,4 +25,7 @@
   (lib (name "TRIMPOT_10K_3314J-1-103E")(type "KiCad")(uri "${KIPRJMOD}/assets/TRIMPOT_10K_3314J-1-103E")(options "")(descr ""))
   (lib (name "TRANSISTOR_DTC144EET1G")(type "KiCad")(uri "${KIPRJMOD}/assets/TRANSISTOR_DTC144EET1G")(options "")(descr ""))
   (lib (name "CRYSTAL_32.687KHz_G43270018")(type "KiCad")(uri "${KIPRJMOD}/assets/CRYSTAL_32.687KHz_G43270018")(options "")(descr ""))
+  (lib (name "JST_H1.0_6P")(type "KiCad")(uri "${KIPRJMOD}/assets/JST_H1.0_6P")(options "")(descr ""))
+  (lib (name "JST B6B-XH-A-LF-SN-")(type "KiCad")(uri "${KIPRJMOD}/assets/JST B6B-XH-A-LF-SN-")(options "")(descr ""))
+  (lib (name "Mounting")(type "KiCad")(uri "${KIPRJMOD}/assets/Mounting.pretty")(options "")(descr ""))
 )
