@@ -1316,16 +1316,16 @@
 		(uuid "a878c616-5659-4615-9e51-8b05eb601fd0")
 	)
 	(junction
+		(at 184.15 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2579c21-7e87-44d3-b2ad-66db590f8fd6")
+	)
+	(junction
 		(at 189.23 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eccd3295-17d2-4538-bcc1-792ea72ee746")
-	)
-	(junction
-		(at 184.15 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fd676d6e-37ba-4f9d-a0b0-2fcf2a989f92")
 	)
 	(wire
 		(pts
@@ -1499,16 +1499,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 58.42) (xy 196.85 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "858ec71d-4762-42b2-b328-fc65f67dac05")
-	)
-	(wire
-		(pts
 			(xy 115.57 132.08) (xy 115.57 135.89)
 		)
 		(stroke
@@ -1609,6 +1599,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 58.42) (xy 191.77 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5024fa3-598e-447f-9f8b-4cd272699372")
+	)
+	(wire
+		(pts
 			(xy 87.63 58.42) (xy 92.71 58.42)
 		)
 		(stroke
@@ -1695,28 +1695,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VBAT"
-		(shape input)
-		(at 196.85 58.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "45c5a572-3006-4aaa-b69f-f7d71c79178c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.25 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -2344,6 +2322,71 @@
 			(project "pcb_comms_board"
 				(path "/ea597178-b44d-4db9-826c-8f86e8d231f0/177e7153-e267-47bf-abd3-8b553807255e"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 191.77 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6af1cb63-f840-4a14-8633-ebd978d835c3")
+		(property "Reference" "#PWR049"
+			(at 191.77 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 195.326 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 191.77 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc9215aa-2aba-4fa1-878c-82dac7d5344f")
+		)
+		(instances
+			(project "pcb_comms_board"
+				(path "/ea597178-b44d-4db9-826c-8f86e8d231f0/177e7153-e267-47bf-abd3-8b553807255e"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
