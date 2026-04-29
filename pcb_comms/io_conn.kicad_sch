@@ -3604,7 +3604,7 @@
 	)
 	(text "AUX"
 		(exclude_from_sim no)
-		(at 172.212 32.258 0)
+		(at 154.432 35.56 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -3828,16 +3828,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 43.18) (xy 165.1 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0346779c-09c1-4822-ad52-2adbbf1a00d5")
-	)
-	(wire
-		(pts
 			(xy 149.86 91.44) (xy 162.56 91.44)
 		)
 		(stroke
@@ -3908,16 +3898,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 50.8) (xy 165.1 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "201780c3-281e-4f19-955a-b6f70fec2d5c")
-	)
-	(wire
-		(pts
 			(xy 29.21 50.8) (xy 31.75 50.8)
 		)
 		(stroke
@@ -3925,16 +3905,6 @@
 			(type default)
 		)
 		(uuid "22ee6715-d1b1-42cb-9ee2-b8eac9fce38b")
-	)
-	(wire
-		(pts
-			(xy 162.56 53.34) (xy 165.1 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23a184ab-7617-4186-951a-2d31b70512e8")
 	)
 	(wire
 		(pts
@@ -4328,16 +4298,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 48.26) (xy 165.1 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7255359-3358-477f-8bdc-33c879a65019")
-	)
-	(wire
-		(pts
 			(xy 62.23 53.34) (xy 62.23 55.88)
 		)
 		(stroke
@@ -4405,16 +4365,6 @@
 			(type default)
 		)
 		(uuid "d5b55632-54ed-4430-a69f-3c10bfa2c954")
-	)
-	(wire
-		(pts
-			(xy 162.56 45.72) (xy 165.1 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8a50ad4-fdf6-414e-8042-33de2a1d3950")
 	)
 	(wire
 		(pts
@@ -4495,16 +4445,6 @@
 			(type default)
 		)
 		(uuid "f53391d4-aad3-43a6-97c5-86a965a0c12a")
-	)
-	(wire
-		(pts
-			(xy 162.56 55.88) (xy 165.1 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6001afc-0a62-438b-911d-d6289e6c70d3")
 	)
 	(wire
 		(pts
@@ -4636,50 +4576,6 @@
 			)
 		)
 	)
-	(global_label "AUX3"
-		(shape input)
-		(at 162.56 50.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "22d97339-7413-417e-af4a-70a45c2ecb14")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.7367 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "AUX2"
-		(shape input)
-		(at 162.56 48.26 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3c4b7b6f-dc05-4eef-b9b7-39d76e7912af")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.7367 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "UART2_TX"
 		(shape input)
 		(at 134.62 48.26 180)
@@ -4693,50 +4589,6 @@
 		(uuid "4904c8ba-2c8b-46e0-8cfd-8bc6f9e9dd2e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 122.6239 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "AUX1"
-		(shape input)
-		(at 162.56 45.72 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "54a4b0b9-a5f8-4d04-976d-30dfc89b5213")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.7367 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "AUX5"
-		(shape input)
-		(at 162.56 55.88 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5c57bd18-e38b-40b1-97ff-2b0b278df096")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.7367 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4764,28 +4616,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "AUX0"
-		(shape input)
-		(at 162.56 43.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6c173a66-7868-4fb1-9dce-5894f02a94d8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.7367 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -4919,109 +4749,6 @@
 				)
 				(justify left)
 				(hide yes)
-			)
-		)
-	)
-	(global_label "AUX4"
-		(shape input)
-		(at 162.56 53.34 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ecc07568-bc33-4fe0-be33-2a3582398022")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.7367 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x06")
-		(at 170.18 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "01c7a15f-234a-4a6b-bfef-2add7f6ff8f4")
-		(property "Reference" "J3"
-			(at 172.72 48.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AUX"
-			(at 172.466 50.546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JST B6B-XH-A-LF-SN-:CONN_B6B-XH-A_JST"
-			(at 170.18 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 170.18 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 170.18 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "05917373-1376-4f1d-bc91-3943729596f6")
-		)
-		(pin "1"
-			(uuid "32c6e70b-906c-4730-b0e1-557a15491ede")
-		)
-		(pin "3"
-			(uuid "026a42b0-700d-4ea7-bce6-0f4a12a6d6aa")
-		)
-		(pin "4"
-			(uuid "7de0e20b-1e42-45fd-a80b-633bde7b364c")
-		)
-		(pin "5"
-			(uuid "da2c6745-16a9-4b5e-9134-917c0d57dd15")
-		)
-		(pin "6"
-			(uuid "1486217c-d197-4c93-aef3-0b115d1cad0b")
-		)
-		(instances
-			(project "pcb_comms_board"
-				(path "/ea597178-b44d-4db9-826c-8f86e8d231f0/a4d41170-f1e3-4812-89ef-2aa6a238f022"
-					(reference "J3")
-					(unit 1)
-				)
 			)
 		)
 	)

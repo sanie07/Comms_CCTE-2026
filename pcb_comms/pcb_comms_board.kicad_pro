@@ -1111,6 +1111,14 @@
       {
         "netclass": "POWER_DIST",
         "pattern": "VR_PA"
+      },
+      {
+        "netclass": "POWER_DIST",
+        "pattern": "/MCU/VLXSMPS"
+      },
+      {
+        "netclass": "POWER_DIST",
+        "pattern": "+3V3"
       }
     ]
   },

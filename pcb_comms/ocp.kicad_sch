@@ -463,22 +463,20 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "IC"
-				(at 29.21 7.62 0)
+			(property "Reference" "IC1"
+				(at 16.51 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
 			(property "Value" "LDL1117S33R"
-				(at 29.21 5.08 0)
+				(at 16.51 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
 			(property "Footprint" "SOT230P700X180-4N"
@@ -610,7 +608,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin input line
 					(at 0 -2.54 0)
 					(length 5.08)
 					(name "VOUT_1"
