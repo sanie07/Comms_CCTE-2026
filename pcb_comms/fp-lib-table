@@ -28,4 +28,5 @@
   (lib (name "JST_H1.0_6P")(type "KiCad")(uri "${KIPRJMOD}/assets/JST_H1.0_6P")(options "")(descr ""))
   (lib (name "JST B6B-XH-A-LF-SN-")(type "KiCad")(uri "${KIPRJMOD}/assets/JST B6B-XH-A-LF-SN-")(options "")(descr ""))
   (lib (name "Mounting")(type "KiCad")(uri "${KIPRJMOD}/assets/Mounting.pretty")(options "")(descr ""))
+  (lib (name "SMA_ANTENNA_VERTICAL")(type "KiCad")(uri "${KIPRJMOD}/assets/SMA_ANTENNA_VERTICAL")(options "")(descr ""))
 )

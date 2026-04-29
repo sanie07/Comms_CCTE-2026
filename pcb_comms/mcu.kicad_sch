@@ -2897,7 +2897,7 @@
 	)
 	(text_box "MLZ2012 Multilayer \nShielded Inductor \n15µH, ±5%"
 		(exclude_from_sim no)
-		(at 135.89 31.75 0)
+		(at 148.59 32.385 0)
 		(size 10.16 3.81)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2917,8 +2917,8 @@
 	)
 	(text_box ""
 		(exclude_from_sim no)
-		(at 109.22 17.78 0)
-		(size -77.47 62.23)
+		(at 109.22 16.51 0)
+		(size 77.47 62.23)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -3989,16 +3989,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 121.92) (xy 167.64 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91b93558-9a47-433d-ac2d-f0b2b31db006")
-	)
-	(wire
-		(pts
 			(xy 123.19 38.1) (xy 123.19 41.91)
 		)
 		(stroke
@@ -4816,16 +4806,6 @@
 			(justify left bottom)
 		)
 		(uuid "6f33223e-816d-4df2-bd57-3af6eb774ee6")
-	)
-	(label "VDD"
-		(at 165.1 121.92 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7f241f48-efbe-4615-ac4e-1e75ef29b31d")
 	)
 	(label "VDDPA"
 		(at 242.57 157.48 0)
@@ -6314,6 +6294,71 @@
 			(project ""
 				(path "/ea597178-b44d-4db9-826c-8f86e8d231f0/e138949f-a904-4d13-88f3-88172523fe12"
 					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 152.4 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b61f7c4-c5b7-4c95-acb8-cb7a5ed4ea4b")
+		(property "Reference" "#PWR084"
+			(at 156.21 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 146.812 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 152.4 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7524f057-2dcb-4f2b-a030-dc7ad623d812")
+		)
+		(instances
+			(project "pcb_comms_board"
+				(path "/ea597178-b44d-4db9-826c-8f86e8d231f0/e138949f-a904-4d13-88f3-88172523fe12"
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)

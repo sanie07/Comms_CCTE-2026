@@ -1,4 +1,4 @@
-27279389955994257
+27281167371605358
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -98832,6 +98832,13 @@ Connector
 0
 3
 3
+SMA_ANTENNA_VERTICAL
+LPRS_SMA_CONNECTOR
+
+
+0
+5
+5
 STM32WLE5
 UFQFPN48_STM
 

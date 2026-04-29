@@ -21,4 +21,5 @@
   (lib (name "TRANSISTOR_DTC144EET1G")(type "KiCad")(uri "${KIPRJMOD}/assets/TRANSISTOR_DTC144EET1G/TRANSISTOR_DTC144EET1G.kicad_sym")(options "")(descr ""))
   (lib (name "ESD_PROTECTION_DIODE_SP0503BAHTG")(type "KiCad")(uri "${KIPRJMOD}/assets/ESD_PROTECTION_DIODE_SP0503BAHTG/ESD_PROTECTION_DIODE_SP0503BAHTG.kicad_sym")(options "")(descr ""))
   (lib (name "CRYSTAL_32.687KHz_G43270018")(type "KiCad")(uri "${KIPRJMOD}/assets/CRYSTAL_32.687KHz_G43270018/CRYSTAL_32.687KHz_G43270018.kicad_sym")(options "")(descr ""))
+  (lib (name "SMA_CONNECTOR")(type "KiCad")(uri "${KIPRJMOD}/assets/SMA_ANTENNA_VERTICAL/SMA_CONNECTOR.kicad_sym")(options "")(descr ""))
 )
