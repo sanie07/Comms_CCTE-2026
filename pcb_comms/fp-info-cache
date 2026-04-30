@@ -1,4 +1,4 @@
-27281167371605358
+27282944900196908
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2813,6 +2813,13 @@ speaker CUI
 0
 2
 2
+CONN_01x06_87898-0666
+CONN_01x06_87898-0666
+87898-0666-1
+Connector
+0
+6
+6
 CRYSTAL_32.687KHz_G43270018
 CRYSTAL_32.687KHz_G43270018
 G43270018-1
