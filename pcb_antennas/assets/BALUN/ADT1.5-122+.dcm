@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADT1.5-122+
+D 1:1.5 CORE & WIRE Transformer, 20 - 1200 MHz, 50
+K
+F https://www.minicircuits.com/WebStore/dashboardPdf?model=ADT1.5-122%2B
+$ENDCMP
+#
+#End Doc Library

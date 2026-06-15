@@ -30,4 +30,5 @@
   (lib (name "Mounting")(type "KiCad")(uri "${KIPRJMOD}/assets/Mounting.pretty")(options "")(descr ""))
   (lib (name "SMA_ANTENNA_VERTICAL")(type "KiCad")(uri "${KIPRJMOD}/assets/SMA_ANTENNA_VERTICAL")(options "")(descr ""))
   (lib (name "CONN_01x06_87898-0666")(type "KiCad")(uri "${KIPRJMOD}/assets/CONN_01x06_87898-0666")(options "")(descr ""))
+  (lib (name "logos")(type "KiCad")(uri "${KIPRJMOD}/logos")(options "")(descr ""))
 )

@@ -5,12 +5,11 @@
 	(uuid "21bd72bb-e70c-4c16-992b-8ed8890b148f")
 	(paper "A4")
 	(title_block
-		(title "PC1: APRS & GPS")
+		(title "PAYLOAD 1: APRS")
 		(date "2026-04-01")
-		(rev "1.0")
-		(company "Sanie Peralta, Alejandro Campo")
+		(rev "1.1")
+		(company "Sanie Peralta")
 		(comment 1 "Introducción a la Ingeniería Satelital ")
-		(comment 2 "Primer Parcial")
 	)
 	(lib_symbols
 		(symbol "Device:C"
@@ -2652,7 +2651,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 119.38 52.07 0)
 			(effects
 				(font
@@ -3969,7 +3968,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 62.23 64.77 0)
 			(effects
 				(font

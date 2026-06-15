@@ -5,12 +5,11 @@
 	(uuid "572990a1-639c-4bfb-a66a-c98285c3e92b")
 	(paper "A4")
 	(title_block
-		(title "PC1: APRS & GPS")
+		(title "PAYLOAD 1: APRS")
 		(date "2026-04-01")
-		(rev "1.0")
-		(company "Sanie Peralta, Alejandro Campo")
+		(rev "1.1")
+		(company "Sanie Peralta")
 		(comment 1 "Introducción a la Ingeniería Satelital ")
-		(comment 2 "Primer Parcial")
 	)
 	(lib_symbols
 		(symbol "DRA818V:DRA818V"
