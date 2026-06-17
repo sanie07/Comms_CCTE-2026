@@ -40,9 +40,9 @@ static const char *TAG = "GPS_SPI";
 
 /* ─── SPI GPIO pins ────────────────────────────────────────────────────── */
 #define PIN_SCLK    6
-#define PIN_MOSI    7
-#define PIN_MISO    2
-#define PIN_CS      10
+#define PIN_MOSI    5
+#define PIN_MISO    4
+#define PIN_CS      7
 
 /* ─── SPI bus / device config ──────────────────────────────────────────── */
 #define SPI_HOST_DEV    SPI2_HOST

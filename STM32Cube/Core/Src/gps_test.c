@@ -5,7 +5,7 @@
 #include <string.h>
 
 #define GPS_UART        huart2
-#define DEBUG_UART      huart1
+// #define DEBUG_UART      huart1
 #define GPS_LINE_MAX    128
 
 static char gps_line[GPS_LINE_MAX];
@@ -13,7 +13,8 @@ static uint16_t gps_line_len;
 
 static void Debug_Print(const char *msg)
 {
-  HAL_UART_Transmit(&DEBUG_UART, (uint8_t *)msg, (uint16_t)strlen(msg), 1000);
+  // Debug output disabled
+  // HAL_UART_Transmit(&DEBUG_UART, (uint8_t *)msg, (uint16_t)strlen(msg), 1000);
 }
 
 static void Debug_PrintLine(const char *line)
@@ -125,7 +126,7 @@ void GPS_Test_Init(void)
   Debug_PrintLine("");
   Debug_PrintLine("=== HGLRC M100 / u-blox M10 GPS test ===");
   Debug_PrintLine("GPS UART: USART2 PA2/PA3 @ 115200 (J9 connector)");
-  Debug_PrintLine("Debug UART: USART1 PB6 TX @ 115200");
+  // Debug_PrintLine("Debug UART: USART1 PB6 TX @ 115200");
   Debug_PrintLine("Waiting for NMEA from GPS module...");
   Debug_PrintLine("Tip: first fix outdoors can take 30-60 s cold start.");
 }
