@@ -59,7 +59,9 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 
 /* USER CODE BEGIN Private defines */
-
+#define RTC_N_PREDIV_S 8
+#define RTC_PREDIV_S ((1<<RTC_N_PREDIV_S)-1)
+#define RTC_PREDIV_A ((1<<(15-RTC_N_PREDIV_S))-1)
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus

@@ -90,5 +90,15 @@
 			<type>1</type>
 			<locationURI>PARENT-5-PROJECT_LOC/STM32Cube/Repository/STM32Cube_FW_WL_V1.5.0/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rcc_ex.c</locationURI>
 		</link>
+		<link>
+			<name>Drivers/STM32WLxx_HAL_Driver/stm32wlxx_hal_rtc.c</name>
+			<type>1</type>
+			<locationURI>PARENT-5-PROJECT_LOC/STM32Cube/Repository/STM32Cube_FW_WL_V1.5.0/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rtc.c</locationURI>
+		</link>
+		<link>
+			<name>Drivers/STM32WLxx_HAL_Driver/stm32wlxx_hal_rtc_ex.c</name>
+			<type>1</type>
+			<locationURI>PARENT-5-PROJECT_LOC/STM32Cube/Repository/STM32Cube_FW_WL_V1.5.0/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rtc_ex.c</locationURI>
+		</link>
 	</linkedResources>
 </projectDescription>

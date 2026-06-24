@@ -1604,32 +1604,32 @@ void SystemClock_Config(void)
 
   /** Initializes the CPU, AHB and APB buses clocks
   */
-  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSI;
- 800112a:	2302      	movs	r3, #2
+  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSE;
+ 800112a:	2301      	movs	r3, #1
  800112c:	623b      	str	r3, [r7, #32]
-  RCC_OscInitStruct.HSIState = RCC_HSI_ON;
- 800112e:	f44f 7380 	mov.w	r3, #256	@ 0x100
- 8001132:	633b      	str	r3, [r7, #48]	@ 0x30
-  RCC_OscInitStruct.HSICalibrationValue = RCC_HSICALIBRATION_DEFAULT;
- 8001134:	2340      	movs	r3, #64	@ 0x40
- 8001136:	637b      	str	r3, [r7, #52]	@ 0x34
+  RCC_OscInitStruct.HSEState = RCC_HSE_ON;
+ 800112e:	f44f 3380 	mov.w	r3, #65536	@ 0x10000
+ 8001132:	627b      	str	r3, [r7, #36]	@ 0x24
+  RCC_OscInitStruct.HSEDiv = RCC_HSE_DIV1;
+ 8001134:	2300      	movs	r3, #0
+ 8001136:	62bb      	str	r3, [r7, #40]	@ 0x28
   RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
  8001138:	2302      	movs	r3, #2
  800113a:	64fb      	str	r3, [r7, #76]	@ 0x4c
-  RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSI;
- 800113c:	2302      	movs	r3, #2
+  RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSE;
+ 800113c:	2303      	movs	r3, #3
  800113e:	653b      	str	r3, [r7, #80]	@ 0x50
   RCC_OscInitStruct.PLL.PLLM = RCC_PLLM_DIV2;
  8001140:	2310      	movs	r3, #16
  8001142:	657b      	str	r3, [r7, #84]	@ 0x54
-  RCC_OscInitStruct.PLL.PLLN = 24;
- 8001144:	2318      	movs	r3, #24
+  RCC_OscInitStruct.PLL.PLLN = 6;
+ 8001144:	2306      	movs	r3, #6
  8001146:	65bb      	str	r3, [r7, #88]	@ 0x58
   RCC_OscInitStruct.PLL.PLLP = RCC_PLLP_DIV2;
  8001148:	f44f 3300 	mov.w	r3, #131072	@ 0x20000
  800114c:	65fb      	str	r3, [r7, #92]	@ 0x5c
-  RCC_OscInitStruct.PLL.PLLR = RCC_PLLR_DIV4;
- 800114e:	f04f 43c0 	mov.w	r3, #1610612736	@ 0x60000000
+  RCC_OscInitStruct.PLL.PLLR = RCC_PLLR_DIV2;
+ 800114e:	f04f 5300 	mov.w	r3, #536870912	@ 0x20000000
  8001152:	667b      	str	r3, [r7, #100]	@ 0x64
   RCC_OscInitStruct.PLL.PLLQ = RCC_PLLQ_DIV2;
  8001154:	f04f 7300 	mov.w	r3, #33554432	@ 0x2000000
