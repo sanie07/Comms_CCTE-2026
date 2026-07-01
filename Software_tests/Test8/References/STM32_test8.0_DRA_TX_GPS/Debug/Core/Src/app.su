@@ -1,0 +1,15 @@
+../Core/Src/app.c:39:13:gpsStartRx	8	static
+../Core/Src/app.c:48:13:onRxFrame	24	static
+../Core/Src/app.c:55:13:formatAprsLat	72	static
+../Core/Src/app.c:71:13:formatAprsLon	72	static
+../Core/Src/app.c:87:13:buildGpsBeaconInfo	80	static
+../Core/Src/app.c:120:13:updateSpiStatusIdle	4	static
+../Core/Src/app.c:136:6:HAL_TIM_PeriodElapsedCallback	16	static
+../Core/Src/app.c:144:6:App_AFSK_TimerCallback	8	static
+../Core/Src/app.c:155:6:App_Init	8	static
+../Core/Src/app.c:186:6:App_Run	272	static
+../Core/Src/app.c:266:6:App_GpsHasFix	4	static
+../Core/Src/app.c:271:6:App_GetGpsCoords	40	static
+../Core/Src/app.c:282:6:HAL_GPIO_EXTI_Callback	16	static
+../Core/Src/app.c:294:6:HAL_UART_RxCpltCallback	16	static
+../Core/Src/app.c:303:6:HAL_UART_ErrorCallback	16	static
