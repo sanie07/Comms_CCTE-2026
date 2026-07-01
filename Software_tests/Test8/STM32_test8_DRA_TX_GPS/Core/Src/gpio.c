@@ -73,5 +73,16 @@ void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 2 */
+void MX_GPIO_UserPostInit(void)
+{
+  GPIO_InitTypeDef GPIO_InitStruct = {0};
+
+  GPIO_InitStruct.Pin = SPI1_CS_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  GPIO_InitStruct.Pull = GPIO_PULLUP;
+  HAL_GPIO_Init(SPI1_CS_GPIO_Port, &GPIO_InitStruct);
+
+  HAL_NVIC_DisableIRQ(EXTI0_IRQn);
+}
 
 /* USER CODE END 2 */

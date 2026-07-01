@@ -99,6 +99,7 @@ int main(void)
   MX_TIM2_Init();
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
+  MX_GPIO_UserPostInit();
   App_Init();
 
   /* USER CODE END 2 */

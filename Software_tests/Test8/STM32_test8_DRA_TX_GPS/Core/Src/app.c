@@ -20,6 +20,8 @@
 #define TONE_BURST_MS      3000UL
 #define TONE_INTERVAL_MS   15000UL
 #define LOOPBACK_PERIOD_MS 5000UL
+#define APP_PACKET_TX_MAX_MS 5000UL
+#define APP_ENABLE_SPI_STATUS 1
 
 typedef enum
 {
@@ -192,6 +194,16 @@ static bool loadTrackerFrame(void)
 #endif
 }
 
+static void spiStatusStartIfReady(void)
+{
+#if APP_ENABLE_SPI_STATUS
+    if (HAL_SPI_GetState(&hspi1) == HAL_SPI_STATE_READY)
+    {
+        (void)HAL_SPI_TransmitReceive_IT(&hspi1, &s_spiStatusMsg, &s_dummyRx, 1U);
+    }
+#endif
+}
+
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 {
     if (htim->Instance == TIM2)
@@ -213,10 +225,12 @@ void App_AFSK_TimerCallback(void)
 
 void App_Init(void)
 {
+#if APP_ENABLE_SPI_STATUS
     HAL_NVIC_SetPriority(SPI1_IRQn, 1, 0);
     HAL_NVIC_EnableIRQ(SPI1_IRQn);
-    HAL_NVIC_SetPriority(EXTI0_IRQn, 3, 0);
-    HAL_NVIC_EnableIRQ(EXTI0_IRQn);
+#else
+    HAL_NVIC_DisableIRQ(SPI1_IRQn);
+#endif
 
     if (modeUsesGps())
     {
@@ -246,7 +260,7 @@ void App_Init(void)
         updateSpiStatusIdle();
     }
 
-    HAL_SPI_TransmitReceive_IT(&hspi1, &s_spiStatusMsg, &s_dummyRx, 1U);
+    spiStatusStartIfReady();
 
     s_beaconTimer = HAL_GetTick();
     s_stateTimer = HAL_GetTick();
@@ -258,7 +272,11 @@ void App_Run(void)
     uint32_t now = HAL_GetTick();
 
     if (s_appState == APP_IDLE)
+    {
+        if (modeUsesDra())
+            DRA818_SetPTT(false);
         updateSpiStatusIdle();
+    }
 
 #if (APP_TEST_MODE == APP_TEST_DRA818_ONLY) || (APP_TEST_MODE == APP_TEST_GPS)
     return;
@@ -390,12 +408,13 @@ void App_Run(void)
         if ((now - s_stateTimer) >= DRA818_PTT_ON_DELAY_MS)
         {
             AFSK_TX_Start();
+            s_stateTimer = now;
             s_appState = APP_TX;
         }
         break;
 
     case APP_TX:
-        if (AFSK_TX_IsDone())
+        if (AFSK_TX_IsDone() || ((now - s_stateTimer) >= APP_PACKET_TX_MAX_MS))
         {
             AFSK_TX_Stop();
             s_spiStatusMsg = SPI_STATUS_TX_DONE;
@@ -438,13 +457,22 @@ void App_GetGpsCoords(int *lat_int, int *lat_frac, int *lng_int, int *lng_frac)
 
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 {
-    if (GPIO_Pin == SPI1_CS_Pin)
+    (void)GPIO_Pin;
+}
+
+void HAL_SPI_TxRxCpltCallback(SPI_HandleTypeDef *hspi)
+{
+    if (hspi->Instance == SPI1)
     {
-        if (HAL_GPIO_ReadPin(SPI1_CS_GPIO_Port, SPI1_CS_Pin) == GPIO_PIN_SET)
-        {
-            HAL_SPI_Abort(&hspi1);
-            HAL_SPI_TransmitReceive_IT(&hspi1, &s_spiStatusMsg, &s_dummyRx, 1U);
-        }
+        spiStatusStartIfReady();
+    }
+}
+
+void HAL_SPI_ErrorCallback(SPI_HandleTypeDef *hspi)
+{
+    if (hspi->Instance == SPI1)
+    {
+        spiStatusStartIfReady();
     }
 }
 
