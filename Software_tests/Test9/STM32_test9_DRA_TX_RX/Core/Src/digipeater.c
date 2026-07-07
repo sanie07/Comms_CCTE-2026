@@ -1,4 +1,4 @@
-﻿/**
+/**
  * @file    digipeater.c
  * @brief   APRS digipeater: WIDE1-1 simple + WIDE2-n traced path processing.
  *
@@ -210,6 +210,7 @@ void Digi_ProcessFrame(const uint8_t *frame, uint16_t len)
     bool     found      = false;
     uint8_t  aliasType  = 0U; /* 1 = WIDE1-1, 2 = WIDE2-n */
     uint8_t  aliasN     = 0U; /* N in WIDE2-N */
+    (void)aliasN;              /* Suppress -Wunused-but-set-variable */
 
     while ((elementIdx + 6U) <= ssidByteIdx)
     {

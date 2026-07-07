@@ -226,6 +226,30 @@ bool AX25_BuildTxFrame(const uint8_t *info, uint16_t infoLen)
 static AX25_RxCallback_t  rxCallback  = NULL;
 static AX25_DigiCallback_t digiCallback = NULL;
 
+/* ================================================================
+ * AX.25 RX debug counters
+ * Add these to the STM32CubeIDE Expressions / Live Expressions view.
+ *
+ *   ax25_dbg_flagCount   -- HDLC flags (0x7E) detected
+ *                           If 0: bit timing is wrong, no sync at all
+ *                           If > 0: flag detection works
+ *   ax25_dbg_frameStart  -- frame receptions opened (flag -> data)
+ *   ax25_dbg_tooShort    -- frames closed before reaching 18 bytes
+ *   ax25_dbg_crcFail     -- frames with wrong CRC (NRZI/noise issue)
+ *   ax25_dbg_tooLong     -- frames that exceeded the RX buffer (very long)
+ * ================================================================ */
+volatile uint32_t ax25_dbg_flagCount  = 0U;
+volatile uint32_t ax25_dbg_frameStart = 0U;
+volatile uint32_t ax25_dbg_tooShort   = 0U;
+volatile uint32_t ax25_dbg_crcFail    = 0U;
+volatile uint32_t ax25_dbg_tooLong    = 0U;
+volatile uint32_t ax25_dbg_crcPass    = 0U;   /* CRC passed — callback should fire */
+volatile uint16_t ax25_dbg_lastLen    = 0U;   /* rxFrameLen of last >=18-byte frame */
+/* Snapshot of the last frame that FAILED CRC (inspect in Memory view) */
+#define AX25_DBG_FAIL_MAX 64U
+volatile uint8_t  ax25_dbg_failFrame[AX25_DBG_FAIL_MAX];
+volatile uint16_t ax25_dbg_failLen    = 0U;
+
 /* Decoder state */
 static bool     rxInFrame   = false;
 static uint8_t  rxOnesCount = 0U;
@@ -251,7 +275,12 @@ static void rxProcessFrame(void)
 {
     /* Minimum valid frame: dest(7)+src(7)+ctrl(1)+pid(1)+FCS(2) = 18 bytes */
     if (rxFrameLen < 18U)
+    {
+        ax25_dbg_tooShort++;
         return;
+    }
+
+    ax25_dbg_lastLen = rxFrameLen;  /* Record length before CRC check */
 
     uint16_t dataLen = rxFrameLen - 2U;  /* Bytes before FCS */
     uint16_t crcCalc = crc16_block(rxFrameBuf, dataLen);
@@ -259,7 +288,16 @@ static void rxProcessFrame(void)
                        ((uint16_t)rxFrameBuf[dataLen + 1U] << 8U);
 
     if (crcCalc != crcRcvd)
-        return;   /* CRC mismatch — discard */
+    {
+        ax25_dbg_crcFail++;   /* CRC mismatch — NRZI polarity? noise? */
+        /* Capture the failing frame bytes for inspection in Memory view */
+        ax25_dbg_failLen = (rxFrameLen < AX25_DBG_FAIL_MAX) ? rxFrameLen : AX25_DBG_FAIL_MAX;
+        for (uint16_t i = 0U; i < ax25_dbg_failLen; i++)
+            ax25_dbg_failFrame[i] = rxFrameBuf[i];
+        return;
+    }
+
+    ax25_dbg_crcPass++;  /* CRC passed — if g_dbg_rxFrames stays 0, callback is broken */
 
     /* ---- Raw-frame (digi) callback: deliver frame WITHOUT FCS ---- */
     if (digiCallback != NULL)
@@ -343,10 +381,12 @@ void AX25_RxBit(uint8_t bit)
         if (rxOnesCount == 6U)
         {
             /* HDLC flag: 01111110 — frame boundary */
+            ax25_dbg_flagCount++;
             if (rxInFrame)
                 rxProcessFrame();   /* Validate and deliver completed frame */
             rxReset();
             rxInFrame = true;       /* Ready to receive next frame */
+            ax25_dbg_frameStart++;
             return;
         }
         if (rxOnesCount == 5U)
@@ -374,6 +414,7 @@ void AX25_RxBit(uint8_t bit)
         }
         else
         {
+            ax25_dbg_tooLong++;
             rxReset();  /* Frame too long — discard */
         }
     }

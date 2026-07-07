@@ -5,9 +5,9 @@
 ../Core/Src/ax25.c:87:13:appendByteStuffed	24	static
 ../Core/Src/ax25.c:120:13:encodeAddr	24	static
 ../Core/Src/ax25.c:142:6:AX25_BuildTxFrame	336	static
-../Core/Src/ax25.c:241:13:rxReset	4	static
-../Core/Src/ax25.c:250:13:rxProcessFrame	40	static
-../Core/Src/ax25.c:314:6:AX25_Init	16	static
-../Core/Src/ax25.c:319:6:AX25_Init2	16	static
-../Core/Src/ax25.c:326:6:AX25_RxBit	16	static
-../Core/Src/ax25.c:389:6:AX25_BuildDigiTxFrame	40	static
+../Core/Src/ax25.c:265:13:rxReset	4	static
+../Core/Src/ax25.c:274:13:rxProcessFrame	40	static
+../Core/Src/ax25.c:352:6:AX25_Init	16	static
+../Core/Src/ax25.c:357:6:AX25_Init2	16	static
+../Core/Src/ax25.c:364:6:AX25_RxBit	16	static
+../Core/Src/ax25.c:430:6:AX25_BuildDigiTxFrame	40	static

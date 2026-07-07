@@ -95,4 +95,10 @@ extern volatile uint8_t afsk_rx_bit_ready;
  *  afsk_rx_bit_ready == 1. */
 extern volatile uint8_t afsk_rx_bit;
 
+/** Data Carrier Detect flag.
+ *  Set to 1 by AFSK_TimerTick() when a valid AFSK carrier is detected
+ *  (pulse counter > DCD threshold).  Cleared to 0 when carrier is lost.
+ *  Bits are only delivered to AX25_RxBit() when this is 1. */
+extern volatile uint8_t afsk_rx_dcd;
+
 #endif /* AFSK_H */

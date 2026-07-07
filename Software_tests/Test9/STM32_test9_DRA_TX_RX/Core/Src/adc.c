@@ -64,7 +64,26 @@ void MX_ADC_Init(void)
     Error_Handler();
   }
   /* USER CODE BEGIN ADC_Init 2 */
-
+  /* ---------------------------------------------------------------
+   * Hardware-specific ADC overrides — placed in USER CODE so these
+   * settings survive CubeMX code regeneration.
+   *
+   * 1. ADC clock: CubeMX default /2 = 24 MHz exceeds the STM32WLE5
+   *    ADC maximum of 16 MHz.  Use /4 = 12 MHz instead.
+   *
+   * 2. Sampling time: the AF_OUT divider (R4=10k to 3V3, R3=10k to GND)
+   *    gives a source impedance of 5 kΩ at PA11.  Required settling:
+   *    Ts ≥ (RADC_int + Rs) × CSAMPLE × ln(2^13)
+   *       ≈ (10k + 5k) × 6 pF × 9.01 ≈ 811 ns → ≥10 cycles @ 12 MHz.
+   *    39.5 cycles = ~3.3 µs, well within the 104 µs TIM2 tick budget.
+   * --------------------------------------------------------------- */
+  hadc.Init.ClockPrescaler      = ADC_CLOCK_SYNC_PCLK_DIV4;    /* 12 MHz  */
+  hadc.Init.SamplingTimeCommon1 = ADC_SAMPLETIME_39CYCLES_5;   /* ~3.3 us */
+  hadc.Init.SamplingTimeCommon2 = ADC_SAMPLETIME_39CYCLES_5;
+  if (HAL_ADC_Init(&hadc) != HAL_OK)
+  {
+    Error_Handler();
+  }
   /* USER CODE END ADC_Init 2 */
 
 }

@@ -32,6 +32,33 @@ static uint16_t  s_spiFrameTotal = 0U;
 static uint16_t  s_spiFrameIdx   = 0U;
 static volatile bool s_spiFramePending = false;
 
+/* ================================================================
+ * Debug diagnostics — inspect these in the STM32CubeIDE watch window
+ * (Live Expressions or Expressions view) while the debugger is paused.
+ *
+ *   g_dbg_timerTicks  — increments at 9600 Hz if TIM2 ISR is alive
+ *   g_dbg_rxBits      — increments every NRZ bit decoded by AFSK
+ *                       (non-zero means the ADC is seeing signal)
+ *   afsk_rx_dcd       — 1 = carrier detected, 0 = listening to noise
+ *                       (add to Live Expressions directly)
+ *   g_dbg_rxFrames    — increments every time a valid AX.25 frame
+ *                       passes CRC (the decode chain is working)
+ *   g_dbg_lastFrame   — raw bytes of the most recently decoded frame
+ *   g_dbg_lastFrameLen— byte count of g_dbg_lastFrame
+ *   g_dbg_lastFrameMs — HAL_GetTick() when that frame arrived
+ * ================================================================ */
+#define DBG_FRAME_MAX  300U
+volatile uint32_t g_dbg_timerTicks   = 0U;
+volatile uint32_t g_dbg_rxBits       = 0U;
+volatile uint32_t g_dbg_rxFrames     = 0U;
+volatile uint8_t  g_dbg_lastFrame[DBG_FRAME_MAX];
+volatile uint16_t g_dbg_lastFrameLen = 0U;
+volatile uint32_t g_dbg_lastFrameMs  = 0U;
+/* Audio level monitor: watch in Live Expressions to detect clipping.
+ * Ideal: peak ~ 2048 +/- 1500, min ~ 2048 - 1500  (not near 0 or 4095). */
+volatile uint16_t g_dbg_adcPeak      = 0U;   /* highest raw ADC value seen  */
+volatile uint16_t g_dbg_adcMin       = 4095U; /* lowest  raw ADC value seen  */
+
 typedef enum
 {
     APP_IDLE = 0,
@@ -96,7 +123,7 @@ static void gpsStartRx(void)
     (void)HAL_UART_Receive_IT(&huart2, &s_uartRxByte, 1U);
 }
 
-static void onRxFrame(const uint8_t *info, uint16_t infoLen, const char *srcCall)
+static void __attribute__((unused)) onRxFrame(const uint8_t *info, uint16_t infoLen, const char *srcCall)
 {
     (void)srcCall;
 
@@ -112,7 +139,7 @@ static void onRxFrame(const uint8_t *info, uint16_t infoLen, const char *srcCall
  * Raw-frame callback — registered when COMPLETE_DIGIPEATER mode is active.
  * Runs in TIM2 ISR context: only flag writes / memcpy allowed.
  */
-static void onRxFrameRaw(const uint8_t *frame, uint16_t len)
+static void __attribute__((unused)) onRxFrameRaw(const uint8_t *frame, uint16_t len)
 {
     /* ---- SPI frame dump: send 0x0A header + raw bytes to master ---- */
     if (!s_spiFramePending && len > 0U)
@@ -138,10 +165,17 @@ static void onRxFrameRaw(const uint8_t *frame, uint16_t len)
  */
 static void onRxFrameMonitor(const uint8_t *frame, uint16_t len)
 {
-    /* Signal ESP32 that a frame arrived (brief RX_SEEN pulse) */
+    /* ---- Debug counters (visible in debugger watch window) ---- */
+    g_dbg_rxFrames++;
+    g_dbg_lastFrameMs  = HAL_GetTick();
+    g_dbg_lastFrameLen = (len < DBG_FRAME_MAX) ? len : DBG_FRAME_MAX;
+    for (uint16_t i = 0U; i < g_dbg_lastFrameLen; i++)
+        g_dbg_lastFrame[i] = frame[i];
+
+    /* ---- Signal ESP32 that a frame arrived (brief RX_SEEN pulse) ---- */
     s_spiStatusMsg = SPI_STATUS_RX_SEEN;
 
-    /* Queue the full raw frame for SPI byte-by-byte dump */
+    /* ---- Queue the full raw frame for SPI byte-by-byte dump ---- */
     if (!s_spiFramePending && len > 0U)
     {
         uint16_t copyLen = (len > SPI_FRAME_DUMP_MAX) ? SPI_FRAME_DUMP_MAX : len;
@@ -233,13 +267,13 @@ static void updateSpiStatusIdle(void)
     }
 }
 
-static bool loadFixedFrame(void)
+static bool __attribute__((unused)) loadFixedFrame(void)
 {
     const uint8_t *info = (const uint8_t *)APRS_FIXED_INFO;
     return AX25_BuildTxFrame(info, (uint16_t)strlen(APRS_FIXED_INFO));
 }
 
-static bool loadTrackerFrame(void)
+static bool __attribute__((unused)) loadTrackerFrame(void)
 {
     uint8_t infoStr[AX25_MAX_INFO_LEN];
     uint16_t infoLen = 0U;
@@ -289,11 +323,14 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 
 void App_AFSK_TimerCallback(void)
 {
+    g_dbg_timerTicks++;   /* Confirms TIM2 ISR is alive (should count at 9600 Hz) */
+
     AFSK_TimerTick();
 
     if (afsk_rx_bit_ready)
     {
         afsk_rx_bit_ready = 0U;
+        g_dbg_rxBits++;   /* Confirms AFSK demodulator is producing bits */
         AX25_RxBit(afsk_rx_bit);
     }
 }

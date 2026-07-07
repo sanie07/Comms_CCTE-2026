@@ -36,7 +36,7 @@
  *   7 = APP_TEST_APRS_TRACKER -- periodic GPS beacon only
  */
 #ifndef APP_TEST_MODE
-#define APP_TEST_MODE APP_TEST_APRS_TRACKER
+#define APP_TEST_MODE COMPLETE_DIGIPEATER
 #endif
 
 #endif /* APP_TEST_MODES_H */

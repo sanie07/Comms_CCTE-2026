@@ -1,0 +1,75 @@
+# Python Micro-APRS
+
+A python/micropython based library for encoding/decoding, modulating/demodulating APRS/AX.25 packets in AFSK audio. For ham folks, it's an APRS TNC.
+<!---
+![AFSK hello world](docs/afsk_hello.png?raw=true "AFSK hello")
+--->
+<p align="center">
+  <img src="https://github.com/stephanelsmith/micro-aprs/blob/master/docs/tuts/demod/corr_total.gif?raw=true" alt=""/>
+</p>
+
+The purpose of this library is to thread-the-needle of both enabling APRS/AX.25/AFSK from PC to microcontroller while maintaining portability and readability of python.  This library is optimized for embedded systems, especially [micropython supported targets and platforms ](https://github.com/micropython/micropython#supported-platforms--architectures) and small computers, not to mention Cpython and Pypy! 
+
+In practice this means we:
+* Avoid floating point and math libraries and dependencies in critical sections.  
+	* :+1: Integer math only
+	* :+1: NO external libraries (numpy/scipy/pandas).
+* Special care for memory allocation
+	* :+1: Pre-computing buffer/array sizes and modifying in place
+	* :-1: Dynamically appending items to a list
+* Single threaded, multitask friendly
+	* :+1::+1: Asyncio
+
+
+### **Micro-Aprs decodes 1000+ error-free frames on the [TNC CD Track 2](http://wa8lmf.net/TNCtest/).  That's **1010** :eyes: in a balanced mode at **1020** :fireworks: in a more computational intensive mode!**  (TNC CD Track 2 is the universal test for APRS demod, [this performance is very good!](https://github.com/wb2osz/direwolf/blob/dev/doc/WA8LMF-TNC-Test-CD-Results.pdf))
+
+#### Supporting APRS encoding and decoding
+* VHF - baud: 1200, space: 2200, mark: 1200
+* HF - baud: 300, space: 1600, mark: 1400
+
+## :mortar_board: Tutorials
+As many who've gone down this path have mentioned, there's surprisingly little useful information out there covering these topics.  I hope these tutorial sections will provide you additional information on getting started!
+* [AFSK Demodulation](docs/tuts/demod/README.md). Convert raw AFSK samples to bits.
+* [AFSK Modulation](docs/tuts/mod/README.md). Convert byte arrays to AFSK samples
+* [AX25/APRS Encoding and Decoding](docs/tuts/encdec/README.md). Step-by-step encoding/decoding APRS and AX25.
+* [144.39MHz 1/4 Wave Ground Plane Antenna Design](docs/tuts/ant/README.md).
+
+
+## :horse_racing: **Start here!**
+Basic command line for encoding and APRS strings to AFSK audio samples and the reverse.
+* [Encode](docs/ports/mod/README.md) APRS strings to AFSK audio samples.
+* [Decode](docs/ports/demod/README.md) AFSK audio samples to APRS strings.
+* [Pypy](docs/ports/pypy/README.md), another supported options faster than C python.
+
+
+## <img src="https://github.com/stephanelsmith/micro-aprs/blob/master/docs/ports/upy/micropython-icon.jpg?raw=true" alt="" width="25"> Micropython and Embedded ports and examples
+With Micropython, these examples show some examples for embedded systems.
+### Build instructions
+* [Unix](docs/ports/upy/README.md) build instructions, and encode/decode examples via cli.
+* [TinyS3](docs/ports/tinys3/README.md), ESP32S3 build isntructions on the TinyS3 (ESP32-S3).
+### Embedded
+* [ESP32-S3 - working around missing DAC](docs/ports/dac/README.md)
+* [LilyGo T-TWR Plus](docs/ports/lilygottwr/README.md), a commerically available esp32s3 board with SA868 Wireless Transceiver.
+
+
+## :desktop_computer: Applications and examples
+Applications using ```aprs_mod.py``` and ```aprs_demod.py```.
+* [SDR applications](docs/ports/sdr/README.md) via [rtl_fm](https://manpages.ubuntu.com/manpages/trusty/man1/rtl_fm.1.html) from [rtl-sdr project](https://osmocom.org/projects/rtl-sdr/wiki).
+* [HT/Android APRS beacon](docs/ports/termux/README.md).
+
+
+## :bulb: Future Work
+* Rx/Tx digipeating
+* Deploy as a :balloon: [HAB](https://amateur.sondehub.org/) payload!
+* Sister project: [Micro-WSPR](https://github.com/stephanelsmith/micro-wspr)
+
+
+## :raised_hands: Acknowledgements
+- [Micropython](https://github.com/micropython/micropython) project
+- [Direwolf TNC](https://github.com/wb2osz/direwolf)
+
+
+## License
+GNU General Public License v3.0
+
+
