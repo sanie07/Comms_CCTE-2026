@@ -60,8 +60,8 @@ all: main-build
 main-build: STM32_test9_DRA_TX_RX.elf secondary-outputs
 
 # Tool invocations
-STM32_test9_DRA_TX_RX.elf STM32_test9_DRA_TX_RX.map: $(OBJS) $(USER_OBJS) C:\Users\sanie\Documents\GitHub\Comms_CCTE-2026\Software_tests\Test9\STM32_test9_DRA_TX_RX\STM32WLE5CCUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "STM32_test9_DRA_TX_RX.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\sanie\Documents\GitHub\Comms_CCTE-2026\Software_tests\Test9\STM32_test9_DRA_TX_RX\STM32WLE5CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32_test9_DRA_TX_RX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+STM32_test9_DRA_TX_RX.elf STM32_test9_DRA_TX_RX.map: $(OBJS) $(USER_OBJS) /home/elias/Documents/Coms/coms\ Sanie/Comms_CCTE-2026-main/Software_tests/Test9/STM32_test9_DRA_TX_RX/STM32WLE5CCUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "STM32_test9_DRA_TX_RX.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/home/elias/Documents/Coms/coms Sanie/Comms_CCTE-2026-main/Software_tests/Test9/STM32_test9_DRA_TX_RX/STM32WLE5CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32_test9_DRA_TX_RX.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
