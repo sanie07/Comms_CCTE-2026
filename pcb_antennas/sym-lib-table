@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SMA_CONNECTOR")(type "KiCad")(uri "${KIPRJMOD}/assets/SMA_ANTENNA_VERTICAL/SMA_CONNECTOR.kicad_sym")(options "")(descr ""))
+  (lib (name "ADT1_5-122+")(type "KiCad")(uri "${KIPRJMOD}/assets/BALUN/ADT1_5-122+.kicad_sym")(options "")(descr ""))
+  (lib (name "NCS1_5-232+")(type "KiCad")(uri "${KIPRJMOD}/assets/BALUN_433/NCS1_5-232+.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,4 @@
+KX5X>APRS:hello world!
+KX5X>APRS,WIDE2-1,WIDE1-1:hello world1
+KX5X>APRS,WIDE2-1,WIDE1-1:hello world2
+KX5X>APRS,WIDE2-1,WIDE1-1:hello world3

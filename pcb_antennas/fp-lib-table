@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "BALUN")(type "KiCad")(uri "${KIPRJMOD}/assets/BALUN")(options "")(descr ""))
+  (lib (name "SMA_ANTENNA_VERTICAL")(type "KiCad")(uri "${KIPRJMOD}/assets/SMA_ANTENNA_VERTICAL")(options "")(descr ""))
+  (lib (name "BALUN_433")(type "KiCad")(uri "${KIPRJMOD}/assets/BALUN_433")(options "")(descr ""))
+)
