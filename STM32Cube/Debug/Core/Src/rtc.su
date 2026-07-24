@@ -1,7 +1,0 @@
-C:/Users/sanie/STM32Cube/Repository/STM32Cube_FW_WL_V1.5.0/Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_rcc.h:2331:22:LL_RCC_EnableRTC	4	static
-C:/Users/sanie/STM32Cube/Repository/STM32Cube_FW_WL_V1.5.0/Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_rcc.h:2341:22:LL_RCC_DisableRTC	4	static
-C:/Users/sanie/STM32Cube/Repository/STM32Cube_FW_WL_V1.5.0/Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_bus.h:914:22:LL_APB1_GRP1_EnableClock	24	static
-C:/Users/sanie/STM32Cube/Repository/STM32Cube_FW_WL_V1.5.0/Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_bus.h:1018:22:LL_APB1_GRP1_DisableClock	16	static
-../Core/Src/rtc.c:30:6:MX_RTC_Init	32	static
-../Core/Src/rtc.c:91:6:HAL_RTC_MspInit	72	static
-../Core/Src/rtc.c:120:6:HAL_RTC_MspDeInit	16	static
