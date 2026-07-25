@@ -1,0 +1,12 @@
+/home/elias/Documents/ComsBoard/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c:173:15:pxPortInitialiseStack	24	static
+/home/elias/Documents/ComsBoard/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c:193:13:prvTaskExitError	24	static,ignoring_inline_asm
+/home/elias/Documents/ComsBoard/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c:219:6:SVC_Handler	0	static,ignoring_inline_asm
+/home/elias/Documents/ComsBoard/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c:239:13:prvPortStartFirstTask	0	static,ignoring_inline_asm
+/home/elias/Documents/ComsBoard/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c:260:12:xPortStartScheduler	32	static,ignoring_inline_asm
+/home/elias/Documents/ComsBoard/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c:374:6:vPortEndScheduler	16	static,ignoring_inline_asm
+/home/elias/Documents/ComsBoard/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c:382:6:vPortEnterCritical	16	static,ignoring_inline_asm
+/home/elias/Documents/ComsBoard/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c:399:6:vPortExitCritical	16	static,ignoring_inline_asm
+/home/elias/Documents/ComsBoard/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c:411:6:PendSV_Handler	0	static,ignoring_inline_asm
+/home/elias/Documents/ComsBoard/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c:448:6:xPortSysTickHandler	16	static,ignoring_inline_asm
+/home/elias/Documents/ComsBoard/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c:693:32:vPortSetupTimerInterrupt	4	static
+/home/elias/Documents/ComsBoard/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c:716:10:vPortValidateInterruptPriority	24	static,ignoring_inline_asm

@@ -1,0 +1,14 @@
+/home/elias/Documents/ComsBoard/SubGHz_Phy/App/test_rf.c:142:7:TST_Semaphore_Init	8	static
+/home/elias/Documents/ComsBoard/SubGHz_Phy/App/test_rf.c:154:9:TST_TxTone	8	static
+/home/elias/Documents/ComsBoard/SubGHz_Phy/App/test_rf.c:178:9:TST_RxRssi	96	static
+/home/elias/Documents/ComsBoard/SubGHz_Phy/App/test_rf.c:239:10:TST_set_config	16	static
+/home/elias/Documents/ComsBoard/SubGHz_Phy/App/test_rf.c:252:9:TST_get_config	16	static
+/home/elias/Documents/ComsBoard/SubGHz_Phy/App/test_rf.c:264:9:TST_stop	8	static
+/home/elias/Documents/ComsBoard/SubGHz_Phy/App/test_rf.c:280:9:TST_TX_Start	80	static
+/home/elias/Documents/ComsBoard/SubGHz_Phy/App/test_rf.c:406:9:TST_RX_Start	128	static
+/home/elias/Documents/ComsBoard/SubGHz_Phy/App/test_rf.c:549:6:OnTxDone	8	static
+/home/elias/Documents/ComsBoard/SubGHz_Phy/App/test_rf.c:562:6:OnRxDone	24	static
+/home/elias/Documents/ComsBoard/SubGHz_Phy/App/test_rf.c:578:6:OnTxTimeout	8	static
+/home/elias/Documents/ComsBoard/SubGHz_Phy/App/test_rf.c:591:6:OnRxTimeout	8	static
+/home/elias/Documents/ComsBoard/SubGHz_Phy/App/test_rf.c:604:6:OnRxError	8	static
+/home/elias/Documents/ComsBoard/SubGHz_Phy/App/test_rf.c:617:16:Prbs9_generator	32	static

@@ -1,0 +1,2 @@
+/home/elias/Documents/ComsBoard/Core/Src/app_freertos.c:75:6:MX_FREERTOS_Init	8	static
+/home/elias/Documents/ComsBoard/Core/Src/app_freertos.c:117:6:StartDefaultTask	16	static

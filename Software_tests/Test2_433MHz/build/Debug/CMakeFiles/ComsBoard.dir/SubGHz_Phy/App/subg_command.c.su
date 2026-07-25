@@ -1,0 +1,6 @@
+/home/elias/Documents/ComsBoard/SubGHz_Phy/App/subg_command.c:307:6:CMD_Init	16	static
+/home/elias/Documents/ComsBoard/SubGHz_Phy/App/subg_command.c:328:6:CMD_Process	72	static,ignoring_inline_asm
+/home/elias/Documents/ComsBoard/SubGHz_Phy/App/subg_command.c:413:16:CMD_ProcessBackSpace	40	static
+/home/elias/Documents/ComsBoard/SubGHz_Phy/App/subg_command.c:462:13:CMD_GetChar	16	static
+/home/elias/Documents/ComsBoard/SubGHz_Phy/App/subg_command.c:491:13:parse_cmd	32	static
+/home/elias/Documents/ComsBoard/SubGHz_Phy/App/subg_command.c:579:13:com_error	16	static

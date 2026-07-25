@@ -1,0 +1,20 @@
+cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/home/elias/STM32Cube/Repository/STM32Cube_FW_WL_V1.5.0/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: \
+ /home/elias/STM32Cube/Repository/STM32Cube_FW_WL_V1.5.0/Middlewares/Third_Party/FreeRTOS/Source/croutine.c \
+ /home/elias/STM32Cube/Repository/STM32Cube_FW_WL_V1.5.0/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
+ /home/elias/st/stm32cubeide_2.1.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.14.3.rel1.linux64_1.0.100.202602081740/tools/lib/gcc/arm-none-eabi/14.3.1/include/stddef.h \
+ /home/elias/st/stm32cubeide_2.1.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.14.3.rel1.linux64_1.0.100.202602081740/tools/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
+ /home/elias/st/stm32cubeide_2.1.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.14.3.rel1.linux64_1.0.100.202602081740/tools/arm-none-eabi/include/stdint.h \
+ /home/elias/st/stm32cubeide_2.1.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.14.3.rel1.linux64_1.0.100.202602081740/tools/arm-none-eabi/include/machine/_default_types.h \
+ /home/elias/st/stm32cubeide_2.1.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.14.3.rel1.linux64_1.0.100.202602081740/tools/arm-none-eabi/include/sys/features.h \
+ /home/elias/st/stm32cubeide_2.1.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.14.3.rel1.linux64_1.0.100.202602081740/tools/arm-none-eabi/include/_newlib_version.h \
+ /home/elias/st/stm32cubeide_2.1.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.14.3.rel1.linux64_1.0.100.202602081740/tools/arm-none-eabi/include/sys/_intsup.h \
+ /home/elias/st/stm32cubeide_2.1.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.14.3.rel1.linux64_1.0.100.202602081740/tools/arm-none-eabi/include/sys/_stdint.h \
+ /home/elias/Documents/ComsBoard/cmake/stm32cubemx/../../Core/Inc/FreeRTOSConfig.h \
+ /home/elias/STM32Cube/Repository/STM32Cube_FW_WL_V1.5.0/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \
+ /home/elias/STM32Cube/Repository/STM32Cube_FW_WL_V1.5.0/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h \
+ /home/elias/STM32Cube/Repository/STM32Cube_FW_WL_V1.5.0/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h \
+ /home/elias/STM32Cube/Repository/STM32Cube_FW_WL_V1.5.0/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h \
+ /home/elias/STM32Cube/Repository/STM32Cube_FW_WL_V1.5.0/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h \
+ /home/elias/STM32Cube/Repository/STM32Cube_FW_WL_V1.5.0/Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
+ /home/elias/STM32Cube/Repository/STM32Cube_FW_WL_V1.5.0/Middlewares/Third_Party/FreeRTOS/Source/include/list.h \
+ /home/elias/STM32Cube/Repository/STM32Cube_FW_WL_V1.5.0/Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h
