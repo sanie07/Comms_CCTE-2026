@@ -527,7 +527,6 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "tuning_profile": "",
         "via_diameter": 0.7,
         "via_drill": 0.3,
         "wire_width": 6
@@ -544,7 +543,6 @@
         "priority": 5,
         "schematic_color": "rgb(255, 0, 0)",
         "track_width": 0.7,
-        "tuning_profile": "",
         "via_diameter": 0.7,
         "via_drill": 0.3,
         "wire_width": 6
@@ -561,7 +559,6 @@
         "priority": 4,
         "schematic_color": "rgb(0, 0, 0)",
         "track_width": 0.4,
-        "tuning_profile": "",
         "via_diameter": 0.7,
         "via_drill": 0.3,
         "wire_width": 6
@@ -578,7 +575,6 @@
         "priority": 0,
         "schematic_color": "rgb(194, 194, 0)",
         "track_width": 0.2,
-        "tuning_profile": "",
         "via_diameter": 0.7,
         "via_drill": 0.3,
         "wire_width": 6
@@ -595,7 +591,6 @@
         "priority": 2,
         "schematic_color": "rgb(255, 153, 0)",
         "track_width": 0.15,
-        "tuning_profile": "",
         "via_diameter": 0.7,
         "via_drill": 0.3,
         "wire_width": 6
@@ -612,7 +607,6 @@
         "priority": 3,
         "schematic_color": "rgb(0, 0, 255)",
         "track_width": 0.2,
-        "tuning_profile": "",
         "via_diameter": 0.7,
         "via_drill": 0.3,
         "wire_width": 6
@@ -629,14 +623,13 @@
         "priority": 1,
         "schematic_color": "rgb(194, 0, 194)",
         "track_width": 0.15,
-        "tuning_profile": "",
         "via_diameter": 0.7,
         "via_drill": 0.3,
         "wire_width": 6
       }
     ],
     "meta": {
-      "version": 5
+      "version": 4
     },
     "net_colors": null,
     "netclass_assignments": null,
