@@ -1,0 +1,40 @@
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/../../Module.h:402:14:uint32_t Module::getRst() const	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/../../protocols/PhysicalLayer/PhysicalLayer.h:416:13:constexpr PhysicalLayer::~PhysicalLayer()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/../../protocols/PhysicalLayer/PhysicalLayer.h:416:13:virtual constexpr PhysicalLayer::~PhysicalLayer()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/SX127x.h:604:7:constexpr SX127x::~SX127x()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/SX127x.h:604:7:virtual constexpr SX127x::~SX127x()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/SX1272.cpp:5:1:SX1272::SX1272(Module*)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/SX1272.cpp:9:9:virtual int16_t SX1272::begin(const ConfigLoRa_t&)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/SX1272.cpp:39:9:virtual int16_t SX1272::begin(float, float, uint8_t, uint8_t, uint8_t, int8_t, uint16_t, uint8_t)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/SX1272.cpp:52:9:int16_t SX1272::beginFSK(const ConfigFSK_t&)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/SX1272.cpp:85:9:int16_t SX1272::beginFSK(float, float, float, float, int8_t, uint16_t, bool)	56	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/SX1272.cpp:97:6:virtual void SX1272::reset()	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/SX1272.cpp:106:9:virtual int16_t SX1272::setFrequency(float)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/SX1272.cpp:117:9:int16_t SX1272::setBandwidth(float)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/SX1272.cpp:157:9:virtual int16_t SX1272::setSpreadingFactor(uint8_t)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/SX1272.cpp:213:9:int16_t SX1272::setCodingRate(uint8_t)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/SX1272.cpp:250:9:virtual int16_t SX1272::setBitRate(float)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/SX1272.cpp:254:9:virtual int16_t SX1272::setDataRate(DataRate_t, ModemType_t)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/SX1272.cpp:297:9:virtual int16_t SX1272::checkDataRate(DataRate_t, ModemType_t)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/SX1272.cpp:325:9:virtual int16_t SX1272::setOutputPower(int8_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/SX1272.cpp:329:9:int16_t SX1272::setOutputPower(int8_t, bool)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/SX1272.cpp:365:9:virtual int16_t SX1272::checkOutputPower(int8_t, int8_t*)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/SX1272.cpp:369:9:int16_t SX1272::checkOutputPower(int8_t, int8_t*, bool)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/SX1272.cpp:385:9:int16_t SX1272::setGain(uint8_t)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/SX1272.cpp:422:9:virtual int16_t SX1272::setDataShaping(uint8_t)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/SX1272.cpp:453:9:int16_t SX1272::setDataShapingOOK(uint8_t)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/SX1272.cpp:487:7:virtual float SX1272::getRSSI()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/SX1272.cpp:491:7:float SX1272::getRSSI(bool, bool)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/SX1272.cpp:495:9:int16_t SX1272::setCRC(bool, bool)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/SX1272.cpp:524:9:int16_t SX1272::forceLDRO(bool)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/SX1272.cpp:539:9:int16_t SX1272::autoLDRO()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/SX1272.cpp:548:9:int16_t SX1272::implicitHeader(size_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/SX1272.cpp:553:9:int16_t SX1272::explicitHeader()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/SX1272.cpp:558:9:int16_t SX1272::setBandwidthRaw(uint8_t)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/SX1272.cpp:568:9:int16_t SX1272::setSpreadingFactorRaw(uint8_t)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/SX1272.cpp:590:9:int16_t SX1272::setCodingRateRaw(uint8_t)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/SX1272.cpp:600:9:virtual int16_t SX1272::configFSK()	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/SX1272.cpp:611:6:virtual void SX1272::errataFix(bool)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/SX1272.cpp:620:9:virtual int16_t SX1272::setModem(ModemType_t)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/SX1272.h:95:7:constexpr SX1272::~SX1272()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/SX1272.h:95:7:virtual constexpr SX1272::~SX1272()	16	static

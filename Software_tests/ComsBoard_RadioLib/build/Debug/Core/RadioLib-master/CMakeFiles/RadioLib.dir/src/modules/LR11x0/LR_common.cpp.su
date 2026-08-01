@@ -1,0 +1,21 @@
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/../../Module.h:402:14:uint32_t Module::getRst() const	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/../../Module.h:408:14:uint32_t Module::getGpio() const	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR_common.cpp:5:1:LRxxxx::LRxxxx(Module*)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR_common.cpp:14:6:virtual void LRxxxx::setPacketReceivedAction(void (*)())	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR_common.cpp:18:6:virtual void LRxxxx::clearPacketReceivedAction()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR_common.cpp:22:6:virtual void LRxxxx::setPacketSentAction(void (*)())	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR_common.cpp:26:6:virtual void LRxxxx::clearPacketSentAction()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR_common.cpp:30:10:uint32_t LRxxxx::getIrqStatus()	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR_common.cpp:41:16:RadioLibTime_t LRxxxx::getToA(size_t, ModemType_t)	72	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR_common.cpp:90:16:virtual RadioLibTime_t LRxxxx::calculateTimeOnAir(ModemType_t, DataRate_t, PacketConfig_t, size_t)	56	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR_common.cpp:162:16:virtual RadioLibTime_t LRxxxx::calculateRxTimeout(RadioLibTime_t)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR_common.cpp:169:9:int16_t LRxxxx::reset()	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR_common.cpp:192:9:int16_t LRxxxx::getStatus(uint8_t*, uint8_t*, uint32_t*)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR_common.cpp:208:9:int16_t LRxxxx::lrFhssBuildFrame(uint16_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint16_t, int8_t, const uint8_t*, size_t)	72	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR_common.cpp:247:9:uint8_t LRxxxx::roundRampTime(uint32_t)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR_common.cpp:294:9:int16_t LRxxxx::findRxBw(float, const uint8_t*, size_t, float, uint8_t*)	96	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR_common.cpp:323:9:int16_t LRxxxx::setU32(uint16_t, uint32_t)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR_common.cpp:331:9:static int16_t LRxxxx::SPIparseStatus(uint8_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR_common.cpp:342:9:static int16_t LRxxxx::SPIcheckStatus(Module*)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR_common.cpp:355:9:int16_t LRxxxx::writeCommon(uint16_t, uint32_t, const uint32_t*, size_t, bool)	64	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR_common.cpp:398:9:int16_t LRxxxx::SPIcommand(uint16_t, bool, uint8_t*, size_t, const uint8_t*, size_t)	40	static

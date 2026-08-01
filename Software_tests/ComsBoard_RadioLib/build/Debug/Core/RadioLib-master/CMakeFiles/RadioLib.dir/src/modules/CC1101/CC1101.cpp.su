@@ -1,0 +1,89 @@
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/../../Module.h:396:14:uint32_t Module::getIrq() const	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/../../Module.h:408:14:uint32_t Module::getGpio() const	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/../../protocols/PhysicalLayer/PhysicalLayer.h:416:13:constexpr PhysicalLayer::~PhysicalLayer()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/../../protocols/PhysicalLayer/PhysicalLayer.h:416:13:virtual constexpr PhysicalLayer::~PhysicalLayer()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:5:1:CC1101::CC1101(Module*)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:11:9:int16_t CC1101::begin(const ConfigFSK_t&)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:17:9:int16_t CC1101::begin(float, float, float, float, int8_t, uint8_t)	56	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:28:9:int16_t CC1101::beginFSK4(const ConfigFSK_t&)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:34:9:int16_t CC1101::beginFSK4(float, float, float, float, int8_t, uint8_t)	56	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:45:6:void CC1101::reset()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:50:9:virtual int16_t CC1101::transmit(const uint8_t*, size_t, uint8_t)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:83:9:virtual int16_t CC1101::receive(uint8_t*, size_t, RadioLibTime_t)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:120:9:virtual int16_t CC1101::standby()	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:139:9:virtual int16_t CC1101::standby(uint8_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:144:9:virtual int16_t CC1101::sleep()	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:150:9:virtual int16_t CC1101::transmitDirect(uint32_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:154:9:int16_t CC1101::transmitDirectAsync(uint32_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:158:9:int16_t CC1101::transmitDirect(bool, uint32_t)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:181:9:virtual int16_t CC1101::receiveDirect()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:185:9:int16_t CC1101::receiveDirectAsync()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:189:9:int16_t CC1101::receiveDirect(bool)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:206:9:int16_t CC1101::packetMode()	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:213:6:void CC1101::setGdo0Action(void (*)(), uint32_t)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:217:6:void CC1101::clearGdo0Action()	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:221:6:virtual void CC1101::setPacketReceivedAction(void (*)())	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:225:6:virtual void CC1101::clearPacketReceivedAction()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:229:6:virtual void CC1101::setPacketSentAction(void (*)())	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:233:6:virtual void CC1101::clearPacketSentAction()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:237:6:void CC1101::setGdo2Action(void (*)(), uint32_t)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:245:6:void CC1101::clearGdo2Action()	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:252:9:virtual int16_t CC1101::startTransmit(const uint8_t*, size_t, uint8_t)	56	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:354:9:virtual int16_t CC1101::finishTransmit()	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:377:9:virtual int16_t CC1101::startReceive()	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:405:9:virtual int16_t CC1101::startReceive(uint32_t, uint32_t, uint32_t, size_t)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:413:9:virtual int16_t CC1101::readData(uint8_t*, size_t)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:461:9:virtual int16_t CC1101::finishReceive()	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:471:9:virtual int16_t CC1101::setFrequency(float)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:499:9:virtual int16_t CC1101::setBitRate(float)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:519:9:int16_t CC1101::setBitRateTolerance(uint8_t)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:528:9:int16_t CC1101::setRxBandwidth(float)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:549:9:int16_t CC1101::autoSetRxBandwidth()	104	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:567:9:virtual int16_t CC1101::setFrequencyDeviation(float)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:594:9:int16_t CC1101::getFrequencyDeviation(float*)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:619:9:virtual int16_t CC1101::setOutputPower(int8_t)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:644:9:virtual int16_t CC1101::checkOutputPower(int8_t, int8_t*)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:648:9:int16_t CC1101::checkOutputPower(int8_t, int8_t*, uint8_t*)	88	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:712:9:virtual int16_t CC1101::setSyncWord(uint8_t*, size_t)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:716:9:int16_t CC1101::setSyncWord(const uint8_t*, uint8_t, uint8_t, bool)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:739:9:int16_t CC1101::setSyncWord(uint8_t, uint8_t, uint8_t, bool)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:744:9:virtual int16_t CC1101::setPreambleLength(size_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:747:9:int16_t CC1101::setPreambleLength(uint8_t, uint8_t)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:789:9:int16_t CC1101::setNodeAddress(uint8_t, uint8_t)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:800:9:int16_t CC1101::disableAddressFiltering()	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:810:9:int16_t CC1101::setOOK(bool)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:839:7:virtual float CC1101::getRSSI()	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:859:9:uint8_t CC1101::getLQI() const	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:863:8:virtual size_t CC1101::getPacketLength(bool)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:877:9:int16_t CC1101::fixedPacketLengthMode(uint8_t)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:887:9:int16_t CC1101::variablePacketLengthMode(uint8_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:891:9:int16_t CC1101::enableSyncWordFiltering(uint8_t, bool)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:910:9:int16_t CC1101::disableSyncWordFiltering(bool)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:915:9:int16_t CC1101::setCrcFiltering(bool)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:925:9:int16_t CC1101::setPromiscuousMode(bool, bool)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:962:6:bool CC1101::getPromiscuousMode()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:966:9:virtual int16_t CC1101::setDataShaping(uint8_t)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:985:9:virtual int16_t CC1101::setEncoding(uint8_t)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:1009:6:void CC1101::setRfSwitchPins(uint32_t, uint32_t)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:1013:6:void CC1101::setRfSwitchTable(const uint32_t (&)[5], const Module::RfSwitchMode_t*)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:1017:9:virtual uint8_t CC1101::randomByte()	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:1036:9:int16_t CC1101::getChipVersion()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:1041:6:virtual void CC1101::setDirectAction(void (*)())	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:1045:6:virtual void CC1101::readBit(uint32_t)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:1050:9:int16_t CC1101::setDIOMapping(uint32_t, uint32_t)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:1058:9:int16_t CC1101::beginCommon(const ConfigFSK_t&)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:1139:9:int16_t CC1101::config()	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:1164:9:int16_t CC1101::directMode(bool)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:1189:6:static void CC1101::getExpMant(float, uint16_t, uint8_t, uint8_t, uint8_t&, uint8_t&)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:1215:9:int16_t CC1101::setPacketMode(uint8_t, uint16_t)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:1238:9:virtual Module* CC1101::getMod()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:1242:9:int16_t CC1101::SPIgetRegValue(uint8_t, uint8_t, uint8_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:1251:9:int16_t CC1101::SPIsetRegValue(uint8_t, uint8_t, uint8_t, uint8_t, uint8_t)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:1260:6:void CC1101::SPIreadRegisterBurst(uint8_t, uint8_t, uint8_t*)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:1264:9:uint8_t CC1101::SPIreadRegister(uint8_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:1273:6:void CC1101::SPIwriteRegister(uint8_t, uint8_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:1282:6:void CC1101::SPIwriteRegisterBurst(uint8_t, const uint8_t*, size_t)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp:1286:6:void CC1101::SPIsendCommand(uint8_t)	32	static
+/home/elias/st/stm32cubeide_2.1.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.14.3.rel1.linux64_1.0.100.202602081740/tools/arm-none-eabi/include/c++/14.3.1/cmath:250:5:constexpr typename __gnu_cxx::__enable_if<std::__is_integer<_Tp>::__value, double>::__type std::fabs(_Tp) [with _Tp = bool]	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.h:529:7:constexpr CC1101::~CC1101()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.h:529:7:virtual constexpr CC1101::~CC1101()	16	static

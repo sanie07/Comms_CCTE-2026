@@ -1,0 +1,20 @@
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/AX25/AX25.cpp:7:1:AX25Frame::AX25Frame(const char*, uint8_t, const char*, uint8_t, uint8_t)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/AX25/AX25.cpp:12:1:AX25Frame::AX25Frame(const char*, uint8_t, const char*, uint8_t, uint8_t, uint8_t, const char*)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/AX25/AX25.cpp:17:1:AX25Frame::AX25Frame(const char*, uint8_t, const char*, uint8_t, uint8_t, uint8_t, const uint8_t*, uint16_t)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/AX25/AX25.cpp:56:1:AX25Frame::AX25Frame(const AX25Frame&)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/AX25/AX25.cpp:99:1:AX25Frame::~AX25Frame()	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/AX25/AX25.cpp:124:12:AX25Frame& AX25Frame::operator=(const AX25Frame&)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/AX25/AX25.cpp:202:9:int16_t AX25Frame::setRepeaters(char**, const uint8_t*, uint8_t)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/AX25/AX25.cpp:238:6:void AX25Frame::setRecvSequence(uint8_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/AX25/AX25.cpp:242:6:void AX25Frame::setSendSequence(uint8_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/AX25/AX25.cpp:246:1:AX25Client::AX25Client(PhysicalLayer*)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/AX25/AX25.cpp:255:1:AX25Client::AX25Client(AFSKClient*)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/AX25/AX25.cpp:262:1:AX25Client::AX25Client(const AX25Client&)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/AX25/AX25.cpp:275:13:AX25Client& AX25Client::operator=(const AX25Client&)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/AX25/AX25.cpp:291:9:int16_t AX25Client::setCorrection(int16_t, int16_t, float)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/AX25/AX25.cpp:303:9:int16_t AX25Client::begin(const char*, uint8_t, uint8_t)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/AX25/AX25.cpp:323:6:void AX25Client::setScrambler(uint32_t, uint32_t)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/AX25/AX25.cpp:334:9:int16_t AX25Client::transmit(const char*, const char*, uint8_t)	104	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/AX25/AX25.cpp:347:9:int16_t AX25Client::sendFrame(AX25Frame*)	128	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/AX25/AX25.cpp:572:6:void AX25Client::getCallsign(char*)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/AX25/AX25.cpp:576:9:uint8_t AX25Client::getSSID()	16	static

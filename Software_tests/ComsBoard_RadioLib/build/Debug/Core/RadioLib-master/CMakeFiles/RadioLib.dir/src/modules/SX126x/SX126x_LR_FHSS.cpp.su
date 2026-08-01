@@ -1,0 +1,6 @@
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x_LR_FHSS.cpp:60:9:int16_t SX126x::buildLRFHSSPacket(const uint8_t*, size_t, uint8_t*, size_t*, size_t*, size_t*)	760	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x_LR_FHSS.cpp:271:9:int16_t SX126x::resetLRFHSS()	64	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x_LR_FHSS.cpp:332:10:uint16_t SX126x::stepLRFHSS()	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x_LR_FHSS.cpp:348:9:int16_t SX126x::setLRFHSSHop(uint8_t)	56	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x_LR_FHSS.cpp:395:1:void __static_initialization_and_destruction_0()	8	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x_LR_FHSS.cpp:395:1:cpp)	8	static

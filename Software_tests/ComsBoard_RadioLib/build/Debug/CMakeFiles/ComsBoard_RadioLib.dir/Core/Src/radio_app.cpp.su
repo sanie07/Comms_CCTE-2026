@@ -1,0 +1,17 @@
+/home/elias/Documents/ComsBoard_RadioLib/Core/Inc/STM32CubeHal.h:45:5:STM32WLx_Cube_Module::STM32WLx_Cube_Module(STM32CubeHAL*)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/Src/radio_app.cpp:37:17:void radio_app_init()	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/Src/radio_app.cpp:61:17:void radio_app_send_ax25(const char*)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/Hal.h:76:13:RadioLibHal::~RadioLibHal()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/Hal.h:76:13:virtual RadioLibHal::~RadioLibHal()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/Inc/STM32CubeHal.h:15:7:STM32CubeHAL::~STM32CubeHAL()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/Inc/STM32CubeHal.h:15:7:virtual STM32CubeHAL::~STM32CubeHAL()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/../../protocols/PhysicalLayer/PhysicalLayer.h:416:13:PhysicalLayer::~PhysicalLayer()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/../../protocols/PhysicalLayer/PhysicalLayer.h:416:13:virtual PhysicalLayer::~PhysicalLayer()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LLCC68/../SX126x/SX126x.h:37:7:SX126x::~SX126x()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LLCC68/../SX126x/SX126x.h:37:7:virtual SX126x::~SX126x()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LLCC68/../SX126x/SX1262.h:22:7:SX1262::~SX1262()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LLCC68/../SX126x/SX1262.h:22:7:virtual SX1262::~SX1262()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/STM32WLx.h:36:7:STM32WLx::~STM32WLx()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/STM32WLx.h:36:7:virtual STM32WLx::~STM32WLx()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/Src/radio_app.cpp:65:1:void __static_initialization_and_destruction_0()	8	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/Src/radio_app.cpp:65:1:cpp)	8	static

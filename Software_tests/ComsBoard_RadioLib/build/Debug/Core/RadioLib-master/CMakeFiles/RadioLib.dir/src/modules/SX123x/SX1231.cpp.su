@@ -1,0 +1,11 @@
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX123x/../../Module.h:396:14:uint32_t Module::getIrq() const	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX123x/../../Module.h:402:14:uint32_t Module::getRst() const	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX123x/../RF69/../../protocols/PhysicalLayer/PhysicalLayer.h:416:13:constexpr PhysicalLayer::~PhysicalLayer()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX123x/../RF69/../../protocols/PhysicalLayer/PhysicalLayer.h:416:13:virtual constexpr PhysicalLayer::~PhysicalLayer()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX123x/../RF69/RF69.h:479:7:constexpr RF69::~RF69()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX123x/../RF69/RF69.h:479:7:virtual constexpr RF69::~RF69()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX123x/SX1231.cpp:4:1:SX1231::SX1231(Module*)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX123x/SX1231.cpp:8:9:virtual int16_t SX1231::begin(const ConfigFSK_t&)	56	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX123x/SX1231.cpp:93:9:virtual int16_t SX1231::begin(float, float, float, float, int8_t, uint8_t)	56	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX123x/SX1231.h:94:7:constexpr SX1231::~SX1231()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX123x/SX1231.h:94:7:virtual constexpr SX1231::~SX1231()	16	static

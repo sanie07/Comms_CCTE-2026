@@ -1,0 +1,20 @@
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/Hal.h:76:13:RadioLibHal::~RadioLibHal()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/Hal.h:76:13:virtual RadioLibHal::~RadioLibHal()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/Src/STM32CubeHal.cpp:11:1:STM32CubeHAL::STM32CubeHAL(SUBGHZ_HandleTypeDef*)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/Src/STM32CubeHal.cpp:15:6:virtual void STM32CubeHAL::pinMode(uint32_t, uint32_t)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/Src/STM32CubeHal.cpp:20:6:virtual void STM32CubeHAL::digitalWrite(uint32_t, uint32_t)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/Src/STM32CubeHal.cpp:47:10:virtual uint32_t STM32CubeHAL::digitalRead(uint32_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/Src/STM32CubeHal.cpp:68:6:virtual void STM32CubeHAL::attachInterrupt(uint32_t, void (*)(), uint32_t)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/Src/STM32CubeHal.cpp:73:6:virtual void STM32CubeHAL::detachInterrupt(uint32_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/Src/STM32CubeHal.cpp:76:6:virtual void STM32CubeHAL::delay(RadioLibTime_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/Src/STM32CubeHal.cpp:80:6:virtual void STM32CubeHAL::delayMicroseconds(RadioLibTime_t)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/Src/STM32CubeHal.cpp:85:16:virtual RadioLibTime_t STM32CubeHAL::millis()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/Src/STM32CubeHal.cpp:89:16:virtual RadioLibTime_t STM32CubeHAL::micros()	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/Src/STM32CubeHal.cpp:97:6:virtual long int STM32CubeHAL::pulseIn(uint32_t, uint32_t, RadioLibTime_t)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/Src/STM32CubeHal.cpp:101:6:virtual void STM32CubeHAL::spiBegin()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/Src/STM32CubeHal.cpp:104:6:virtual void STM32CubeHAL::spiBeginTransaction()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/Src/STM32CubeHal.cpp:107:6:virtual void STM32CubeHAL::spiTransfer(uint8_t*, size_t, uint8_t*)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/Src/STM32CubeHal.cpp:125:6:virtual void STM32CubeHAL::spiEndTransaction()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/Src/STM32CubeHal.cpp:128:6:virtual void STM32CubeHAL::spiEnd()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/Inc/STM32CubeHal.h:15:7:STM32CubeHAL::~STM32CubeHAL()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/Inc/STM32CubeHal.h:15:7:virtual STM32CubeHAL::~STM32CubeHAL()	16	static

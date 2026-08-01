@@ -1,0 +1,175 @@
+[  2%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_tim_ex.c.obj
+[  2%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_tim.c.obj
+[  2%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/Hal.cpp.obj
+[  3%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32wlxx.c.obj
+[  4%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/Module.cpp.obj
+[  4%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_adc.c.obj
+[  5%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/CC1101/CC1101.cpp.obj
+[  6%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_adc_ex.c.obj
+[  8%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_ll_adc.c.obj
+[  8%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LLCC68/LLCC68.cpp.obj
+[  9%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rcc.c.obj
+[ 10%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rcc_ex.c.obj
+[ 11%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR11x0/LR1110.cpp.obj
+[ 12%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR11x0/LR1120.cpp.obj
+[ 13%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_flash.c.obj
+[ 13%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_flash_ex.c.obj
+[ 13%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR11x0/LR1121.cpp.obj
+[ 14%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR11x0/LR11x0.cpp.obj
+[ 15%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_gpio.c.obj
+[ 16%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR11x0/LR11x0_commands.cpp.obj
+[ 17%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_dma.c.obj
+[ 18%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_dma_ex.c.obj
+[ 19%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr.c.obj
+[ 20%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR11x0/LR11x0_crypto.cpp.obj
+[ 21%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR11x0/LR11x0_gnss.cpp.obj
+[ 22%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr_ex.c.obj
+[ 22%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_cortex.c.obj
+[ 22%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR11x0/LR11x0_wifi.cpp.obj
+[ 24%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR11x0/LR_common.cpp.obj
+[ 24%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal.c.obj
+[ 25%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_exti.c.obj
+[ 26%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_dac.c.obj
+[ 27%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021.cpp.obj
+[ 28%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_dac_ex.c.obj
+[ 29%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rtc.c.obj
+[ 29%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rtc_ex.c.obj
+[ 30%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_spi.c.obj
+[ 31%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021_cmds_chip_control.cpp.obj
+[ 32%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_spi_ex.c.obj
+[ 33%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_subghz.c.obj
+[ 34%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart.c.obj
+[ 35%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart_ex.c.obj
+[ 36%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021_cmds_flrc.cpp.obj
+[ 37%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021_cmds_gfsk.cpp.obj
+[ 37%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021_cmds_lora.cpp.obj
+[ 37%] Built target STM32_Drivers
+[ 38%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021_cmds_misc.cpp.obj
+[ 39%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021_cmds_ook.cpp.obj
+[ 40%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021_cmds_oqpsk.cpp.obj
+[ 41%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021_cmds_radio.cpp.obj
+[ 42%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021_cmds_ranging.cpp.obj
+[ 42%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021_config.cpp.obj
+[ 43%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/RF69/RF69.cpp.obj
+[ 44%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX123x/SX1231.cpp.obj
+[ 45%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX123x/SX1233.cpp.obj
+[ 46%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX126x/STM32WLx.cpp.obj
+[ 47%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1261.cpp.obj
+[ 47%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1262.cpp.obj
+[ 48%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1268.cpp.obj
+[ 49%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX126x.cpp.obj
+[ 50%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX126x_LR_FHSS.cpp.obj
+[ 51%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX126x_commands.cpp.obj
+[ 51%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX126x_config.cpp.obj
+[ 52%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1272.cpp.obj
+[ 53%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1273.cpp.obj
+[ 54%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1276.cpp.obj
+[ 55%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1277.cpp.obj
+[ 56%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1278.cpp.obj
+[ 56%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1279.cpp.obj
+[ 57%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX127x.cpp.obj
+[ 58%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1280.cpp.obj
+[ 59%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1281.cpp.obj
+[ 60%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1282.cpp.obj
+[ 61%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX128x/SX128x.cpp.obj
+[ 61%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4430.cpp.obj
+[ 62%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4431.cpp.obj
+[ 63%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4432.cpp.obj
+[ 64%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/Si443x/Si443x.cpp.obj
+[ 65%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/nRF24/nRF24.cpp.obj
+[ 66%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/ADSB/ADSB.cpp.obj
+[ 66%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/AFSK/AFSK.cpp.obj
+[ 67%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/APRS/APRS.cpp.obj
+[ 68%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/AX25/AX25.cpp.obj
+[ 69%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/BellModem/BellModem.cpp.obj
+[ 70%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/ExternalRadio/ExternalRadio.cpp.obj
+[ 70%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/FSK4/FSK4.cpp.obj
+[ 71%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/Hellschreiber/Hellschreiber.cpp.obj
+[ 72%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/LoRaWAN/LoRaWAN.cpp.obj
+[ 73%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/LoRaWAN/LoRaWANBands.cpp.obj
+[ 74%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/LoRaWAN/LoRaWANPacMan.cpp.obj
+[ 75%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/LoRaWAN/LoRaWANPackageTS003.cpp.obj
+[ 75%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/LoRaWAN/LoRaWANPackageTS009.cpp.obj
+[ 76%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/Morse/Morse.cpp.obj
+[ 77%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/Pager/Pager.cpp.obj
+[ 78%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/PhysicalLayer/PhysicalLayer.cpp.obj
+[ 79%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/Print/ITA2String.cpp.obj
+[ 80%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/Print/Print.cpp.obj
+[ 80%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/RTTY/RTTY.cpp.obj
+[ 81%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/SSTV/SSTV.cpp.obj
+[ 82%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/utils/BCH.cpp.obj
+[ 83%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/utils/CRC.cpp.obj
+[ 84%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/utils/ConvCode.cpp.obj
+[ 85%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/utils/Cryptography.cpp.obj
+[ 85%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/utils/Utils.cpp.obj
+[ 86%] Linking CXX static library libRadioLib.a
+[ 86%] Built target RadioLib
+[ 88%] Building C object CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/gpio.c.obj
+[ 88%] Building C object CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/adc.c.obj
+[ 88%] Building C object CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/main.c.obj
+[ 89%] Building C object CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/dac.c.obj
+[ 90%] Building C object CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/rtc.c.obj
+[ 90%] Building C object CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/spi.c.obj
+[ 91%] Building C object CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/subghz.c.obj
+[ 92%] Building C object CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/usart.c.obj
+[ 94%] Building C object CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/stm32wlxx_it.c.obj
+[ 94%] Building C object CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/stm32wlxx_hal_msp.c.obj
+[ 95%] Building C object CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/stm32wlxx_hal_timebase_tim.c.obj
+[ 95%] Building C object CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/sysmem.c.obj
+[ 96%] Building C object CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/syscalls.c.obj
+[ 97%] Building ASM object CMakeFiles/ComsBoard_RadioLib.dir/startup_stm32wle5xx.s.obj
+[ 98%] Building CXX object CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/radio_app.cpp.obj
+[ 99%] Building CXX object CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/STM32CubeHal.cpp.obj
+/home/elias/Documents/ComsBoard_RadioLib/Core/Src/radio_app.cpp:20:31: error: 'LOW' was not declared in this scope
+   20 |     { STM32WLx::MODE_IDLE,  { LOW  } }, // Reposo
+      |                               ^~~
+/home/elias/Documents/ComsBoard_RadioLib/Core/Src/radio_app.cpp:21:31: error: 'LOW' was not declared in this scope
+   21 |     { STM32WLx::MODE_RX,    { LOW  } }, // Recepción
+      |                               ^~~
+/home/elias/Documents/ComsBoard_RadioLib/Core/Src/radio_app.cpp:22:31: error: 'HIGH' was not declared in this scope
+   22 |     { STM32WLx::MODE_TX_LP, { HIGH } }, // Transmisión Low Power
+      |                               ^~~~
+/home/elias/Documents/ComsBoard_RadioLib/Core/Src/radio_app.cpp:23:31: error: 'HIGH' was not declared in this scope
+   23 |     { STM32WLx::MODE_TX_HP, { HIGH } }, // Transmisión High Power
+      |                               ^~~~
+/home/elias/Documents/ComsBoard_RadioLib/Core/Src/radio_app.cpp: In function 'void radio_app_init()':
+/home/elias/Documents/ComsBoard_RadioLib/Core/Src/radio_app.cpp:29:28: error: cannot convert 'const uint32_t [2]' {aka 'const long unsigned int [2]'} to 'const uint32_t (&)[5]' {aka 'const long unsigned int (&)[5]'}
+   29 |     radio.setRfSwitchTable(rfswitch_pins, rfswitch_table);
+      |                            ^~~~~~~~~~~~~
+      |                            |
+      |                            const uint32_t [2] {aka const long unsigned int [2]}
+In file included from /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LLCC68/../SX126x/SX1262.h:9,
+                 from /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LLCC68/LLCC68.h:9,
+                 from /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/RadioLib.h:83,
+                 from /home/elias/Documents/ComsBoard_RadioLib/Core/Src/radio_app.cpp:2:
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LLCC68/../SX126x/SX126x.h:699:44: note:   initializing argument 1 of 'void SX126x::setRfSwitchTable(const uint32_t (&)[5], const Module::RfSwitchMode_t*)'
+  699 |     void setRfSwitchTable(const uint32_t (&pins)[Module::RFSWITCH_MAX_PINS], const Module::RfSwitchMode_t table[]);
+      |                           ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/elias/Documents/ComsBoard_RadioLib/Core/Src/radio_app.cpp: In function 'void radio_app_send_ax25(const char*)':
+/home/elias/Documents/ComsBoard_RadioLib/Core/Src/radio_app.cpp:54:19: error: no matching function for call to 'AX25Client::sendFrame(const char [5], int, uint8_t*, size_t)'
+   54 |     ax25.sendFrame("COMS", 0, (uint8_t*)payload, strlen(payload));
+      |     ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/RadioLib.h:114:
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/AX25/AX25.h:317:13: note: candidate: 'int16_t AX25Client::sendFrame(AX25Frame*)'
+  317 |     int16_t sendFrame(AX25Frame* frame);
+      |             ^~~~~~~~~
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/AX25/AX25.h:317:13: note:   candidate expects 1 argument, 4 provided
+gmake[2]: *** [CMakeFiles/ComsBoard_RadioLib.dir/build.make:271: CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/radio_app.cpp.obj] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+/home/elias/Documents/ComsBoard_RadioLib/Core/Src/STM32CubeHal.cpp: In member function 'virtual void STM32CubeHAL::digitalWrite(uint32_t, uint32_t)':
+/home/elias/Documents/ComsBoard_RadioLib/Core/Src/STM32CubeHal.cpp:16:25: error: 'LOW' was not declared in this scope
+   16 |             if(value == LOW) {
+      |                         ^~~
+/home/elias/Documents/ComsBoard_RadioLib/Core/Src/STM32CubeHal.cpp:34:77: error: 'HIGH' was not declared in this scope
+   34 |                 HAL_GPIO_WritePin(RF_CTRL_GPIO_Port, RF_CTRL_Pin, (value == HIGH) ? GPIO_PIN_SET : GPIO_PIN_RESET);
+      |                                                                             ^~~~
+/home/elias/Documents/ComsBoard_RadioLib/Core/Src/STM32CubeHal.cpp: In member function 'virtual uint32_t STM32CubeHAL::digitalRead(uint32_t)':
+/home/elias/Documents/ComsBoard_RadioLib/Core/Src/STM32CubeHal.cpp:44:65: error: 'HIGH' was not declared in this scope
+   44 |             return (READ_BIT(PWR->SR2, PWR_SR2_RFBUSYS) != 0) ? HIGH : LOW;
+      |                                                                 ^~~~
+/home/elias/Documents/ComsBoard_RadioLib/Core/Src/STM32CubeHal.cpp:44:72: error: 'LOW' was not declared in this scope
+   44 |             return (READ_BIT(PWR->SR2, PWR_SR2_RFBUSYS) != 0) ? HIGH : LOW;
+      |                                                                        ^~~
+gmake[2]: *** [CMakeFiles/ComsBoard_RadioLib.dir/build.make:285: CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/STM32CubeHal.cpp.obj] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:119: CMakeFiles/ComsBoard_RadioLib.dir/all] Error 2
+gmake: *** [Makefile:136: all] Error 2

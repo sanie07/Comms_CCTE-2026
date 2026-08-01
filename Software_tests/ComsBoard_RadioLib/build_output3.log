@@ -1,0 +1,68 @@
+Build type: Debug
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/elias/Documents/ComsBoard_RadioLib/build
+[  2%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/Hal.cpp.obj
+[  2%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_tim.c.obj
+[  2%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32wlxx.c.obj
+[  3%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_tim_ex.c.obj
+[  4%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/Module.cpp.obj
+[  4%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_adc.c.obj
+[  5%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/CC1101/CC1101.cpp.obj
+[  6%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_adc_ex.c.obj
+[  7%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_ll_adc.c.obj
+[  8%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rcc.c.obj
+[  9%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rcc_ex.c.obj
+[ 10%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_flash.c.obj
+[ 11%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LLCC68/LLCC68.cpp.obj
+[ 12%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR11x0/LR1110.cpp.obj
+[ 12%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_flash_ex.c.obj
+[ 13%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_gpio.c.obj
+[ 14%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_dma.c.obj
+[ 15%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_dma_ex.c.obj
+[ 16%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr.c.obj
+[ 17%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR11x0/LR1120.cpp.obj
+[ 18%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr_ex.c.obj
+[ 18%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_cortex.c.obj
+[ 19%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal.c.obj
+[ 20%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_exti.c.obj
+[ 20%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR11x0/LR1121.cpp.obj
+[ 21%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR11x0/LR11x0.cpp.obj
+[ 22%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_dac.c.obj
+[ 23%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_dac_ex.c.obj
+[ 24%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rtc.c.obj
+[ 24%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rtc_ex.c.obj
+[ 25%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_spi.c.obj
+[ 26%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_spi_ex.c.obj
+[ 27%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR11x0/LR11x0_commands.cpp.obj
+[ 28%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR11x0/LR11x0_crypto.cpp.obj
+[ 29%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_subghz.c.obj
+[ 30%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart.c.obj
+[ 31%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR11x0/LR11x0_gnss.cpp.obj
+[ 32%] Building C object cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart_ex.c.obj
+[ 32%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR11x0/LR11x0_wifi.cpp.obj
+[ 33%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR11x0/LR_common.cpp.obj
+[ 34%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021.cpp.obj
+[ 35%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021_cmds_chip_control.cpp.obj
+[ 36%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021_cmds_flrc.cpp.obj
+[ 36%] Built target STM32_Drivers
+[ 37%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021_cmds_gfsk.cpp.obj
+[ 37%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021_cmds_lora.cpp.obj
+[ 38%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021_cmds_misc.cpp.obj
+[ 39%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021_cmds_ook.cpp.obj
+[ 40%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021_cmds_oqpsk.cpp.obj
+[ 41%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021_cmds_radio.cpp.obj
+[ 42%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021_cmds_ranging.cpp.obj
+[ 42%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021_config.cpp.obj
+[ 43%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/RF69/RF69.cpp.obj
+[ 44%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX123x/SX1231.cpp.obj
+[ 45%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX123x/SX1233.cpp.obj
+[ 46%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX126x/STM32WLx.cpp.obj
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/STM32WLx.cpp:16:12: fatal error: stm32wlxx_hal.h: No such file or directory
+   16 |   #include "stm32wlxx_hal.h"
+      |            ^~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [Core/RadioLib-master/CMakeFiles/RadioLib.dir/build.make:454: Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX126x/STM32WLx.cpp.obj] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:171: Core/RadioLib-master/CMakeFiles/RadioLib.dir/all] Error 2
+gmake: *** [Makefile:136: all] Error 2

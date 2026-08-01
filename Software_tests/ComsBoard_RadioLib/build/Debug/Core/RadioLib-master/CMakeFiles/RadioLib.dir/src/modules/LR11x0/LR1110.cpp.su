@@ -1,0 +1,22 @@
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/../LR11x0/../../protocols/PhysicalLayer/PhysicalLayer.h:416:13:constexpr PhysicalLayer::~PhysicalLayer()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/../LR11x0/../../protocols/PhysicalLayer/PhysicalLayer.h:416:13:virtual constexpr PhysicalLayer::~PhysicalLayer()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/../LR11x0/LR_common.h:91:7:constexpr LRxxxx::~LRxxxx()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/../LR11x0/LR_common.h:91:7:virtual constexpr LRxxxx::~LRxxxx()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.h:30:7:constexpr LR11x0::~LR11x0()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.h:30:7:virtual constexpr LR11x0::~LR11x0()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR1110.cpp:6:1:LR1110::LR1110(Module*)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR1110.cpp:10:9:int16_t LR1110::begin(const ConfigLoRa_t&)	56	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR1110.cpp:23:9:int16_t LR1110::begin(float, float, uint8_t, uint8_t, uint8_t, int8_t, uint16_t, float)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR1110.cpp:36:9:int16_t LR1110::beginGFSK(const ConfigFSK_t&)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR1110.cpp:49:9:int16_t LR1110::beginGFSK(float, float, float, float, int8_t, uint16_t, float)	56	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR1110.cpp:61:9:int16_t LR1110::beginLRFHSS(const ConfigLRFHSS_t&)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR1110.cpp:74:9:int16_t LR1110::beginLRFHSS(float, uint8_t, uint8_t, bool, int8_t, float)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR1110.cpp:85:9:virtual int16_t LR1110::setFrequency(float)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR1110.cpp:89:9:int16_t LR1110::setFrequency(float, bool, float)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR1110.cpp:106:9:virtual int16_t LR1110::setOutputPower(int8_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR1110.cpp:110:9:int16_t LR1110::setOutputPower(int8_t, bool, uint32_t)	64	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR1110.cpp:127:9:virtual int16_t LR1110::checkOutputPower(int8_t, int8_t*)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR1110.cpp:131:9:int16_t LR1110::checkOutputPower(int8_t, int8_t*, bool)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR1110.cpp:148:9:virtual int16_t LR1110::setModem(ModemType_t)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR1110.h:15:7:constexpr LR1110::~LR1110()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR1110.h:15:7:virtual constexpr LR1110::~LR1110()	16	static

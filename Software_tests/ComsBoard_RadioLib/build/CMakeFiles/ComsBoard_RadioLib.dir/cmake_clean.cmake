@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "ComsBoard_RadioLib.map"
+  "CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/STM32CubeHal.cpp.obj"
+  "CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/STM32CubeHal.cpp.obj.d"
+  "CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/adc.c.obj"
+  "CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/adc.c.obj.d"
+  "CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/dac.c.obj"
+  "CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/dac.c.obj.d"
+  "CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/gpio.c.obj"
+  "CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/gpio.c.obj.d"
+  "CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/main.c.obj"
+  "CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/main.c.obj.d"
+  "CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/radio_app.cpp.obj"
+  "CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/radio_app.cpp.obj.d"
+  "CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/rtc.c.obj"
+  "CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/rtc.c.obj.d"
+  "CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/spi.c.obj"
+  "CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/spi.c.obj.d"
+  "CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/stm32wlxx_hal_msp.c.obj"
+  "CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/stm32wlxx_hal_msp.c.obj.d"
+  "CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/stm32wlxx_hal_timebase_tim.c.obj"
+  "CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/stm32wlxx_hal_timebase_tim.c.obj.d"
+  "CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/stm32wlxx_it.c.obj"
+  "CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/stm32wlxx_it.c.obj.d"
+  "CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/subghz.c.obj"
+  "CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/subghz.c.obj.d"
+  "CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/syscalls.c.obj"
+  "CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/syscalls.c.obj.d"
+  "CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/sysmem.c.obj"
+  "CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/sysmem.c.obj.d"
+  "CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/usart.c.obj"
+  "CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/usart.c.obj.d"
+  "CMakeFiles/ComsBoard_RadioLib.dir/startup_stm32wle5xx.s.obj"
+  "ComsBoard_RadioLib.elf"
+  "ComsBoard_RadioLib.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang ASM C CXX)
+  include(CMakeFiles/ComsBoard_RadioLib.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

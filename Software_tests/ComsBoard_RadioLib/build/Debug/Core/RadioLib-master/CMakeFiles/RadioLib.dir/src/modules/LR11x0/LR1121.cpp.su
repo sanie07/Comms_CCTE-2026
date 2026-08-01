@@ -1,0 +1,11 @@
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/../LR11x0/../../protocols/PhysicalLayer/PhysicalLayer.h:416:13:constexpr PhysicalLayer::~PhysicalLayer()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/../LR11x0/../../protocols/PhysicalLayer/PhysicalLayer.h:416:13:virtual constexpr PhysicalLayer::~PhysicalLayer()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/../LR11x0/LR_common.h:91:7:constexpr LRxxxx::~LRxxxx()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/../LR11x0/LR_common.h:91:7:virtual constexpr LRxxxx::~LRxxxx()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.h:30:7:constexpr LR11x0::~LR11x0()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.h:30:7:virtual constexpr LR11x0::~LR11x0()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR1120.h:15:7:constexpr LR1120::~LR1120()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR1120.h:15:7:virtual constexpr LR1120::~LR1120()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR1121.cpp:4:1:LR1121::LR1121(Module*)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR1121.h:16:7:constexpr LR1121::~LR1121()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR1121.h:16:7:virtual constexpr LR1121::~LR1121()	16	static

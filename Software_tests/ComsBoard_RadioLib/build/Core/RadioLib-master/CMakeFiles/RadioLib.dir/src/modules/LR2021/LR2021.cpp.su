@@ -1,0 +1,60 @@
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/../../Module.h:396:14:uint32_t Module::getIrq() const	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/../../Module.h:408:14:uint32_t Module::getGpio() const	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/../../protocols/PhysicalLayer/PhysicalLayer.h:416:13:constexpr PhysicalLayer::~PhysicalLayer()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/../../protocols/PhysicalLayer/PhysicalLayer.h:416:13:virtual constexpr PhysicalLayer::~PhysicalLayer()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/../LR11x0/LR_common.h:91:7:constexpr LRxxxx::~LRxxxx()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/../LR11x0/LR_common.h:91:7:virtual constexpr LRxxxx::~LRxxxx()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:8:1:LR2021::LR2021(Module*)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:24:9:int16_t LR2021::begin(const ConfigLoRa_t&)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:56:9:int16_t LR2021::begin(float, float, uint8_t, uint8_t, uint8_t, int8_t, uint16_t, float)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:69:9:int16_t LR2021::beginGFSK(const ConfigFSK_t&)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:111:9:int16_t LR2021::beginGFSK(float, float, float, float, int8_t, uint16_t, float)	56	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:123:9:int16_t LR2021::beginOOK(const ConfigOOK_t&)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:161:9:int16_t LR2021::beginOOK(float, float, float, int8_t, uint16_t, float)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:172:9:int16_t LR2021::beginLRFHSS(const ConfigLRFHSS_t&)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:192:9:int16_t LR2021::beginLRFHSS(float, uint8_t, uint8_t, bool, int8_t, float)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:203:9:int16_t LR2021::beginFLRC(const ConfigFLRC_t&)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:245:9:int16_t LR2021::beginFLRC(float, uint16_t, uint8_t, int8_t, uint16_t, uint8_t, float)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:257:9:virtual int16_t LR2021::transmit(const uint8_t*, size_t, uint8_t)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:317:9:virtual int16_t LR2021::receive(uint8_t*, size_t, RadioLibTime_t)	64	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:384:9:virtual int16_t LR2021::transmitDirect(uint32_t)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:399:9:virtual int16_t LR2021::receiveDirect()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:407:9:virtual int16_t LR2021::scanChannel()	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:422:9:virtual int16_t LR2021::scanChannel(const ChannelScanConfig_t&)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:436:9:virtual int16_t LR2021::standby()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:440:9:virtual int16_t LR2021::standby(uint8_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:444:9:int16_t LR2021::standby(uint8_t, bool)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:458:9:virtual int16_t LR2021::sleep()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:462:9:int16_t LR2021::sleep(bool, uint32_t)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:480:8:virtual size_t LR2021::getPacketLength(bool)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:495:9:virtual int16_t LR2021::finishTransmit()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:503:9:virtual int16_t LR2021::startReceive()	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:507:9:int16_t LR2021::startReceiveDutyCycle(uint32_t, uint32_t, RadioLibIrqFlags_t, RadioLibIrqFlags_t)	56	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:544:9:int16_t LR2021::startReceiveDutyCycleAuto(uint16_t, uint16_t, RadioLibIrqFlags_t, RadioLibIrqFlags_t)	72	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:566:9:virtual int16_t LR2021::readData(uint8_t*, size_t)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:618:9:virtual int16_t LR2021::finishReceive()	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:627:9:virtual int16_t LR2021::startChannelScan()	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:642:9:virtual int16_t LR2021::startChannelScan(const ChannelScanConfig_t&)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:672:9:virtual int16_t LR2021::getChannelScanResult()	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:695:10:virtual uint32_t LR2021::getIrqFlags()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:699:9:virtual int16_t LR2021::setIrqFlags(uint32_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:703:9:virtual int16_t LR2021::clearIrqFlags(uint32_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:707:9:virtual int16_t LR2021::setModem(ModemType_t)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:723:9:virtual Module* LR2021::getMod()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:727:9:int16_t LR2021::modSetup(float, uint8_t)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:764:6:bool LR2021::findChip()	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:795:9:int16_t LR2021::config(uint8_t)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:840:9:int16_t LR2021::startCad(uint8_t, uint8_t, bool, uint8_t, RadioLibTime_t)	56	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:882:16:virtual RadioLibTime_t LR2021::getTimeOnAir(size_t)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:931:9:virtual int16_t LR2021::getModem(ModemType_t*)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:953:9:virtual int16_t LR2021::stageMode(RadioModeType_t, RadioModeConfig_t*)	80	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:1086:9:virtual int16_t LR2021::launchMode()	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:1113:7:float LR2021::getVoltage(uint8_t)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:1126:7:float LR2021::getTemperature(uint8_t, uint8_t)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:1139:7:virtual float LR2021::getRSSI()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:1143:7:float LR2021::getRSSI(bool, bool)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:1175:7:virtual float LR2021::getSNR()	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:1186:9:virtual uint8_t LR2021::randomByte()	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp:1192:9:int16_t LR2021::getLoRaRxHeaderInfo(uint8_t*, bool*)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.h:25:7:constexpr LR2021::~LR2021()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.h:25:7:virtual constexpr LR2021::~LR2021()	16	static

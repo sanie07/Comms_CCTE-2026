@@ -1,0 +1,7 @@
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX128x/../../protocols/PhysicalLayer/PhysicalLayer.h:416:13:constexpr PhysicalLayer::~PhysicalLayer()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX128x/../../protocols/PhysicalLayer/PhysicalLayer.h:416:13:virtual constexpr PhysicalLayer::~PhysicalLayer()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX128x/SX128x.h:353:7:constexpr SX128x::~SX128x()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX128x/SX128x.h:353:7:virtual constexpr SX128x::~SX128x()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX128x/SX1281.cpp:4:1:SX1281::SX1281(Module*)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX128x/SX1281.h:18:7:constexpr SX1281::~SX1281()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX128x/SX1281.h:18:7:virtual constexpr SX1281::~SX1281()	16	static

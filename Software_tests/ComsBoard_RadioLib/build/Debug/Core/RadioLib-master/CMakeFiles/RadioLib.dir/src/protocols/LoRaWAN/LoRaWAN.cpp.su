@@ -1,0 +1,104 @@
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/../PhysicalLayer/../../Module.h:396:14:uint32_t Module::getIrq() const	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:29:1:LoRaWANNode::LoRaWANNode(PhysicalLayer*, const LoRaWANBand_t*, uint8_t)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:74:9:virtual int16_t LoRaWANNode::sendReceive(const char*, uint8_t, bool, LoRaWANEvent_t*, LoRaWANEvent_t*)	304	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:83:9:virtual int16_t LoRaWANNode::sendReceive(const char*, uint8_t, uint8_t*, size_t*, bool, LoRaWANEvent_t*, LoRaWANEvent_t*)	56	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:87:9:virtual int16_t LoRaWANNode::sendReceive(const uint8_t*, size_t, uint8_t, bool, LoRaWANEvent_t*, LoRaWANEvent_t*)	304	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:96:9:virtual int16_t LoRaWANNode::sendReceive(const uint8_t*, size_t, uint8_t, uint8_t*, size_t*, bool, LoRaWANEvent_t*, LoRaWANEvent_t*)	80	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:294:6:void LoRaWANNode::clearNonces()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:303:10:uint8_t* LoRaWANNode::getBufferNonces()	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:317:9:int16_t LoRaWANNode::setBufferNonces(const uint8_t*)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:354:6:void LoRaWANNode::clearSession()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:393:6:void LoRaWANNode::createSession()	56	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:507:10:uint8_t* LoRaWANNode::getBufferSession()	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:536:9:int16_t LoRaWANNode::setBufferSession(const uint8_t*)	112	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:664:9:int16_t LoRaWANNode::beginOTAA(uint64_t, uint64_t, const uint8_t*, const uint8_t*)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:693:9:int16_t LoRaWANNode::beginABP(uint32_t, const uint8_t*, const uint8_t*, const uint8_t*, const uint8_t*)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:725:6:void LoRaWANNode::composeJoinRequest(uint8_t*)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:745:9:int16_t LoRaWANNode::processJoinAccept(LoRaWANJoinEvent_t*)	216	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:933:9:virtual int16_t LoRaWANNode::activateOTAA(LoRaWANJoinEvent_t*)	64	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:1030:9:virtual int16_t LoRaWANNode::activateABP()	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:1077:6:void LoRaWANNode::processCFList(const uint8_t*)	64	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:1123:6:bool LoRaWANNode::isActivated()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:1127:9:int16_t LoRaWANNode::setClass(uint8_t)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:1164:9:int16_t LoRaWANNode::startMulticastSession(uint8_t, uint32_t, const uint8_t*, const uint8_t*, uint32_t, uint32_t, uint32_t, uint8_t)	96	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:1182:9:int16_t LoRaWANNode::startMulticastSession(uint8_t, MulticastGroup_t*)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:1237:6:bool LoRaWANNode::stopMulticastSession(uint8_t, bool)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:1270:9:int16_t LoRaWANNode::isValidUplink(size_t, uint8_t)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:1297:6:void LoRaWANNode::adrBackoff()	72	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:1371:6:void LoRaWANNode::composeUplink(const uint8_t*, uint8_t, uint8_t*, uint8_t, bool)	72	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:1440:6:void LoRaWANNode::micUplink(uint8_t*, size_t)	80	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:1475:9:int16_t LoRaWANNode::transmitUplink(const LoRaWANChannel_t*, uint8_t*, uint8_t)	112	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:1563:13:void LoRaWANNodeOnDownlinkAction()	4	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:1567:9:int16_t LoRaWANNode::receiveClassA(uint8_t, const LoRaWANChannel_t*, uint8_t, RadioLibTime_t, RadioLibTime_t)	128	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:1708:9:int16_t LoRaWANNode::receiveClassC(RadioLibTime_t)	64	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:1816:9:virtual int16_t LoRaWANNode::receiveDownlink()	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:1856:9:int16_t LoRaWANNode::parseDownlink(uint8_t*, size_t*, uint8_t, LoRaWANEvent_t*)	384	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:2314:9:int16_t LoRaWANNode::getDownlinkClassC(uint8_t*, size_t*, LoRaWANEvent_t*)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:2338:6:bool LoRaWANNode::execMacCommand(uint8_t, uint8_t*, uint8_t)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:2343:6:bool LoRaWANNode::execMacCommand(uint8_t, uint8_t*, uint8_t, uint8_t*)	168	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:2840:6:virtual bool LoRaWANNode::derivedMacHandler(uint8_t, uint8_t*, uint8_t, uint8_t*)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:2848:6:void LoRaWANNode::preprocessMacLinkAdr(uint8_t*, uint8_t, uint8_t*)	72	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:2932:6:void LoRaWANNode::postprocessMacLinkAdr(uint8_t*, uint8_t)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:2944:9:int16_t LoRaWANNode::getMacCommand(uint8_t, LoRaWANMacCommand_t*)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:2956:9:virtual int16_t LoRaWANNode::derivedMacFinder(uint8_t, LoRaWANMacCommand_t*)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:2962:9:int16_t LoRaWANNode::sendMacCommandReq(uint8_t)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:2986:9:int16_t LoRaWANNode::getMacLinkCheckAns(uint8_t*, uint8_t*)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:2997:9:int16_t LoRaWANNode::getMacDeviceTimeAns(uint32_t*, uint16_t*, bool)	56	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:3023:9:virtual int16_t LoRaWANNode::getMacLen(uint8_t, uint8_t*, uint8_t, bool, uint8_t*)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:3042:6:bool LoRaWANNode::isPersistentMacCommand(uint8_t, uint8_t)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:3059:9:int16_t LoRaWANNode::pushMacCommand(uint8_t, const uint8_t*, uint8_t*, uint8_t*, uint8_t)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:3076:9:int16_t LoRaWANNode::getMacPayload(uint8_t, const uint8_t*, uint8_t, uint8_t*, uint8_t)	56	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:3104:9:int16_t LoRaWANNode::deleteMacCommand(uint8_t, uint8_t*, uint8_t*, uint8_t)	56	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:3134:6:void LoRaWANNode::clearMacCommands(uint8_t*, uint8_t*, uint8_t)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:3160:9:int16_t LoRaWANNode::setDatarate(uint8_t)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:3182:9:int16_t LoRaWANNode::setTxPower(int8_t)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:3212:9:int16_t LoRaWANNode::setRx2Dr(uint8_t)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:3244:6:void LoRaWANNode::setADR(bool)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:3248:6:void LoRaWANNode::setDutyCycle(bool, RadioLibTime_t)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:3261:6:void LoRaWANNode::setDwellTime(bool, RadioLibTime_t)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:3274:6:void LoRaWANNode::setCSMA(bool, uint8_t, uint8_t, uint8_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:3288:6:void LoRaWANNode::setDeviceStatus(uint8_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:3292:6:void LoRaWANNode::setActivityLeds(const uint32_t*)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:3303:6:void LoRaWANNode::scheduleTransmission(RadioLibTime_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:3307:22:const LoRaWANBand_t* LoRaWANNode::getBand()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:3311:9:uint8_t LoRaWANNode::getClass()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:3315:9:uint8_t LoRaWANNode::getVersionMajor()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:3320:10:uint32_t LoRaWANNode::getFCntUp()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:3327:10:uint32_t LoRaWANNode::getNFCntDown()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:3331:10:uint32_t LoRaWANNode::getAFCntDown()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:3335:10:uint32_t LoRaWANNode::getRxFCnt()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:3339:10:uint32_t LoRaWANNode::getRxFCntMulticast(uint8_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:3346:10:uint32_t LoRaWANNode::getDevAddr()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:3350:16:RadioLibTime_t LoRaWANNode::getLastToA()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:3354:9:uint8_t LoRaWANNode::getMacUplinkLen()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:3358:9:int16_t LoRaWANNode::setPhyProperties(const LoRaWANChannel_t*, uint8_t, int8_t, size_t)	56	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:3447:6:bool LoRaWANNode::csmaChannelClear(uint8_t, uint8_t)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:3467:6:bool LoRaWANNode::cadChannelClear()	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:3476:6:void LoRaWANNode::enableDefaultChannels(bool)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:3523:6:bool LoRaWANNode::calculateChannelFlags()	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:3574:9:int16_t LoRaWANNode::selectChannels()	72	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:3691:9:uint8_t LoRaWANNode::getMulticastClass()	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:3701:10:uint32_t LoRaWANNode::getMulticastFrequency()	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:3711:9:uint8_t LoRaWANNode::getMulticastDatarate()	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:3721:6:bool LoRaWANNode::isMulticastDevAddr(uint32_t, uint8_t*)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:3733:10:uint32_t LoRaWANNode::generateMIC(const uint8_t*, size_t, uint8_t*)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:3745:6:bool LoRaWANNode::verifyMIC(uint8_t*, size_t, uint8_t*)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:3766:16:RadioLibTime_t LoRaWANNode::dutyCycleInterval(RadioLibTime_t, RadioLibTime_t)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:3776:16:RadioLibTime_t LoRaWANNode::timeUntilUplink()	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:3785:9:virtual uint8_t LoRaWANNode::getMaxPayloadLen()	64	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:3822:6:void LoRaWANNode::setSleepFunction(SleepCb_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:3826:9:int16_t LoRaWANNode::addAppPackage(uint8_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:3830:9:int16_t LoRaWANNode::addNwkPackage(uint8_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:3834:9:int16_t LoRaWANNode::addPackage(uint8_t, bool)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:3844:6:void LoRaWANNode::removePackage(uint8_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:3848:6:void LoRaWANNode::processAES(const uint8_t*, size_t, uint8_t*, uint8_t*, uint32_t, uint32_t, uint8_t, uint8_t, bool)	88	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:3894:6:void LoRaWANNode::sleepDelay(RadioLibTime_t, bool)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:3922:9:static int16_t LoRaWANNode::checkBufferCommon(const uint8_t*, uint16_t)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp:3944:10:static uint16_t LoRaWANNode::checkSum16(const uint8_t*, uint16_t)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.h:1281:6:static void LoRaWANNode::hton(uint8_t*, T, size_t) [with T = short unsigned int]	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.h:1281:6:static void LoRaWANNode::hton(uint8_t*, T, size_t) [with T = unsigned char]	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.h:1267:3:static T LoRaWANNode::ntoh(const uint8_t*, size_t) [with T = short unsigned int]	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.h:1267:3:static T LoRaWANNode::ntoh(const uint8_t*, size_t) [with T = unsigned char]	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.h:1267:3:static T LoRaWANNode::ntoh(const uint8_t*, size_t) [with T = long unsigned int]	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.h:1281:6:static void LoRaWANNode::hton(uint8_t*, T, size_t) [with T = long unsigned int]	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.h:1281:6:static void LoRaWANNode::hton(uint8_t*, T, size_t) [with T = long long unsigned int]	48	static

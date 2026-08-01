@@ -1,0 +1,5 @@
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_cmds_oqpsk.cpp:10:9:int16_t LR2021::setOqpskParams(uint8_t, uint8_t, uint8_t, uint16_t, bool, bool)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_cmds_oqpsk.cpp:19:9:int16_t LR2021::getOqpskRxStats(uint16_t*, uint16_t*, uint16_t*)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_cmds_oqpsk.cpp:28:9:int16_t LR2021::getOqpskPacketStatus(uint8_t*, uint16_t*, float*, float*, float*)	56	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_cmds_oqpsk.cpp:48:9:int16_t LR2021::setOqpskPacketLen(uint8_t)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_cmds_oqpsk.cpp:52:9:int16_t LR2021::setOqpskAddress(const uint8_t*, uint16_t, uint16_t, uint8_t)	56	static

@@ -1,0 +1,716 @@
+[
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DCORE_CM4 -DDEBUG -DSTM32WLE5xx -DUSE_HAL_DRIVER -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Include -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/main.c.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/Src/main.c",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/Src/main.c",
+  "output": "CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/main.c.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DCORE_CM4 -DDEBUG -DSTM32WLE5xx -DUSE_HAL_DRIVER -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Include -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/gpio.c.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/Src/gpio.c",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/Src/gpio.c",
+  "output": "CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/gpio.c.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DCORE_CM4 -DDEBUG -DSTM32WLE5xx -DUSE_HAL_DRIVER -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Include -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/adc.c.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/Src/adc.c",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/Src/adc.c",
+  "output": "CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/adc.c.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DCORE_CM4 -DDEBUG -DSTM32WLE5xx -DUSE_HAL_DRIVER -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Include -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/dac.c.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/Src/dac.c",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/Src/dac.c",
+  "output": "CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/dac.c.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DCORE_CM4 -DDEBUG -DSTM32WLE5xx -DUSE_HAL_DRIVER -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Include -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/rtc.c.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/Src/rtc.c",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/Src/rtc.c",
+  "output": "CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/rtc.c.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DCORE_CM4 -DDEBUG -DSTM32WLE5xx -DUSE_HAL_DRIVER -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Include -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/spi.c.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/Src/spi.c",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/Src/spi.c",
+  "output": "CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/spi.c.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DCORE_CM4 -DDEBUG -DSTM32WLE5xx -DUSE_HAL_DRIVER -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Include -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/subghz.c.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/Src/subghz.c",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/Src/subghz.c",
+  "output": "CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/subghz.c.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DCORE_CM4 -DDEBUG -DSTM32WLE5xx -DUSE_HAL_DRIVER -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Include -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/usart.c.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/Src/usart.c",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/Src/usart.c",
+  "output": "CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/usart.c.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DCORE_CM4 -DDEBUG -DSTM32WLE5xx -DUSE_HAL_DRIVER -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Include -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/stm32wlxx_it.c.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/Src/stm32wlxx_it.c",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/Src/stm32wlxx_it.c",
+  "output": "CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/stm32wlxx_it.c.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DCORE_CM4 -DDEBUG -DSTM32WLE5xx -DUSE_HAL_DRIVER -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Include -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/stm32wlxx_hal_msp.c.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/Src/stm32wlxx_hal_msp.c",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/Src/stm32wlxx_hal_msp.c",
+  "output": "CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/stm32wlxx_hal_msp.c.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DCORE_CM4 -DDEBUG -DSTM32WLE5xx -DUSE_HAL_DRIVER -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Include -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/stm32wlxx_hal_timebase_tim.c.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/Src/stm32wlxx_hal_timebase_tim.c",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/Src/stm32wlxx_hal_timebase_tim.c",
+  "output": "CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/stm32wlxx_hal_timebase_tim.c.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DCORE_CM4 -DDEBUG -DSTM32WLE5xx -DUSE_HAL_DRIVER -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Include -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/sysmem.c.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/Src/sysmem.c",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/Src/sysmem.c",
+  "output": "CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/sysmem.c.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DCORE_CM4 -DDEBUG -DSTM32WLE5xx -DUSE_HAL_DRIVER -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Include -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/syscalls.c.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/Src/syscalls.c",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/Src/syscalls.c",
+  "output": "CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/syscalls.c.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DCORE_CM4 -DDEBUG -DSTM32WLE5xx -DUSE_HAL_DRIVER -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Include -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src  -mcpu=cortex-m4  -x assembler-with-cpp -MMD -MP -g -o CMakeFiles/ComsBoard_RadioLib.dir/startup_stm32wle5xx.s.obj -c /home/elias/Documents/ComsBoard_RadioLib/startup_stm32wle5xx.s",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/startup_stm32wle5xx.s",
+  "output": "CMakeFiles/ComsBoard_RadioLib.dir/startup_stm32wle5xx.s.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build",
+  "command": "/usr/bin/arm-none-eabi-g++ -DCORE_CM4 -DDEBUG -DSTM32WLE5xx -DUSE_HAL_DRIVER -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Include -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -o CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/radio_app.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/Src/radio_app.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/Src/radio_app.cpp",
+  "output": "CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/radio_app.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build",
+  "command": "/usr/bin/arm-none-eabi-g++ -DCORE_CM4 -DDEBUG -DSTM32WLE5xx -DUSE_HAL_DRIVER -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Include -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -o CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/STM32CubeHal.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/Src/STM32CubeHal.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/Src/STM32CubeHal.cpp",
+  "output": "CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/STM32CubeHal.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/cmake/stm32cubemx",
+  "command": "/usr/bin/arm-none-eabi-gcc -DCORE_CM4 -DDEBUG -DSTM32WLE5xx -DUSE_HAL_DRIVER -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32wlxx.c.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/Src/system_stm32wlxx.c",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/Src/system_stm32wlxx.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32wlxx.c.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/cmake/stm32cubemx",
+  "command": "/usr/bin/arm-none-eabi-gcc -DCORE_CM4 -DDEBUG -DSTM32WLE5xx -DUSE_HAL_DRIVER -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_tim.c.obj -c /home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_tim.c",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_tim.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_tim.c.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/cmake/stm32cubemx",
+  "command": "/usr/bin/arm-none-eabi-gcc -DCORE_CM4 -DDEBUG -DSTM32WLE5xx -DUSE_HAL_DRIVER -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_tim_ex.c.obj -c /home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_tim_ex.c",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_tim_ex.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_tim_ex.c.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/cmake/stm32cubemx",
+  "command": "/usr/bin/arm-none-eabi-gcc -DCORE_CM4 -DDEBUG -DSTM32WLE5xx -DUSE_HAL_DRIVER -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_adc.c.obj -c /home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_adc.c",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_adc.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_adc.c.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/cmake/stm32cubemx",
+  "command": "/usr/bin/arm-none-eabi-gcc -DCORE_CM4 -DDEBUG -DSTM32WLE5xx -DUSE_HAL_DRIVER -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_adc_ex.c.obj -c /home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_adc_ex.c",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_adc_ex.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_adc_ex.c.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/cmake/stm32cubemx",
+  "command": "/usr/bin/arm-none-eabi-gcc -DCORE_CM4 -DDEBUG -DSTM32WLE5xx -DUSE_HAL_DRIVER -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_ll_adc.c.obj -c /home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_ll_adc.c",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_ll_adc.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_ll_adc.c.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/cmake/stm32cubemx",
+  "command": "/usr/bin/arm-none-eabi-gcc -DCORE_CM4 -DDEBUG -DSTM32WLE5xx -DUSE_HAL_DRIVER -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rcc.c.obj -c /home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rcc.c",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rcc.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rcc.c.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/cmake/stm32cubemx",
+  "command": "/usr/bin/arm-none-eabi-gcc -DCORE_CM4 -DDEBUG -DSTM32WLE5xx -DUSE_HAL_DRIVER -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rcc_ex.c.obj -c /home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rcc_ex.c",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rcc_ex.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rcc_ex.c.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/cmake/stm32cubemx",
+  "command": "/usr/bin/arm-none-eabi-gcc -DCORE_CM4 -DDEBUG -DSTM32WLE5xx -DUSE_HAL_DRIVER -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_flash.c.obj -c /home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_flash.c",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_flash.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_flash.c.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/cmake/stm32cubemx",
+  "command": "/usr/bin/arm-none-eabi-gcc -DCORE_CM4 -DDEBUG -DSTM32WLE5xx -DUSE_HAL_DRIVER -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_flash_ex.c.obj -c /home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_flash_ex.c",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_flash_ex.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_flash_ex.c.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/cmake/stm32cubemx",
+  "command": "/usr/bin/arm-none-eabi-gcc -DCORE_CM4 -DDEBUG -DSTM32WLE5xx -DUSE_HAL_DRIVER -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_gpio.c.obj -c /home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_gpio.c",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_gpio.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_gpio.c.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/cmake/stm32cubemx",
+  "command": "/usr/bin/arm-none-eabi-gcc -DCORE_CM4 -DDEBUG -DSTM32WLE5xx -DUSE_HAL_DRIVER -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_dma.c.obj -c /home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_dma.c",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_dma.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_dma.c.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/cmake/stm32cubemx",
+  "command": "/usr/bin/arm-none-eabi-gcc -DCORE_CM4 -DDEBUG -DSTM32WLE5xx -DUSE_HAL_DRIVER -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_dma_ex.c.obj -c /home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_dma_ex.c",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_dma_ex.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_dma_ex.c.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/cmake/stm32cubemx",
+  "command": "/usr/bin/arm-none-eabi-gcc -DCORE_CM4 -DDEBUG -DSTM32WLE5xx -DUSE_HAL_DRIVER -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr.c.obj -c /home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr.c",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr.c.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/cmake/stm32cubemx",
+  "command": "/usr/bin/arm-none-eabi-gcc -DCORE_CM4 -DDEBUG -DSTM32WLE5xx -DUSE_HAL_DRIVER -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr_ex.c.obj -c /home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr_ex.c",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr_ex.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr_ex.c.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/cmake/stm32cubemx",
+  "command": "/usr/bin/arm-none-eabi-gcc -DCORE_CM4 -DDEBUG -DSTM32WLE5xx -DUSE_HAL_DRIVER -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_cortex.c.obj -c /home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_cortex.c",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_cortex.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_cortex.c.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/cmake/stm32cubemx",
+  "command": "/usr/bin/arm-none-eabi-gcc -DCORE_CM4 -DDEBUG -DSTM32WLE5xx -DUSE_HAL_DRIVER -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal.c.obj -c /home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal.c",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal.c.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/cmake/stm32cubemx",
+  "command": "/usr/bin/arm-none-eabi-gcc -DCORE_CM4 -DDEBUG -DSTM32WLE5xx -DUSE_HAL_DRIVER -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_exti.c.obj -c /home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_exti.c",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_exti.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_exti.c.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/cmake/stm32cubemx",
+  "command": "/usr/bin/arm-none-eabi-gcc -DCORE_CM4 -DDEBUG -DSTM32WLE5xx -DUSE_HAL_DRIVER -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_dac.c.obj -c /home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_dac.c",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_dac.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_dac.c.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/cmake/stm32cubemx",
+  "command": "/usr/bin/arm-none-eabi-gcc -DCORE_CM4 -DDEBUG -DSTM32WLE5xx -DUSE_HAL_DRIVER -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_dac_ex.c.obj -c /home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_dac_ex.c",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_dac_ex.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_dac_ex.c.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/cmake/stm32cubemx",
+  "command": "/usr/bin/arm-none-eabi-gcc -DCORE_CM4 -DDEBUG -DSTM32WLE5xx -DUSE_HAL_DRIVER -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rtc.c.obj -c /home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rtc.c",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rtc.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rtc.c.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/cmake/stm32cubemx",
+  "command": "/usr/bin/arm-none-eabi-gcc -DCORE_CM4 -DDEBUG -DSTM32WLE5xx -DUSE_HAL_DRIVER -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rtc_ex.c.obj -c /home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rtc_ex.c",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rtc_ex.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rtc_ex.c.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/cmake/stm32cubemx",
+  "command": "/usr/bin/arm-none-eabi-gcc -DCORE_CM4 -DDEBUG -DSTM32WLE5xx -DUSE_HAL_DRIVER -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_spi.c.obj -c /home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_spi.c",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_spi.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_spi.c.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/cmake/stm32cubemx",
+  "command": "/usr/bin/arm-none-eabi-gcc -DCORE_CM4 -DDEBUG -DSTM32WLE5xx -DUSE_HAL_DRIVER -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_spi_ex.c.obj -c /home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_spi_ex.c",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_spi_ex.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_spi_ex.c.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/cmake/stm32cubemx",
+  "command": "/usr/bin/arm-none-eabi-gcc -DCORE_CM4 -DDEBUG -DSTM32WLE5xx -DUSE_HAL_DRIVER -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_subghz.c.obj -c /home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_subghz.c",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_subghz.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_subghz.c.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/cmake/stm32cubemx",
+  "command": "/usr/bin/arm-none-eabi-gcc -DCORE_CM4 -DDEBUG -DSTM32WLE5xx -DUSE_HAL_DRIVER -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart.c.obj -c /home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart.c",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart.c.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/cmake/stm32cubemx",
+  "command": "/usr/bin/arm-none-eabi-gcc -DCORE_CM4 -DDEBUG -DSTM32WLE5xx -DUSE_HAL_DRIVER -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart_ex.c.obj -c /home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart_ex.c",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart_ex.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart_ex.c.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/Hal.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/Hal.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/Hal.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/Hal.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/Module.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/Module.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/Module.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/Module.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/modules/CC1101/CC1101.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/CC1101/CC1101.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/CC1101/CC1101.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/modules/LLCC68/LLCC68.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LLCC68/LLCC68.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LLCC68/LLCC68.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LLCC68/LLCC68.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/modules/LR11x0/LR1110.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR1110.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR1110.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR11x0/LR1110.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/modules/LR11x0/LR1120.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR1120.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR1120.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR11x0/LR1120.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/modules/LR11x0/LR1121.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR1121.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR1121.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR11x0/LR1121.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/modules/LR11x0/LR11x0.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR11x0/LR11x0.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/modules/LR11x0/LR11x0_commands.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0_commands.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0_commands.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR11x0/LR11x0_commands.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/modules/LR11x0/LR11x0_crypto.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0_crypto.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0_crypto.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR11x0/LR11x0_crypto.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/modules/LR11x0/LR11x0_gnss.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0_gnss.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0_gnss.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR11x0/LR11x0_gnss.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/modules/LR11x0/LR11x0_wifi.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0_wifi.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0_wifi.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR11x0/LR11x0_wifi.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/modules/LR11x0/LR_common.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR_common.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR_common.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR11x0/LR_common.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021_cmds_chip_control.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_cmds_chip_control.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_cmds_chip_control.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021_cmds_chip_control.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021_cmds_flrc.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_cmds_flrc.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_cmds_flrc.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021_cmds_flrc.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021_cmds_gfsk.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_cmds_gfsk.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_cmds_gfsk.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021_cmds_gfsk.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021_cmds_lora.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_cmds_lora.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_cmds_lora.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021_cmds_lora.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021_cmds_misc.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_cmds_misc.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_cmds_misc.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021_cmds_misc.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021_cmds_ook.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_cmds_ook.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_cmds_ook.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021_cmds_ook.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021_cmds_oqpsk.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_cmds_oqpsk.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_cmds_oqpsk.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021_cmds_oqpsk.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021_cmds_radio.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_cmds_radio.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_cmds_radio.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021_cmds_radio.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021_cmds_ranging.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_cmds_ranging.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_cmds_ranging.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021_cmds_ranging.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021_config.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_config.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_config.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021_config.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/modules/RF69/RF69.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/RF69/RF69.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/modules/SX123x/SX1231.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX123x/SX1231.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX123x/SX1231.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX123x/SX1231.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/modules/SX123x/SX1233.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX123x/SX1233.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX123x/SX1233.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX123x/SX1233.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/modules/SX126x/STM32WLx.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/STM32WLx.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/STM32WLx.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX126x/STM32WLx.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1261.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX1261.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX1261.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1261.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1262.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX1262.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX1262.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1262.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1268.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX1268.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX1268.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1268.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/modules/SX126x/SX126x.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX126x.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/modules/SX126x/SX126x_LR_FHSS.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x_LR_FHSS.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x_LR_FHSS.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX126x_LR_FHSS.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/modules/SX126x/SX126x_commands.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x_commands.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x_commands.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX126x_commands.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/modules/SX126x/SX126x_config.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x_config.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x_config.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX126x_config.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1272.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/SX1272.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/SX1272.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1272.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1273.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/SX1273.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/SX1273.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1273.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1276.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/SX1276.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/SX1276.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1276.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1277.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/SX1277.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/SX1277.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1277.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1278.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/SX1278.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/SX1278.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1278.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1279.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/SX1279.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/SX1279.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1279.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/modules/SX127x/SX127x.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/SX127x.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX127x/SX127x.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX127x.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1280.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX128x/SX1280.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX128x/SX1280.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1280.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1281.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX128x/SX1281.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX128x/SX1281.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1281.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1282.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX128x/SX1282.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX128x/SX1282.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1282.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/modules/SX128x/SX128x.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX128x/SX128x.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX128x/SX128x.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX128x/SX128x.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4430.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/Si443x/Si4430.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/Si443x/Si4430.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4430.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4431.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/Si443x/Si4431.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/Si443x/Si4431.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4431.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4432.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/Si443x/Si4432.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/Si443x/Si4432.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4432.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/modules/Si443x/Si443x.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/Si443x/Si443x.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/Si443x/Si443x.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/Si443x/Si443x.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/modules/nRF24/nRF24.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/nRF24.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/nRF24.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/nRF24/nRF24.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/protocols/ADSB/ADSB.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/ADSB/ADSB.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/ADSB/ADSB.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/ADSB/ADSB.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/protocols/AFSK/AFSK.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/AFSK/AFSK.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/AFSK/AFSK.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/AFSK/AFSK.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/protocols/APRS/APRS.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/APRS/APRS.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/APRS/APRS.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/APRS/APRS.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/protocols/AX25/AX25.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/AX25/AX25.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/AX25/AX25.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/AX25/AX25.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/protocols/BellModem/BellModem.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/BellModem/BellModem.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/BellModem/BellModem.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/BellModem/BellModem.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/protocols/ExternalRadio/ExternalRadio.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/ExternalRadio/ExternalRadio.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/ExternalRadio/ExternalRadio.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/ExternalRadio/ExternalRadio.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/protocols/FSK4/FSK4.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/FSK4/FSK4.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/FSK4/FSK4.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/FSK4/FSK4.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/protocols/Hellschreiber/Hellschreiber.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/Hellschreiber/Hellschreiber.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/Hellschreiber/Hellschreiber.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/Hellschreiber/Hellschreiber.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/protocols/LoRaWAN/LoRaWAN.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWAN.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/LoRaWAN/LoRaWAN.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/protocols/LoRaWAN/LoRaWANBands.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWANBands.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWANBands.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/LoRaWAN/LoRaWANBands.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/protocols/LoRaWAN/LoRaWANPacMan.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWANPacMan.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWANPacMan.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/LoRaWAN/LoRaWANPacMan.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/protocols/LoRaWAN/LoRaWANPackageTS003.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWANPackageTS003.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWANPackageTS003.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/LoRaWAN/LoRaWANPackageTS003.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/protocols/LoRaWAN/LoRaWANPackageTS009.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWANPackageTS009.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/LoRaWAN/LoRaWANPackageTS009.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/LoRaWAN/LoRaWANPackageTS009.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/protocols/Morse/Morse.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/Morse/Morse.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/Morse/Morse.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/Morse/Morse.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/protocols/Pager/Pager.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/Pager/Pager.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/Pager/Pager.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/Pager/Pager.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/protocols/PhysicalLayer/PhysicalLayer.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/PhysicalLayer/PhysicalLayer.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/PhysicalLayer/PhysicalLayer.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/PhysicalLayer/PhysicalLayer.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/protocols/Print/ITA2String.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/Print/ITA2String.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/Print/ITA2String.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/Print/ITA2String.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/protocols/Print/Print.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/Print/Print.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/Print/Print.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/Print/Print.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/protocols/RTTY/RTTY.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/RTTY/RTTY.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/RTTY/RTTY.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/RTTY/RTTY.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/protocols/SSTV/SSTV.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/SSTV/SSTV.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/SSTV/SSTV.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/SSTV/SSTV.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/utils/BCH.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/utils/BCH.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/utils/BCH.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/utils/BCH.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/utils/CRC.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/utils/CRC.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/utils/CRC.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/utils/CRC.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/utils/ConvCode.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/utils/ConvCode.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/utils/ConvCode.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/utils/ConvCode.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/utils/Cryptography.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/utils/Cryptography.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/utils/Cryptography.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/utils/Cryptography.cpp.obj"
+},
+{
+  "directory": "/home/elias/Documents/ComsBoard_RadioLib/build/Core/RadioLib-master",
+  "command": "/usr/bin/arm-none-eabi-g++ -DSTM32WLE5xx -I/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src -I/home/elias/Documents/ComsBoard_RadioLib/Core/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/home/elias/Documents/ComsBoard_RadioLib/Drivers/CMSIS/Include  -mcpu=cortex-m4  -Wall -fdata-sections -ffunction-sections -fstack-usage -fno-rtti -fno-exceptions -fno-threadsafe-statics -O0 -g3 -std=gnu++20 -Wall -Wextra -Wpedantic -Wdouble-promotion -o CMakeFiles/RadioLib.dir/src/utils/Utils.cpp.obj -c /home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/utils/Utils.cpp",
+  "file": "/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/utils/Utils.cpp",
+  "output": "Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/utils/Utils.cpp.obj"
+}
+]

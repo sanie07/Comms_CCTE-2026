@@ -1,0 +1,89 @@
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/../../Module.h:396:14:uint32_t Module::getIrq() const	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/../../Module.h:408:14:uint32_t Module::getGpio() const	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/../LR11x0/../../protocols/PhysicalLayer/PhysicalLayer.h:416:13:constexpr PhysicalLayer::~PhysicalLayer()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/../LR11x0/../../protocols/PhysicalLayer/PhysicalLayer.h:416:13:virtual constexpr PhysicalLayer::~PhysicalLayer()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/../LR11x0/LR_common.h:91:7:constexpr LRxxxx::~LRxxxx()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/../LR11x0/LR_common.h:91:7:virtual constexpr LRxxxx::~LRxxxx()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:8:1:LR11x0::LR11x0(Module*)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:24:9:int16_t LR11x0::begin(float, uint8_t, uint8_t, uint8_t, uint16_t, bool)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:58:9:int16_t LR11x0::beginGFSK(float, float, float, uint16_t)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:99:9:int16_t LR11x0::beginLRFHSS(uint8_t, uint8_t, bool)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:122:9:int16_t LR11x0::beginGNSS(uint8_t)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:152:9:virtual int16_t LR11x0::transmit(const uint8_t*, size_t, uint8_t)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:209:9:virtual int16_t LR11x0::receive(uint8_t*, size_t, RadioLibTime_t)	64	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:273:9:virtual int16_t LR11x0::transmitDirect(uint32_t)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:288:9:virtual int16_t LR11x0::receiveDirect()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:296:9:virtual int16_t LR11x0::scanChannel()	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:311:9:virtual int16_t LR11x0::scanChannel(const ChannelScanConfig_t&)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:325:9:virtual int16_t LR11x0::standby()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:329:9:virtual int16_t LR11x0::standby(uint8_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:333:9:int16_t LR11x0::standby(uint8_t, bool)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:347:9:virtual int16_t LR11x0::sleep()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:351:9:int16_t LR11x0::sleep(bool, uint32_t)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:373:9:virtual int16_t LR11x0::finishTransmit()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:381:9:virtual int16_t LR11x0::startReceive()	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:385:9:int16_t LR11x0::startReceiveDutyCycle(uint32_t, uint32_t, RadioLibIrqFlags_t, RadioLibIrqFlags_t)	56	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:419:9:int16_t LR11x0::startReceiveDutyCycleAuto(uint16_t, uint16_t, RadioLibIrqFlags_t, RadioLibIrqFlags_t)	72	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:441:9:virtual int16_t LR11x0::readData(uint8_t*, size_t)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:486:9:virtual int16_t LR11x0::finishReceive()	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:495:9:virtual int16_t LR11x0::startChannelScan()	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:510:9:virtual int16_t LR11x0::startChannelScan(const ChannelScanConfig_t&)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:540:9:virtual int16_t LR11x0::getChannelScanResult()	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:563:9:int16_t LR11x0::setBandwidth(float, bool)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:613:9:int16_t LR11x0::setSpreadingFactor(uint8_t, bool)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:636:9:int16_t LR11x0::setCodingRate(uint8_t, bool)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:672:9:int16_t LR11x0::setSyncWord(uint8_t)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:684:9:virtual int16_t LR11x0::setBitRate(float)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:705:9:virtual int16_t LR11x0::setFrequencyDeviation(float)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:729:9:int16_t LR11x0::setRxBandwidth(float)	56	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:778:9:virtual int16_t LR11x0::setSyncWord(uint8_t*, size_t)	80	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:820:9:int16_t LR11x0::setNodeAddress(uint8_t)	64	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:840:9:int16_t LR11x0::setBroadcastAddress(uint8_t)	64	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:859:9:int16_t LR11x0::disableAddressFiltering()	64	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:874:9:virtual int16_t LR11x0::setDataShaping(uint8_t)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:908:9:virtual int16_t LR11x0::setEncoding(uint8_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:912:9:int16_t LR11x0::fixedPacketLengthMode(uint8_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:916:9:int16_t LR11x0::variablePacketLengthMode(uint8_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:920:9:int16_t LR11x0::setWhitening(bool, uint16_t)	64	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:946:9:virtual int16_t LR11x0::setDataRate(DataRate_t, ModemType_t)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:998:9:virtual int16_t LR11x0::checkDataRate(DataRate_t, ModemType_t)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:1024:9:virtual int16_t LR11x0::setPreambleLength(size_t)	64	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:1047:9:int16_t LR11x0::setTCXO(float, uint32_t)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:1098:9:int16_t LR11x0::setCRC(uint8_t, uint32_t, uint32_t, bool)	72	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:1144:9:virtual int16_t LR11x0::invertIQ(bool)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:1157:7:virtual float LR11x0::getRSSI()	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:1174:7:float LR11x0::getRSSI(bool, bool)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:1190:7:virtual float LR11x0::getSNR()	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:1203:7:float LR11x0::getFrequencyError()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:1208:8:virtual size_t LR11x0::getPacketLength(bool)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:1212:8:size_t LR11x0::getPacketLength(bool, uint8_t*)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:1229:16:virtual RadioLibTime_t LR11x0::getTimeOnAir(size_t)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:1235:10:virtual uint32_t LR11x0::getIrqFlags()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:1239:9:virtual int16_t LR11x0::setIrqFlags(uint32_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:1243:9:virtual int16_t LR11x0::clearIrqFlags(uint32_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:1247:9:virtual uint8_t LR11x0::randomByte()	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:1253:9:int16_t LR11x0::implicitHeader(size_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:1257:9:int16_t LR11x0::explicitHeader()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:1261:9:int16_t LR11x0::setRegulatorLDO()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:1265:9:int16_t LR11x0::setRegulatorDCDC()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:1269:9:int16_t LR11x0::setRxBoostedGainMode(bool)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:1274:9:int16_t LR11x0::setOutputPower(int8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:1284:6:void LR11x0::setRfSwitchTable(const uint32_t (&)[5], const Module::RfSwitchMode_t*)	88	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:1325:9:int16_t LR11x0::forceLDRO(bool)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:1340:9:int16_t LR11x0::autoLDRO()	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:1352:9:int16_t LR11x0::setLrFhssConfig(uint8_t, uint8_t, uint8_t, uint16_t)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:1373:9:int16_t LR11x0::getVersionInfo(LR11x0VersionInfo_t*)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:1393:9:int16_t LR11x0::updateFirmware(const uint32_t*, size_t, bool)	80	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:1451:9:virtual int16_t LR11x0::getModem(ModemType_t*)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:1473:9:virtual int16_t LR11x0::stageMode(RadioModeType_t, RadioModeConfig_t*)	80	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:1589:9:virtual int16_t LR11x0::launchMode()	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:1616:9:int16_t LR11x0::workaroundGFSK()	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:1651:9:int16_t LR11x0::modSetup(uint8_t)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:1685:6:bool LR11x0::findChip(uint8_t)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:1733:9:int16_t LR11x0::config(uint8_t)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:1782:9:int16_t LR11x0::setPacketMode(uint8_t, uint8_t)	56	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:1800:9:int16_t LR11x0::startCad(uint8_t, uint8_t, uint8_t, uint8_t, RadioLibTime_t)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:1843:9:int16_t LR11x0::setHeaderType(uint8_t, size_t)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.cpp:1863:9:virtual Module* LR11x0::getMod()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.h:30:7:constexpr LR11x0::~LR11x0()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0.h:30:7:virtual constexpr LR11x0::~LR11x0()	16	static

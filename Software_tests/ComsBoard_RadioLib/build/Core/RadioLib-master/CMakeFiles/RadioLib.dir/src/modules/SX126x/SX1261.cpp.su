@@ -1,0 +1,11 @@
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/../../protocols/PhysicalLayer/PhysicalLayer.h:416:13:constexpr PhysicalLayer::~PhysicalLayer()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/../../protocols/PhysicalLayer/PhysicalLayer.h:416:13:virtual constexpr PhysicalLayer::~PhysicalLayer()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.h:37:7:constexpr SX126x::~SX126x()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.h:37:7:virtual constexpr SX126x::~SX126x()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX1262.h:22:7:constexpr SX1262::~SX1262()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX1262.h:22:7:virtual constexpr SX1262::~SX1262()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX1261.cpp:4:1:SX1261::SX1261(Module*)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX1261.cpp:8:9:virtual int16_t SX1261::setOutputPower(int8_t)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX1261.cpp:38:9:virtual int16_t SX1261::checkOutputPower(int8_t, int8_t*)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX1261.h:22:7:constexpr SX1261::~SX1261()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX1261.h:22:7:virtual constexpr SX1261::~SX1261()	16	static

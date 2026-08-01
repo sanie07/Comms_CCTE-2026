@@ -1,0 +1,3 @@
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/utils/ConvCode.cpp:16:1:RadioLibConvCode::RadioLibConvCode()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/utils/ConvCode.cpp:20:6:void RadioLibConvCode::begin(uint8_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/utils/ConvCode.cpp:25:9:int16_t RadioLibConvCode::encode(const uint8_t*, size_t, uint8_t*, size_t*)	56	static

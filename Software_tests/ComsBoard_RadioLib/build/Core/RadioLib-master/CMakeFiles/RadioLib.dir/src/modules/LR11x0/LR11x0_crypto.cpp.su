@@ -1,0 +1,15 @@
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0_crypto.cpp:10:9:int16_t LR11x0::cryptoSetKey(uint8_t, const uint8_t*)	64	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0_crypto.cpp:18:9:int16_t LR11x0::cryptoDeriveKey(uint8_t, uint8_t, const uint8_t*)	64	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0_crypto.cpp:27:9:int16_t LR11x0::cryptoProcessJoinAccept(uint8_t, uint8_t, uint8_t, const uint8_t*, const uint8_t*, size_t, uint8_t*)	56	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0_crypto.cpp:80:9:int16_t LR11x0::cryptoComputeAesCmac(uint8_t, const uint8_t*, size_t, uint32_t*)	56	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0_crypto.cpp:107:9:int16_t LR11x0::cryptoVerifyAesCmac(uint8_t, uint32_t, const uint8_t*, size_t, bool*)	56	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0_crypto.cpp:138:9:int16_t LR11x0::cryptoAesEncrypt01(uint8_t, const uint8_t*, size_t, uint8_t*)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0_crypto.cpp:142:9:int16_t LR11x0::cryptoAesEncrypt(uint8_t, const uint8_t*, size_t, uint8_t*)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0_crypto.cpp:146:9:int16_t LR11x0::cryptoAesDecrypt(uint8_t, const uint8_t*, size_t, uint8_t*)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0_crypto.cpp:150:9:int16_t LR11x0::cryptoStoreToFlash()	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0_crypto.cpp:154:9:int16_t LR11x0::cryptoRestoreFromFlash()	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0_crypto.cpp:158:9:int16_t LR11x0::cryptoSetParam(uint8_t, uint32_t)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0_crypto.cpp:167:9:int16_t LR11x0::cryptoGetParam(uint8_t, uint32_t*)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0_crypto.cpp:176:9:int16_t LR11x0::cryptoCheckEncryptedFirmwareImage(uint32_t, const uint32_t*, size_t, bool)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0_crypto.cpp:184:9:int16_t LR11x0::cryptoCheckEncryptedFirmwareImageResult(bool*)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR11x0/LR11x0_crypto.cpp:194:9:int16_t LR11x0::cryptoCommon(uint16_t, uint8_t, const uint8_t*, size_t, uint8_t*)	56	static

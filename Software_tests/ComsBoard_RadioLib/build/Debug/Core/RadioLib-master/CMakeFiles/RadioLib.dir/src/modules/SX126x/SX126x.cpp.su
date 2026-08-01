@@ -1,0 +1,69 @@
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/../../Module.h:396:14:uint32_t Module::getIrq() const	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/../../Module.h:402:14:uint32_t Module::getRst() const	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/../../Module.h:408:14:uint32_t Module::getGpio() const	16	static
+/home/elias/st/stm32cubeide_2.1.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.14.3.rel1.linux64_1.0.100.202602081740/tools/arm-none-eabi/include/c++/14.3.1/cmath:162:3:constexpr float std::ceil(float)	16	static
+/home/elias/st/stm32cubeide_2.1.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.14.3.rel1.linux64_1.0.100.202602081740/tools/arm-none-eabi/include/c++/14.3.1/cmath:257:3:constexpr float std::floor(float)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/../../protocols/PhysicalLayer/PhysicalLayer.h:416:13:constexpr PhysicalLayer::~PhysicalLayer()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/../../protocols/PhysicalLayer/PhysicalLayer.h:416:13:virtual constexpr PhysicalLayer::~PhysicalLayer()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:6:1:SX126x::SX126x(Module*)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:23:9:int16_t SX126x::begin(uint8_t, uint8_t, uint16_t)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:69:9:int16_t SX126x::beginFSK(float, float, float, uint16_t)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:122:9:int16_t SX126x::beginBPSK(float)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:138:9:int16_t SX126x::beginLRFHSS(uint8_t, uint8_t, bool)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:166:9:int16_t SX126x::setLrFhssConfig(uint8_t, uint8_t, uint8_t, uint16_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:179:9:int16_t SX126x::reset(bool)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:214:9:virtual int16_t SX126x::transmit(const uint8_t*, size_t, uint8_t)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:276:9:virtual int16_t SX126x::receive(uint8_t*, size_t, RadioLibTime_t)	64	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:324:9:virtual int16_t SX126x::transmitDirect(uint32_t)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:339:9:virtual int16_t SX126x::receiveDirect()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:347:9:int16_t SX126x::directMode()	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:383:9:int16_t SX126x::packetMode()	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:413:9:virtual int16_t SX126x::scanChannel()	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:428:9:virtual int16_t SX126x::scanChannel(const ChannelScanConfig_t&)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:442:9:int16_t SX126x::hopLRFHSS()	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:452:9:virtual int16_t SX126x::finishTransmit()	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:461:9:virtual int16_t SX126x::finishReceive()	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:475:9:virtual int16_t SX126x::startReceive()	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:479:9:int16_t SX126x::startReceiveDutyCycle(uint32_t, uint32_t, RadioLibIrqFlags_t, RadioLibIrqFlags_t)	72	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:515:9:int16_t SX126x::startReceiveDutyCycleAuto(uint16_t, uint16_t, RadioLibIrqFlags_t, RadioLibIrqFlags_t)	72	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:537:9:virtual int16_t SX126x::readData(uint8_t*, size_t)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:577:9:virtual int16_t SX126x::startChannelScan()	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:592:9:virtual int16_t SX126x::startChannelScan(const ChannelScanConfig_t&)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:618:9:virtual int16_t SX126x::getChannelScanResult()	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:637:7:virtual float SX126x::getRSSI()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:641:7:float SX126x::getRSSI(bool)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:655:7:virtual float SX126x::getSNR()	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:671:7:float SX126x::getFrequencyError()	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:704:8:virtual size_t SX126x::getPacketLength(bool)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:708:8:size_t SX126x::getPacketLength(bool, uint8_t*)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:725:9:int16_t SX126x::getLoRaRxHeaderInfo(uint8_t*, bool*)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:739:16:virtual RadioLibTime_t SX126x::calculateTimeOnAir(ModemType_t, DataRate_t, PacketConfig_t, size_t)	56	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:812:16:virtual RadioLibTime_t SX126x::getTimeOnAir(size_t)	64	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:879:16:virtual RadioLibTime_t SX126x::calculateRxTimeout(RadioLibTime_t)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:886:10:virtual uint32_t SX126x::getIrqFlags()	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:892:9:virtual int16_t SX126x::setIrqFlags(uint32_t)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:896:9:virtual int16_t SX126x::clearIrqFlags(uint32_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:900:9:virtual uint8_t SX126x::randomByte()	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:929:9:virtual int16_t SX126x::getModem(ModemType_t*)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:948:9:virtual int16_t SX126x::stageMode(RadioModeType_t, RadioModeConfig_t*)	352	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:1107:9:virtual int16_t SX126x::launchMode()	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:1135:6:virtual void SX126x::setDirectAction(void (*)())	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:1139:6:virtual void SX126x::readBit(uint32_t)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:1144:9:int16_t SX126x::uploadPatch(const uint32_t*, size_t, bool)	56	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:1192:9:int16_t SX126x::spectralScanStart(uint16_t, uint8_t, uint8_t)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:1208:6:void SX126x::spectralScanAbort()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:1212:9:int16_t SX126x::spectralScanGetStatus()	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:1220:9:int16_t SX126x::spectralScanGetResult(uint16_t*)	88	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:1232:9:int16_t SX126x::calibrateImage(float)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:1269:9:int16_t SX126x::calibrateImageRejection(float, float)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:1277:9:int16_t SX126x::fixSensitivity()	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:1295:9:int16_t SX126x::fixPaClamping(bool)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:1313:9:int16_t SX126x::fixImplicitTimeout()	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:1338:9:int16_t SX126x::fixInvertedIQ(uint8_t)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:1358:9:int16_t SX126x::fixGFSK()	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:1400:9:virtual Module* SX126x::getMod()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:1404:9:int16_t SX126x::modSetup(uint8_t)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:1468:9:static int16_t SX126x::SPIparseStatus(uint8_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.cpp:1481:6:bool SX126x::findChip(const char*)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.h:37:7:constexpr SX126x::~SX126x()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.h:37:7:virtual constexpr SX126x::~SX126x()	16	static

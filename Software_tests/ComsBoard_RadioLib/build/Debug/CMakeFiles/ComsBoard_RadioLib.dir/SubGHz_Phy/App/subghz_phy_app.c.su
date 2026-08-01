@@ -1,0 +1,6 @@
+/home/elias/Documents/ComsBoard_RadioLib/SubGHz_Phy/App/subghz_phy_app.c:94:6:SubghzApp_Init	8	static
+/home/elias/Documents/ComsBoard_RadioLib/SubGHz_Phy/App/subghz_phy_app.c:119:13:OnTxDone	4	static
+/home/elias/Documents/ComsBoard_RadioLib/SubGHz_Phy/App/subghz_phy_app.c:125:13:OnRxDone	24	static
+/home/elias/Documents/ComsBoard_RadioLib/SubGHz_Phy/App/subghz_phy_app.c:131:13:OnTxTimeout	4	static
+/home/elias/Documents/ComsBoard_RadioLib/SubGHz_Phy/App/subghz_phy_app.c:137:13:OnRxTimeout	4	static
+/home/elias/Documents/ComsBoard_RadioLib/SubGHz_Phy/App/subghz_phy_app.c:143:13:OnRxError	4	static

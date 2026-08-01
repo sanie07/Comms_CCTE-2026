@@ -1,0 +1,21 @@
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/../../protocols/PhysicalLayer/PhysicalLayer.h:416:13:constexpr PhysicalLayer::~PhysicalLayer()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/../../protocols/PhysicalLayer/PhysicalLayer.h:416:13:virtual constexpr PhysicalLayer::~PhysicalLayer()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.h:37:7:constexpr SX126x::~SX126x()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.h:37:7:virtual constexpr SX126x::~SX126x()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX1268.cpp:44:1:SX1268::SX1268(Module*)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX1268.cpp:48:9:int16_t SX1268::begin(const ConfigLoRa_t&)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX1268.cpp:71:9:int16_t SX1268::begin(float, float, uint8_t, uint8_t, uint8_t, int8_t, uint16_t, float, bool)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX1268.cpp:85:9:int16_t SX1268::beginFSK(const ConfigFSK_t&)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX1268.cpp:103:9:int16_t SX1268::beginFSK(float, float, float, float, int8_t, uint16_t, float, bool)	56	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX1268.cpp:116:9:int16_t SX1268::beginBPSK(const ConfigBPSK_t&)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX1268.cpp:134:9:int16_t SX1268::beginBPSK(float, float, int8_t, float, bool)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX1268.cpp:144:9:int16_t SX1268::beginLRFHSS(const ConfigLRFHSS_t&)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX1268.cpp:162:9:int16_t SX1268::beginLRFHSS(float, uint8_t, uint8_t, bool, int8_t, float, bool)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX1268.cpp:174:9:virtual int16_t SX1268::setFrequency(float)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX1268.cpp:179:9:int16_t SX1268::setFrequency(float, bool)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX1268.cpp:192:9:virtual int16_t SX1268::setOutputPower(int8_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX1268.cpp:196:9:int16_t SX1268::setOutputPower(int8_t, bool)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX1268.cpp:209:9:virtual int16_t SX1268::checkOutputPower(int8_t, int8_t*)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX1268.cpp:217:9:virtual int16_t SX1268::setModem(ModemType_t)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX1268.h:21:7:constexpr SX1268::~SX1268()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX1268.h:21:7:virtual constexpr SX1268::~SX1268()	16	static

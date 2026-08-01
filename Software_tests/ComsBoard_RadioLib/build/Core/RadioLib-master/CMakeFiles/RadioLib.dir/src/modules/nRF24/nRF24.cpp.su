@@ -1,0 +1,50 @@
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/../../Module.h:396:14:uint32_t Module::getIrq() const	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/../../Module.h:402:14:uint32_t Module::getRst() const	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/../../protocols/PhysicalLayer/PhysicalLayer.h:416:13:constexpr PhysicalLayer::~PhysicalLayer()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/../../protocols/PhysicalLayer/PhysicalLayer.h:416:13:virtual constexpr PhysicalLayer::~PhysicalLayer()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/nRF24.cpp:5:1:nRF24::nRF24(Module*)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/nRF24.cpp:11:9:int16_t nRF24::begin(const ConfigFSK_t&)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/nRF24.cpp:69:9:int16_t nRF24::begin(int16_t, int16_t, int8_t, uint8_t)	56	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/nRF24.cpp:78:9:virtual int16_t nRF24::sleep()	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/nRF24.cpp:82:9:virtual int16_t nRF24::standby()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/nRF24.cpp:86:9:virtual int16_t nRF24::standby(uint8_t)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/nRF24.cpp:96:9:virtual int16_t nRF24::transmit(const uint8_t*, size_t, uint8_t)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/nRF24.cpp:122:9:virtual int16_t nRF24::receive(uint8_t*, size_t, RadioLibTime_t)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/nRF24.cpp:149:9:virtual int16_t nRF24::transmitDirect(uint32_t)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/nRF24.cpp:164:9:virtual int16_t nRF24::receiveDirect()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/nRF24.cpp:170:6:virtual void nRF24::setPacketReceivedAction(void (*)())	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/nRF24.cpp:174:6:virtual void nRF24::clearPacketReceivedAction()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/nRF24.cpp:178:6:virtual void nRF24::setPacketSentAction(void (*)())	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/nRF24.cpp:182:6:virtual void nRF24::clearPacketSentAction()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/nRF24.cpp:186:9:virtual int16_t nRF24::startTransmit(const uint8_t*, size_t, uint8_t)	88	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/nRF24.cpp:226:9:virtual int16_t nRF24::finishTransmit()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/nRF24.cpp:234:9:virtual int16_t nRF24::startReceive()	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/nRF24.cpp:260:9:virtual int16_t nRF24::startReceive(uint32_t, uint32_t, uint32_t, size_t)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/nRF24.cpp:268:9:virtual int16_t nRF24::readData(uint8_t*, size_t)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/nRF24.cpp:286:9:virtual int16_t nRF24::finishReceive()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/nRF24.cpp:294:9:virtual int16_t nRF24::setFrequency(float)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/nRF24.cpp:308:9:virtual int16_t nRF24::setBitRate(float)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/nRF24.cpp:336:9:virtual int16_t nRF24::setOutputPower(int8_t)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/nRF24.cpp:370:9:int16_t nRF24::setAddressWidth(uint8_t)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/nRF24.cpp:403:9:int16_t nRF24::setTransmitPipe(const uint8_t*)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/nRF24.cpp:418:9:int16_t nRF24::setReceivePipe(uint8_t, const uint8_t*)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/nRF24.cpp:440:9:int16_t nRF24::setReceivePipe(uint8_t, uint8_t)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/nRF24.cpp:470:9:int16_t nRF24::disablePipe(uint8_t)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/nRF24.cpp:501:9:int16_t nRF24::getStatus(uint8_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/nRF24.cpp:505:6:bool nRF24::isCarrierDetected()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/nRF24.cpp:509:9:virtual int16_t nRF24::setFrequencyDeviation(float)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/nRF24.cpp:516:8:virtual size_t nRF24::getPacketLength(bool)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/nRF24.cpp:523:9:int16_t nRF24::setCrcFiltering(bool)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/nRF24.cpp:534:9:int16_t nRF24::setAutoAck(bool)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/nRF24.cpp:538:9:int16_t nRF24::setAutoAck(uint8_t, bool)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/nRF24.cpp:563:9:virtual int16_t nRF24::setDataShaping(uint8_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/nRF24.cpp:570:9:virtual int16_t nRF24::setEncoding(uint8_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/nRF24.cpp:577:9:int16_t nRF24::setLNA(bool)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/nRF24.cpp:581:6:void nRF24::clearIRQ()	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/nRF24.cpp:589:9:int16_t nRF24::config()	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/nRF24.cpp:622:9:virtual Module* nRF24::getMod()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/nRF24.cpp:626:6:void nRF24::SPIreadRxPayload(uint8_t*, uint8_t)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/nRF24.cpp:630:6:void nRF24::SPIwriteTxPayload(const uint8_t*, uint8_t)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/nRF24.cpp:634:6:void nRF24::SPItransfer(uint8_t, bool, const uint8_t*, uint8_t*, uint8_t)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/nRF24.h:186:7:constexpr nRF24::~nRF24()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/nRF24/nRF24.h:186:7:virtual constexpr nRF24::~nRF24()	16	static

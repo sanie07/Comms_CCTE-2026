@@ -1,0 +1,105 @@
+Build type: Debug
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/elias/Documents/ComsBoard_RadioLib/build
+[ 23%] Built target STM32_Drivers
+[ 25%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/Hal.cpp.obj
+[ 25%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/CC1101/CC1101.cpp.obj
+[ 25%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/Module.cpp.obj
+[ 26%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LLCC68/LLCC68.cpp.obj
+[ 27%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR11x0/LR1110.cpp.obj
+[ 28%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR11x0/LR1120.cpp.obj
+[ 28%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR11x0/LR1121.cpp.obj
+[ 29%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR11x0/LR11x0.cpp.obj
+[ 30%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR11x0/LR11x0_commands.cpp.obj
+[ 31%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR11x0/LR11x0_crypto.cpp.obj
+[ 32%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR11x0/LR11x0_gnss.cpp.obj
+[ 32%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR11x0/LR11x0_wifi.cpp.obj
+[ 33%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR11x0/LR_common.cpp.obj
+[ 34%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021.cpp.obj
+[ 35%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021_cmds_chip_control.cpp.obj
+[ 36%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021_cmds_flrc.cpp.obj
+[ 37%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021_cmds_gfsk.cpp.obj
+[ 37%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021_cmds_lora.cpp.obj
+[ 38%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021_cmds_misc.cpp.obj
+[ 39%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021_cmds_ook.cpp.obj
+[ 40%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021_cmds_oqpsk.cpp.obj
+[ 41%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021_cmds_radio.cpp.obj
+[ 42%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021_cmds_ranging.cpp.obj
+[ 42%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/LR2021/LR2021_config.cpp.obj
+[ 43%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/RF69/RF69.cpp.obj
+[ 44%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX123x/SX1231.cpp.obj
+[ 45%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX123x/SX1233.cpp.obj
+[ 46%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX126x/STM32WLx.cpp.obj
+[ 47%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1261.cpp.obj
+[ 47%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1262.cpp.obj
+[ 48%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX1268.cpp.obj
+[ 49%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX126x.cpp.obj
+[ 50%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX126x_LR_FHSS.cpp.obj
+[ 51%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX126x_commands.cpp.obj
+[ 51%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX126x/SX126x_config.cpp.obj
+[ 52%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1272.cpp.obj
+[ 53%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1273.cpp.obj
+[ 54%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1276.cpp.obj
+[ 55%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1277.cpp.obj
+[ 56%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1278.cpp.obj
+[ 56%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX1279.cpp.obj
+[ 57%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX127x/SX127x.cpp.obj
+[ 58%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1280.cpp.obj
+[ 59%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1281.cpp.obj
+[ 60%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX128x/SX1282.cpp.obj
+[ 61%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/SX128x/SX128x.cpp.obj
+[ 61%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4430.cpp.obj
+[ 62%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4431.cpp.obj
+[ 63%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/Si443x/Si4432.cpp.obj
+[ 64%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/Si443x/Si443x.cpp.obj
+[ 65%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/modules/nRF24/nRF24.cpp.obj
+[ 66%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/ADSB/ADSB.cpp.obj
+[ 66%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/AFSK/AFSK.cpp.obj
+[ 67%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/APRS/APRS.cpp.obj
+[ 68%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/AX25/AX25.cpp.obj
+[ 69%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/BellModem/BellModem.cpp.obj
+[ 70%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/ExternalRadio/ExternalRadio.cpp.obj
+[ 70%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/FSK4/FSK4.cpp.obj
+[ 71%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/Hellschreiber/Hellschreiber.cpp.obj
+[ 72%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/LoRaWAN/LoRaWAN.cpp.obj
+[ 73%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/LoRaWAN/LoRaWANBands.cpp.obj
+[ 74%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/LoRaWAN/LoRaWANPacMan.cpp.obj
+[ 75%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/LoRaWAN/LoRaWANPackageTS003.cpp.obj
+[ 75%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/LoRaWAN/LoRaWANPackageTS009.cpp.obj
+[ 76%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/Morse/Morse.cpp.obj
+[ 77%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/Pager/Pager.cpp.obj
+[ 78%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/PhysicalLayer/PhysicalLayer.cpp.obj
+[ 79%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/Print/ITA2String.cpp.obj
+[ 80%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/Print/Print.cpp.obj
+[ 80%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/RTTY/RTTY.cpp.obj
+[ 81%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/protocols/SSTV/SSTV.cpp.obj
+[ 82%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/utils/BCH.cpp.obj
+[ 83%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/utils/CRC.cpp.obj
+[ 84%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/utils/ConvCode.cpp.obj
+[ 85%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/utils/Cryptography.cpp.obj
+[ 85%] Building CXX object Core/RadioLib-master/CMakeFiles/RadioLib.dir/src/utils/Utils.cpp.obj
+[ 86%] Linking CXX static library libRadioLib.a
+[ 86%] Built target RadioLib
+[ 89%] Building C object CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/adc.c.obj
+[ 89%] Building C object CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/dac.c.obj
+[ 89%] Building C object CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/gpio.c.obj
+[ 89%] Building C object CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/main.c.obj
+[ 90%] Building C object CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/rtc.c.obj
+[ 90%] Building C object CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/spi.c.obj
+[ 91%] Building C object CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/subghz.c.obj
+[ 92%] Building C object CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/usart.c.obj
+[ 94%] Building C object CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/stm32wlxx_hal_msp.c.obj
+[ 94%] Building C object CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/stm32wlxx_it.c.obj
+[ 95%] Building C object CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/stm32wlxx_hal_timebase_tim.c.obj
+[ 95%] Building C object CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/sysmem.c.obj
+[ 96%] Building C object CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/syscalls.c.obj
+[ 97%] Building ASM object CMakeFiles/ComsBoard_RadioLib.dir/startup_stm32wle5xx.s.obj
+[ 98%] Building CXX object CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/radio_app.cpp.obj
+[ 99%] Building CXX object CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/STM32CubeHal.cpp.obj
+[100%] Linking CXX executable ComsBoard_RadioLib.elf
+Memory region         Used Size  Region Size  %age Used
+             ROM:       73136 B       256 KB     27.90%
+            RAM1:        3552 B        32 KB     10.84%
+            RAM2:           0 B        32 KB      0.00%
+[100%] Built target ComsBoard_RadioLib

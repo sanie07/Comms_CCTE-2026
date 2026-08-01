@@ -1,0 +1,11 @@
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/Si443x/../../protocols/PhysicalLayer/PhysicalLayer.h:416:13:constexpr PhysicalLayer::~PhysicalLayer()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/Si443x/../../protocols/PhysicalLayer/PhysicalLayer.h:416:13:virtual constexpr PhysicalLayer::~PhysicalLayer()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/Si443x/Si443x.h:553:7:constexpr Si443x::~Si443x()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/Si443x/Si443x.h:553:7:virtual constexpr Si443x::~Si443x()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/Si443x/Si4432.cpp:5:1:Si4432::Si4432(Module*)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/Si443x/Si4432.cpp:9:9:virtual int16_t Si4432::begin(const ConfigFSK_t&)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/Si443x/Si4432.cpp:23:9:virtual int16_t Si4432::begin(float, float, float, float, int8_t, uint8_t)	56	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/Si443x/Si4432.cpp:34:9:virtual int16_t Si4432::setFrequency(float)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/Si443x/Si4432.cpp:41:9:virtual int16_t Si4432::setOutputPower(int8_t)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/Si443x/Si4432.h:15:7:constexpr Si4432::~Si4432()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/Si443x/Si4432.h:15:7:virtual constexpr Si4432::~Si4432()	16	static

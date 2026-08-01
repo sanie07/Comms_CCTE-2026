@@ -1,0 +1,90 @@
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/../../Module.h:396:14:uint32_t Module::getIrq() const	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/../../Module.h:402:14:uint32_t Module::getRst() const	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/../../Module.h:408:14:uint32_t Module::getGpio() const	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/../../protocols/PhysicalLayer/PhysicalLayer.h:416:13:constexpr PhysicalLayer::~PhysicalLayer()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/../../protocols/PhysicalLayer/PhysicalLayer.h:416:13:virtual constexpr PhysicalLayer::~PhysicalLayer()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:5:1:RF69::RF69(Module*)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:11:9:int16_t RF69::begin(const ConfigFSK_t&)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:95:9:int16_t RF69::begin(float, float, float, float, int8_t, uint8_t)	56	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:106:6:void RF69::reset()	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:114:9:virtual int16_t RF69::transmit(const uint8_t*, size_t, uint8_t)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:136:9:virtual int16_t RF69::receive(uint8_t*, size_t, RadioLibTime_t)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:162:9:virtual int16_t RF69::sleep()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:170:9:virtual int16_t RF69::standby()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:178:9:virtual int16_t RF69::standby(uint8_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:183:9:virtual int16_t RF69::transmitDirect(uint32_t)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:204:9:virtual int16_t RF69::receiveDirect()	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:216:9:int16_t RF69::directMode()	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:233:9:int16_t RF69::packetMode()	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:237:6:void RF69::setAESKey(const uint8_t*)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:241:9:int16_t RF69::enableAES()	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:245:9:int16_t RF69::disableAES()	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:249:9:virtual int16_t RF69::startReceive()	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:277:9:virtual int16_t RF69::startReceive(uint32_t, uint32_t, uint32_t, size_t)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:285:6:void RF69::setDio0Action(void (*)())	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:289:6:void RF69::clearDio0Action()	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:293:6:void RF69::setDio1Action(void (*)())	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:301:6:void RF69::clearDio1Action()	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:308:6:virtual void RF69::setPacketReceivedAction(void (*)())	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:312:6:virtual void RF69::clearPacketReceivedAction()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:316:6:virtual void RF69::setPacketSentAction(void (*)())	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:320:6:virtual void RF69::clearPacketSentAction()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:324:6:void RF69::setFifoEmptyAction(void (*)())	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:335:6:void RF69::clearFifoEmptyAction()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:339:6:void RF69::setFifoThreshold(uint8_t)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:343:6:void RF69::setFifoFullAction(void (*)())	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:352:6:void RF69::clearFifoFullAction()	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:357:6:bool RF69::fifoAdd(uint8_t*, int, int*)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:380:6:bool RF69::fifoGet(volatile uint8_t*, int, volatile int*)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:402:9:virtual int16_t RF69::startTransmit(const uint8_t*, size_t, uint8_t)	56	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:454:9:virtual int16_t RF69::finishTransmit()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:462:9:virtual int16_t RF69::readData(uint8_t*, size_t)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:498:9:virtual int16_t RF69::finishReceive()	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:507:9:int16_t RF69::setOOK(bool)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:526:9:int16_t RF69::setOokThresholdType(uint8_t)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:533:9:int16_t RF69::setOokFixedThreshold(uint8_t)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:537:9:int16_t RF69::setOokPeakThresholdDecrement(uint8_t)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:541:9:virtual int16_t RF69::setFrequency(float)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:562:9:int16_t RF69::getFrequency(float*)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:577:9:virtual int16_t RF69::setBitRate(float)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:599:9:int16_t RF69::setRxBandwidth(float)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:627:9:virtual int16_t RF69::setFrequencyDeviation(float)	56	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:650:9:int16_t RF69::getFrequencyDeviation(float*)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:674:9:virtual int16_t RF69::setOutputPower(int8_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:678:9:int16_t RF69::setOutputPower(int8_t, bool)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:716:9:int16_t RF69::setSyncWord(const uint8_t*, size_t, uint8_t)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:741:9:virtual int16_t RF69::setPreambleLength(size_t)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:753:9:int16_t RF69::setNodeAddress(uint8_t)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:762:9:int16_t RF69::setBroadcastAddress(uint8_t)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:771:9:int16_t RF69::disableAddressFiltering()	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:784:6:void RF69::setAmbientTemperature(int16_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:788:9:int16_t RF69::getTemperature()	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:805:8:virtual size_t RF69::getPacketLength(bool)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:818:9:int16_t RF69::fixedPacketLengthMode(uint8_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:822:9:int16_t RF69::variablePacketLengthMode(uint8_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:826:9:int16_t RF69::enableSyncWordFiltering(uint8_t)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:835:9:int16_t RF69::disableSyncWordFiltering()	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:840:9:int16_t RF69::enableContinuousModeBitSync()	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:849:9:int16_t RF69::disableContinuousModeBitSync()	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:858:9:int16_t RF69::setCrcFiltering(bool)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:866:9:int16_t RF69::setPromiscuousMode(bool)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:904:9:virtual int16_t RF69::setDataShaping(uint8_t)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:924:9:virtual int16_t RF69::setEncoding(uint8_t)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:942:9:int16_t RF69::setLnaTestBoost(bool)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:950:7:virtual float RF69::getRSSI()	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:954:9:int16_t RF69::setRSSIThreshold(float)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:960:6:void RF69::setRfSwitchPins(uint32_t, uint32_t)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:964:6:void RF69::setRfSwitchTable(const uint32_t (&)[5], const Module::RfSwitchMode_t*)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:968:9:virtual uint8_t RF69::randomByte()	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:988:6:virtual void RF69::setDirectAction(void (*)())	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:992:6:virtual void RF69::readBit(uint32_t)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:997:9:int16_t RF69::setDIOMapping(uint32_t, uint32_t)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:1009:9:virtual Module* RF69::getMod()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:1013:9:int16_t RF69::getChipVersion()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:1017:9:int16_t RF69::config()	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:1073:9:int16_t RF69::setPacketMode(uint8_t, uint8_t)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:1092:9:int16_t RF69::setMode(uint8_t)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:1096:6:void RF69::clearIRQFlags()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.cpp:1101:6:void RF69::clearFIFO(size_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.h:479:7:constexpr RF69::~RF69()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/RF69/RF69.h:479:7:virtual constexpr RF69::~RF69()	16	static

@@ -1,0 +1,17 @@
+[ 23%] Built target STM32_Drivers
+[ 86%] Built target RadioLib
+[ 87%] Building CXX object CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/STM32CubeHal.cpp.obj
+[ 88%] Building CXX object CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/radio_app.cpp.obj
+[ 89%] Linking CXX executable ComsBoard_RadioLib.elf
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/radio_app.cpp.obj: in function `STM32WLx::~STM32WLx()':
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/STM32WLx.h:36:(.text._ZN8STM32WLxD2Ev[_ZN8STM32WLxD5Ev]+0x20): undefined reference to `vtable for STM32WLx'
+/usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/bin/ld: CMakeFiles/ComsBoard_RadioLib.dir/Core/Src/radio_app.cpp.obj: in function `__static_initialization_and_destruction_0()':
+/home/elias/Documents/ComsBoard_RadioLib/Core/Src/radio_app.cpp:15:(.text._Z41__static_initialization_and_destruction_0v+0x22): undefined reference to `STM32WLx::STM32WLx(Module*)'
+Memory region         Used Size  Region Size  %age Used
+             ROM:       70440 B       256 KB     26.87%
+            RAM1:        3552 B        32 KB     10.84%
+            RAM2:           0 B        32 KB      0.00%
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/ComsBoard_RadioLib.dir/build.make:391: ComsBoard_RadioLib.elf] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:119: CMakeFiles/ComsBoard_RadioLib.dir/all] Error 2
+gmake: *** [Makefile:136: all] Error 2

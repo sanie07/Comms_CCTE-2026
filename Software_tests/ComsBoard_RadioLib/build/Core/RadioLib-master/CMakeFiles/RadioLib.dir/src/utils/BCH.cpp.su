@@ -1,0 +1,4 @@
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/utils/BCH.cpp:4:1:RadioLibBCH::RadioLibBCH()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/utils/BCH.cpp:8:1:RadioLibBCH::~RadioLibBCH()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/utils/BCH.cpp:21:6:void RadioLibBCH::begin(uint8_t, uint8_t, uint32_t)	504	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/utils/BCH.cpp:203:10:uint32_t RadioLibBCH::encode(uint32_t)	80	static

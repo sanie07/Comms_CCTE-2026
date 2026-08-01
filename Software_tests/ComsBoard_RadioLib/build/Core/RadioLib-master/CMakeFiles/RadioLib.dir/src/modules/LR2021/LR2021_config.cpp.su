@@ -1,0 +1,41 @@
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_config.cpp:84:9:virtual int16_t LR2021::setFrequency(float)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_config.cpp:88:9:int16_t LR2021::setFrequency(float, bool)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_config.cpp:144:9:virtual int16_t LR2021::setOutputPower(int8_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_config.cpp:148:9:int16_t LR2021::setOutputPower(int8_t, uint32_t)	64	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_config.cpp:178:6:void LR2021::setPaTable(LR2021PaTableEntry_t*, bool)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_config.cpp:182:9:virtual int16_t LR2021::checkOutputPower(int8_t, int8_t*)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_config.cpp:200:6:void LR2021::setRfSwitchTable(const uint32_t (&)[5], const Module::RfSwitchMode_t*)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_config.cpp:227:9:int16_t LR2021::forceLDRO(bool)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_config.cpp:242:9:int16_t LR2021::autoLDRO()	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_config.cpp:254:9:int16_t LR2021::setBandwidth(float)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_config.cpp:313:9:int16_t LR2021::setSpreadingFactor(uint8_t, bool)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_config.cpp:338:9:int16_t LR2021::setCodingRate(uint8_t, bool)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_config.cpp:384:9:int16_t LR2021::setSyncWord(uint8_t)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_config.cpp:396:9:virtual int16_t LR2021::setPreambleLength(size_t)	64	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_config.cpp:431:9:int16_t LR2021::setTCXO(float, uint32_t)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_config.cpp:481:9:int16_t LR2021::setCRC(uint8_t, uint32_t, uint32_t, bool)	72	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_config.cpp:538:9:virtual int16_t LR2021::invertIQ(bool)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_config.cpp:552:9:virtual int16_t LR2021::setBitRate(float)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_config.cpp:604:9:virtual int16_t LR2021::setFrequencyDeviation(float)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_config.cpp:625:9:int16_t LR2021::setRxBandwidth(float)	64	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_config.cpp:678:9:virtual int16_t LR2021::setSyncWord(uint8_t*, size_t)	56	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_config.cpp:735:9:virtual int16_t LR2021::setDataShaping(uint8_t)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_config.cpp:773:9:virtual int16_t LR2021::setEncoding(uint8_t)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_config.cpp:814:9:int16_t LR2021::fixedPacketLengthMode(uint8_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_config.cpp:818:9:int16_t LR2021::variablePacketLengthMode(uint8_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_config.cpp:822:9:int16_t LR2021::setWhitening(bool, uint16_t)	64	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_config.cpp:855:9:virtual int16_t LR2021::setDataRate(DataRate_t, ModemType_t)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_config.cpp:907:9:virtual int16_t LR2021::checkDataRate(DataRate_t, ModemType_t)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_config.cpp:933:9:int16_t LR2021::setLrFhssConfig(uint8_t, uint8_t, uint8_t, uint16_t)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_config.cpp:954:9:int16_t LR2021::setRxBoostedGainMode(uint8_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_config.cpp:963:9:int16_t LR2021::setPacketMode(uint8_t, uint8_t)	56	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_config.cpp:1001:9:int16_t LR2021::setLoRaHeaderType(uint8_t, size_t)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_config.cpp:1020:9:int16_t LR2021::implicitHeader(size_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_config.cpp:1024:9:int16_t LR2021::explicitHeader()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_config.cpp:1028:9:int16_t LR2021::setNodeAddress(uint8_t)	64	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_config.cpp:1048:9:int16_t LR2021::setBroadcastAddress(uint8_t)	64	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_config.cpp:1067:9:int16_t LR2021::disableAddressFiltering()	64	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_config.cpp:1082:9:int16_t LR2021::ookDetector(uint16_t, uint8_t, uint8_t, bool, bool, uint8_t)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_config.cpp:1094:9:int16_t LR2021::setOokDetectionThreshold(int16_t)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_config.cpp:1099:9:int16_t LR2021::setSideDetector(const LR2021LoRaSideDetector_t*, size_t)	56	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LR2021/LR2021_config.cpp:1177:9:int16_t LR2021::setGain(uint8_t)	32	static

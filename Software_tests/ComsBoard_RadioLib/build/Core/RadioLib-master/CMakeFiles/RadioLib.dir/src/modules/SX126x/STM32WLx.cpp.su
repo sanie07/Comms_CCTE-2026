@@ -1,0 +1,22 @@
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/../../protocols/PhysicalLayer/PhysicalLayer.h:416:13:constexpr PhysicalLayer::~PhysicalLayer()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/../../protocols/PhysicalLayer/PhysicalLayer.h:416:13:virtual constexpr PhysicalLayer::~PhysicalLayer()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.h:37:7:constexpr SX126x::~SX126x()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX126x.h:37:7:virtual constexpr SX126x::~SX126x()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX1262.h:22:7:constexpr SX1262::~SX1262()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/SX1262.h:22:7:virtual constexpr SX1262::~SX1262()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/STM32WLx.cpp:19:1:STM32WLx::STM32WLx(Module*)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/STM32WLx.cpp:21:9:virtual int16_t STM32WLx::begin(const ConfigLoRa_t&)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/STM32WLx.cpp:35:9:virtual int16_t STM32WLx::begin(float, float, uint8_t, uint8_t, uint8_t, int8_t, uint16_t, float, bool)	56	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/STM32WLx.cpp:49:9:virtual int16_t STM32WLx::beginFSK(const ConfigFSK_t&)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/STM32WLx.cpp:63:9:virtual int16_t STM32WLx::beginFSK(float, float, float, float, int8_t, uint16_t, float, bool)	56	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/STM32WLx.cpp:77:9:virtual int16_t STM32WLx::setOutputPower(int8_t)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/STM32WLx.cpp:140:9:virtual int16_t STM32WLx::checkOutputPower(int8_t, int8_t*)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/STM32WLx.cpp:172:9:virtual int16_t STM32WLx::clearIrqStatus(uint16_t)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/STM32WLx.cpp:205:6:virtual void STM32WLx::setPacketReceivedAction(void (*)())	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/STM32WLx.cpp:209:6:virtual void STM32WLx::clearPacketReceivedAction()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/STM32WLx.cpp:213:6:virtual void STM32WLx::setPacketSentAction(void (*)())	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/STM32WLx.cpp:217:6:virtual void STM32WLx::clearPacketSentAction()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/STM32WLx.cpp:221:6:virtual void STM32WLx::setChannelScanAction(void (*)())	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/STM32WLx.cpp:225:6:virtual void STM32WLx::clearChannelScanAction()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/STM32WLx.h:36:7:constexpr STM32WLx::~STM32WLx()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/SX126x/STM32WLx.h:36:7:virtual constexpr STM32WLx::~STM32WLx()	16	static

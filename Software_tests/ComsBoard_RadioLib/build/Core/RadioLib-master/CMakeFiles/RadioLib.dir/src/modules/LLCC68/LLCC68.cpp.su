@@ -1,0 +1,22 @@
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LLCC68/../SX126x/../../protocols/PhysicalLayer/PhysicalLayer.h:416:13:constexpr PhysicalLayer::~PhysicalLayer()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LLCC68/../SX126x/../../protocols/PhysicalLayer/PhysicalLayer.h:416:13:virtual constexpr PhysicalLayer::~PhysicalLayer()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LLCC68/../SX126x/SX126x.h:37:7:constexpr SX126x::~SX126x()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LLCC68/../SX126x/SX126x.h:37:7:virtual constexpr SX126x::~SX126x()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LLCC68/../SX126x/SX1262.h:22:7:constexpr SX1262::~SX1262()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LLCC68/../SX126x/SX1262.h:22:7:virtual constexpr SX1262::~SX1262()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LLCC68/LLCC68.cpp:4:1:LLCC68::LLCC68(Module*)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LLCC68/LLCC68.cpp:8:9:virtual int16_t LLCC68::begin(const ConfigLoRa_t&)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LLCC68/LLCC68.cpp:38:9:virtual int16_t LLCC68::begin(float, float, uint8_t, uint8_t, uint8_t, int8_t, uint16_t, float, bool)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LLCC68/LLCC68.cpp:52:9:virtual int16_t LLCC68::beginFSK(const ConfigFSK_t&)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LLCC68/LLCC68.cpp:77:9:virtual int16_t LLCC68::beginFSK(float, float, float, float, int8_t, uint16_t, float, bool)	56	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LLCC68/LLCC68.cpp:90:9:virtual int16_t LLCC68::beginBPSK(const ConfigBPSK_t&)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LLCC68/LLCC68.cpp:115:9:virtual int16_t LLCC68::beginBPSK(float, float, int8_t, float, bool)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LLCC68/LLCC68.cpp:125:9:virtual int16_t LLCC68::beginLRFHSS(const ConfigLRFHSS_t&)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LLCC68/LLCC68.cpp:150:9:virtual int16_t LLCC68::beginLRFHSS(float, uint8_t, uint8_t, bool, int8_t, float, bool)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LLCC68/LLCC68.cpp:162:9:virtual int16_t LLCC68::setBandwidth(float)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LLCC68/LLCC68.cpp:167:9:virtual int16_t LLCC68::setSpreadingFactor(uint8_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LLCC68/LLCC68.cpp:185:9:virtual int16_t LLCC68::setDataRate(DataRate_t, ModemType_t)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LLCC68/LLCC68.cpp:228:9:virtual int16_t LLCC68::checkDataRate(DataRate_t, ModemType_t)	40	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LLCC68/LLCC68.cpp:267:9:virtual int16_t LLCC68::setModem(ModemType_t)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LLCC68/LLCC68.h:19:7:constexpr LLCC68::~LLCC68()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/modules/LLCC68/LLCC68.h:19:7:virtual constexpr LLCC68::~LLCC68()	16	static

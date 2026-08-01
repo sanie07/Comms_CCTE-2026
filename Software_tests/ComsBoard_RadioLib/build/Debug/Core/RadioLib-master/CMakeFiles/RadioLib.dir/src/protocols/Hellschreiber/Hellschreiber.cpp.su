@@ -1,0 +1,9 @@
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/Hellschreiber/../Print/Print.h:17:7:constexpr RadioLibPrint::RadioLibPrint()	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/Hellschreiber/Hellschreiber.cpp:76:1:HellClient::HellClient(PhysicalLayer*)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/Hellschreiber/Hellschreiber.cpp:85:1:HellClient::HellClient(AFSKClient*)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/Hellschreiber/Hellschreiber.cpp:92:9:int16_t HellClient::begin(float, float)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/Hellschreiber/Hellschreiber.cpp:104:8:size_t HellClient::printGlyph(const uint8_t*)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/Hellschreiber/Hellschreiber.cpp:128:6:void HellClient::setInversion(bool)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/Hellschreiber/Hellschreiber.cpp:132:8:virtual size_t HellClient::write(uint8_t)	32	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/Hellschreiber/Hellschreiber.cpp:156:9:int16_t HellClient::transmitDirect(uint32_t, uint32_t)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/protocols/Hellschreiber/Hellschreiber.cpp:165:9:int16_t HellClient::standby()	16	static

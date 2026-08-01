@@ -1,0 +1,4 @@
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/utils/Utils.cpp:10:10:uint32_t rlb_reflect(uint32_t, uint8_t)	24	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/utils/Utils.cpp:21:16:uint8_t rlb_popcount(uint32_t)	16	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/utils/Utils.cpp:30:6:void rlb_scrambler(uint8_t*, size_t, uint32_t, uint32_t, bool)	48	static
+/home/elias/Documents/ComsBoard_RadioLib/Core/RadioLib-master/src/utils/Utils.cpp:67:6:void rlb_hexdump(const char*, const uint8_t*, size_t, uint32_t, uint8_t, bool)	24	static
