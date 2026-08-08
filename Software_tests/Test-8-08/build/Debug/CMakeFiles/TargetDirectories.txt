@@ -1,0 +1,8 @@
+/home/elias/Documents/ComsBoard/build/Debug/CMakeFiles/ComsBoard.dir
+/home/elias/Documents/ComsBoard/build/Debug/CMakeFiles/edit_cache.dir
+/home/elias/Documents/ComsBoard/build/Debug/CMakeFiles/rebuild_cache.dir
+/home/elias/Documents/ComsBoard/build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
+/home/elias/Documents/ComsBoard/build/Debug/cmake/stm32cubemx/CMakeFiles/Utilities.dir
+/home/elias/Documents/ComsBoard/build/Debug/cmake/stm32cubemx/CMakeFiles/SubGHz_Phy.dir
+/home/elias/Documents/ComsBoard/build/Debug/cmake/stm32cubemx/CMakeFiles/edit_cache.dir
+/home/elias/Documents/ComsBoard/build/Debug/cmake/stm32cubemx/CMakeFiles/rebuild_cache.dir

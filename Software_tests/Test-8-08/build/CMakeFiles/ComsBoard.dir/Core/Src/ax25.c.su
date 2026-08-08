@@ -1,0 +1,13 @@
+/home/elias/Documents/ComsBoard/Core/Src/ax25.c:8:17:crc16_update	24	static
+/home/elias/Documents/ComsBoard/Core/Src/ax25.c:21:17:crc16_block	24	static
+/home/elias/Documents/ComsBoard/Core/Src/ax25.c:32:13:encodeAddr	24	static
+/home/elias/Documents/ComsBoard/Core/Src/ax25.c:53:10:AX25_BuildRawFrame	40	static
+/home/elias/Documents/ComsBoard/Core/Src/ax25.c:108:13:appendBit	24	static
+/home/elias/Documents/ComsBoard/Core/Src/ax25.c:144:13:appendBytePlain	24	static
+/home/elias/Documents/ComsBoard/Core/Src/ax25.c:150:13:appendByteStuffed	24	static
+/home/elias/Documents/ComsBoard/Core/Src/ax25.c:168:10:AX25_Build1200Frame_NRZI	344	static
+/home/elias/Documents/ComsBoard/Core/Src/ax25.c:194:10:AX25_BuildStuffedFrame	24	static
+/home/elias/Documents/ComsBoard/Core/Src/ax25.c:202:13:appendBytePlainG3RUH	32	static
+/home/elias/Documents/ComsBoard/Core/Src/ax25.c:214:13:appendByteStuffedG3RUH	32	static
+/home/elias/Documents/ComsBoard/Core/Src/ax25.c:239:10:AX25_Build9600Frame_G3RUH_NRZ	352	static
+/home/elias/Documents/ComsBoard/Core/Src/ax25.c:266:10:AX25_BuildG3RUHFrame	24	static

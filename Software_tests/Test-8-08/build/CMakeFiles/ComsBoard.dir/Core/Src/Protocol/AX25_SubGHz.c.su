@@ -1,0 +1,16 @@
+/home/elias/Documents/ComsBoard/Core/Src/Protocol/AX25_SubGHz.c:48:16:reflect8	16	static
+/home/elias/Documents/ComsBoard/Core/Src/Protocol/AX25_SubGHz.c:62:17:crc_ccitt	32	static
+/home/elias/Documents/ComsBoard/Core/Src/Protocol/AX25_SubGHz.c:96:13:bb_appendBit	32	static
+/home/elias/Documents/ComsBoard/Core/Src/Protocol/AX25_SubGHz.c:132:13:bb_appendBytePlain	24	static
+/home/elias/Documents/ComsBoard/Core/Src/Protocol/AX25_SubGHz.c:142:13:bb_appendByteStuffed	24	static
+/home/elias/Documents/ComsBoard/Core/Src/Protocol/AX25_SubGHz.c:170:13:bb_appendBytePlainG3RUH	32	static
+/home/elias/Documents/ComsBoard/Core/Src/Protocol/AX25_SubGHz.c:188:13:bb_appendByteStuffedG3RUH	32	static
+/home/elias/Documents/ComsBoard/Core/Src/Protocol/AX25_SubGHz.c:224:13:buildAddr	32	static
+/home/elias/Documents/ComsBoard/Core/Src/Protocol/AX25_SubGHz.c:252:17:buildRawFrame	64	static
+/home/elias/Documents/ComsBoard/Core/Src/Protocol/AX25_SubGHz.c:330:8:AX25SG_Init	32	static
+/home/elias/Documents/ComsBoard/Core/Src/Protocol/AX25_SubGHz.c:348:6:AX25SG_SetScrambler	24	static
+/home/elias/Documents/ComsBoard/Core/Src/Protocol/AX25_SubGHz.c:355:6:AX25SG_FrameInit	32	static
+/home/elias/Documents/ComsBoard/Core/Src/Protocol/AX25_SubGHz.c:379:8:AX25SG_FrameInitUI	40	static
+/home/elias/Documents/ComsBoard/Core/Src/Protocol/AX25_SubGHz.c:398:8:AX25SG_SetRepeaters	32	static
+/home/elias/Documents/ComsBoard/Core/Src/Protocol/AX25_SubGHz.c:418:10:AX25SG_BuildFrame	56	static
+/home/elias/Documents/ComsBoard/Core/Src/Protocol/AX25_SubGHz.c:479:10:AX25SG_BuildUIFrame	384	static

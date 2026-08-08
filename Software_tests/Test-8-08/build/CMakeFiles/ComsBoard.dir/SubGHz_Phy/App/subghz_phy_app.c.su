@@ -1,0 +1,10 @@
+/home/elias/Documents/ComsBoard/SubGHz_Phy/App/subghz_phy_app.c:104:6:SubghzApp_Init	8	static
+/home/elias/Documents/ComsBoard/SubGHz_Phy/App/subghz_phy_app.c:129:13:OnTxDone	4	static
+/home/elias/Documents/ComsBoard/SubGHz_Phy/App/subghz_phy_app.c:136:13:OnRxDone	24	static
+/home/elias/Documents/ComsBoard/SubGHz_Phy/App/subghz_phy_app.c:142:13:OnTxTimeout	4	static
+/home/elias/Documents/ComsBoard/SubGHz_Phy/App/subghz_phy_app.c:149:13:OnRxTimeout	4	static
+/home/elias/Documents/ComsBoard/SubGHz_Phy/App/subghz_phy_app.c:155:13:OnRxError	4	static
+/home/elias/Documents/ComsBoard/SubGHz_Phy/App/subghz_phy_app.c:162:6:Transmitir_Prueba_GFSK	328	static
+/home/elias/Documents/ComsBoard/SubGHz_Phy/App/subghz_phy_app.c:206:6:Transmitir_1200_GFSK	336	static
+/home/elias/Documents/ComsBoard/SubGHz_Phy/App/subghz_phy_app.c:248:6:Transmitir_9600_GFSK	344	static
+/home/elias/Documents/ComsBoard/SubGHz_Phy/App/subghz_phy_app.c:296:6:Transmitir_HolaMundo_AX25RadioLib	64	static

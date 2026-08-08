@@ -1,0 +1,2 @@
+/home/elias/Documents/ComsBoard/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_exti.h:336:22:LL_EXTI_EnableIT_32_63	16	static
+/home/elias/Documents/ComsBoard/Core/Src/sys_debug.c:64:6:DBG_Init	8	static
