@@ -1,4 +1,4 @@
-C:/Users/sanie/STM32Cube/Repository/STM32Cube_FW_WL_V1.5.0/Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_pwr.h:2196:22:LL_PWR_ClearFlag_C1STOP_C1STB	4	static
+../../../Test2_433MHz/Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_pwr.h:2196:22:LL_PWR_ClearFlag_C1STOP_C1STB	4	static
 ../Core/Src/stm32_lpm_if.c:78:6:PWR_EnterOffMode	4	static
 ../Core/Src/stm32_lpm_if.c:85:6:PWR_ExitOffMode	4	static
 ../Core/Src/stm32_lpm_if.c:92:6:PWR_EnterStopMode	8	static

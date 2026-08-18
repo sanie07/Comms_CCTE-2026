@@ -41,7 +41,9 @@ extern "C" {
 #define USE_MODEM_LORA  0
 #define USE_MODEM_FSK   1
 
-#define RF_FREQUENCY                                433018893 /* Hz (433Mhz + 18.893 kHz offset calibration for crystal) */
+/* 433 MHz + 18.893 kHz crystal offset. Measure ESP32 getFrequencyError() and
+ * either keep this offset or trim XTAL_DEFAULT_CAP_VALUE in radio_conf.h. */
+#define RF_FREQUENCY                                433018893 /* Hz */
 
 #ifndef TX_OUTPUT_POWER   /* please, to change this value, redefine it in USER CODE SECTION */
 #define TX_OUTPUT_POWER                             16        /* dBm */
@@ -60,9 +62,12 @@ extern "C" {
 
 #define FSK_FDEV                                    5000      /* Hz */
 #define FSK_DATARATE                                1200     /* bps */
-#define FSK_BANDWIDTH                               50000     /* Hz */
+#define FSK_BANDWIDTH                               20000     /* Hz (paired ESP32 RX BW; TX uses generic config) */
 #define FSK_PREAMBLE_LENGTH                         8         /* Same for Tx and Rx */
 #define FSK_FIX_LENGTH_PAYLOAD_ON                   false
+#define TX_TIMEOUT_VALUE                            3000      /* ms */
+/* SX1278 FSK FIFO is 64 bytes; RadioLib caps variable-length payload at 63 */
+#define SX1278_FSK_MAX_PAYLOAD                      63U
 
 #else
 #error "Please define a modem in the compiler subghz_phy_app.h."

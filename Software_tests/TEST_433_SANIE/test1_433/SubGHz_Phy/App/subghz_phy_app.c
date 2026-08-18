@@ -47,16 +47,21 @@ static AX25SG_Client_t ax25Client;
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
 /* NOTE: All RF parameters are defined in subghz_phy_app.h */
-#define TRANSMIT_PERIOD_MS                          5000  /* 1000 ms between transmissions */
+#define TRANSMIT_PERIOD_MS                          5000
 
-/* AX.25 Settings for 1200 bps FSK (FIUNA1 / CUBE1) */
+/* AX.25 Settings for 1200 bps FSK (FIUNA1 / CUBE1)
+ * Path A: SX126x/SX1278 packet radio carrying AX.25 bytes as payload.
+ * PHY already sends 8-byte preamble + 3-byte sync, so extra 0x7E flags
+ * would push the frame over the SX1278 63-byte FSK FIFO limit.
+ * Path B (direwolf/soundmodem) needs NRZI + bit-stuffing and no packet
+ * header; see AX25_SubGHz.c. */
 #define AX25_SRC_CALLSIGN                           "CUBE1 "
 #define AX25_SRC_SSID                               0
 #define AX25_DEST_CALLSIGN                          "FIUNA1"
 #define AX25_DEST_SSID                              1
-#define AX25_PREAMBLE_FLAGS                         32    /* 32 preamble 0x7E flags for robust PLL lock */
-#define AX25_USE_G3RUH_SCRAMBLER                    0    /* 0 = Standard NRZI (for standard SoundModem / DireWolf), 1 = G3RUH */
-#define AX25_INVERT_POLARITY                        0    /* 1 = Invert FSK bit polarity (0 <-> 1), 0 = Normal */
+#define AX25_PREAMBLE_FLAGS                         0     /* PHY supplies preamble + syncword */
+#define AX25_USE_G3RUH_SCRAMBLER                    0
+#define AX25_INVERT_POLARITY                        0
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -71,6 +76,7 @@ static RadioEvents_t RadioEvents;
 /* USER CODE BEGIN PV */
 uint8_t TxBuffer[PAYLOAD_LEN] = "PING";
 volatile uint8_t TxComplete = 0;   /* 0=pending, 1=done, 2=timeout */
+static uint8_t FskSyncWord[] = { 0xC1, 0x94, 0xC1 };
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -106,6 +112,7 @@ static void OnRxError(void);
 /* USER CODE BEGIN PFP */
 static void TransmitPacket(void);
 static void OnTxTimerEvent(void *context);
+static void SendAx25Buffer(uint8_t *buf, uint16_t tamano);
 /* USER CODE END PFP */
 
 /* Exported functions ---------------------------------------------------------*/
@@ -124,26 +131,28 @@ void SubghzApp_Init(void)
   Radio.Init(&RadioEvents);
 
   /* USER CODE BEGIN SubghzApp_Init_2 */
-  /* Configure FSK TX using SetTxConfig */
-  Radio.SetModem(MODEM_FSK);
-  Radio.SetChannel(RF_FREQUENCY);  /* 433.018 MHz */
+  /* Pin PHY to match ESP32/RadioLib SX1278:
+   * BT=0.5, whitening off, CRC off, variable length, sync C1 94 C1. */
+  TxConfigGeneric_t TxConfig = {0};
 
-  /* Set TX config for AX.25:
-   * preambleLen = 0 (flags are encoded directly in the AX.25 bitstream)
-   * crcOn = false (AX.25 FCS CRC-CCITT is computed and included in software)
-   * fixLen = false (variable length packet) */
-  Radio.SetTxConfig(MODEM_FSK,
-                    TX_OUTPUT_POWER, /* 22 dBm, HP PA */
-                    FSK_FDEV,        /* 5000 Hz deviation */
-                    0,               /* bandwidth (0 = auto) */
-                    FSK_DATARATE,    /* 1200 bps */
-                    0,               /* coderate (FSK: unused) */
-                    8,               /* preamble length (0 = software flags used) */
-                    false,           /* fixed length off */
-                    false,           /* HW CRC off (SW FCS used) */
-                    0, 0,            /* freq hop: off */
-                    0,               /* IQ invert: off */
-                    3000);           /* TX timeout ms */
+  Radio.SetChannel(RF_FREQUENCY);
+
+  TxConfig.fsk.ModulationShaping = RADIO_FSK_MOD_SHAPING_G_BT_05;
+  TxConfig.fsk.FrequencyDeviation = FSK_FDEV;
+  TxConfig.fsk.BitRate = FSK_DATARATE;
+  TxConfig.fsk.PreambleLen = FSK_PREAMBLE_LENGTH;
+  TxConfig.fsk.SyncWordLength = sizeof(FskSyncWord);
+  TxConfig.fsk.SyncWord = FskSyncWord;
+  TxConfig.fsk.whiteSeed = 0x0000U;
+  TxConfig.fsk.HeaderType = RADIO_FSK_PACKET_VARIABLE_LENGTH;
+  TxConfig.fsk.CrcLength = RADIO_FSK_CRC_OFF;
+  TxConfig.fsk.Whitening = RADIO_FSK_DC_FREE_OFF;
+  if (0UL != Radio.RadioSetTxGenericConfig(GENERIC_FSK, &TxConfig,
+                                           TX_OUTPUT_POWER, TX_TIMEOUT_VALUE))
+  {
+    APP_PRINTF("RadioSetTxGenericConfig failed\r\n");
+    Error_Handler();
+  }
 
   /* Initialize AX.25 Client (Callsign, SSID, Preamble flags) */
   AX25SG_Init(&ax25Client, AX25_SRC_CALLSIGN, AX25_SRC_SSID, AX25_PREAMBLE_FLAGS);
@@ -177,6 +186,26 @@ static void OnTxTimerEvent(void *context)
   UTIL_SEQ_SetTask((1 << CFG_SEQ_Task_SubGHz_Phy_App_Process), CFG_SEQ_Prio_0);
 }
 
+static void SendAx25Buffer(uint8_t *buf, uint16_t tamano)
+{
+  if ((buf == NULL) || (tamano == 0U))
+  {
+    APP_PRINTF("AX.25 build failed\r\n");
+    return;
+  }
+  if (tamano > SX1278_FSK_MAX_PAYLOAD)
+  {
+    APP_PRINTF("AX.25 frame %u bytes exceeds SX1278 FSK limit %u\r\n",
+               (unsigned)tamano, (unsigned)SX1278_FSK_MAX_PAYLOAD);
+    return;
+  }
+
+  APP_PRINTF("\r\n--- Transmitting AX.25 UI Frame (%u bytes) ---\r\n",
+             (unsigned)tamano);
+  HAL_GPIO_WritePin(RF_CRL_TO_STM32_GPIO_Port, RF_CRL_TO_STM32_Pin, GPIO_PIN_SET);
+  Radio.Send(buf, (uint8_t)tamano);
+}
+
 static void TransmitPacket(void)
 {
   static uint8_t ax25TxBuf[AX25SG_MAX_FRAME_BUF];
@@ -186,13 +215,7 @@ static void TransmitPacket(void)
                                         AX25_DEST_SSID,
                                         ax25TxBuf,
                                         sizeof(ax25TxBuf));
-
-  if (tamano > 0)
-  {
-    APP_PRINTF("\r\n--- Transmitting AX.25 UI Frame (%d bytes) ---\r\n", tamano);
-    HAL_GPIO_WritePin(RF_CRL_TO_STM32_GPIO_Port, RF_CRL_TO_STM32_Pin, GPIO_PIN_SET);
-    Radio.Send(ax25TxBuf, tamano);
-  }
+  SendAx25Buffer(ax25TxBuf, tamano);
 }
 
 void Transmitir_Mensaje_AX25(const char *mensaje)
@@ -205,11 +228,7 @@ void Transmitir_Mensaje_AX25(const char *mensaje)
                                         AX25_DEST_SSID,
                                         customBuf,
                                         sizeof(customBuf));
-  if (tamano > 0)
-  {
-    HAL_GPIO_WritePin(RF_CRL_TO_STM32_GPIO_Port, RF_CRL_TO_STM32_Pin, GPIO_PIN_SET);
-    Radio.Send(customBuf, tamano);
-  }
+  SendAx25Buffer(customBuf, tamano);
 }
 
 void Transmitir_HolaMundo_AX25(void)

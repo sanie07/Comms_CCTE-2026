@@ -1,23 +1,23 @@
 SubGHz_Phy/App/app_subghz_phy.o: ../SubGHz_Phy/App/app_subghz_phy.c \
  ../SubGHz_Phy/App/app_subghz_phy.h ../SubGHz_Phy/App/subghz_phy_app.h \
  ../Core/Inc/sys_app.h ../Core/Inc/sys_conf.h \
- C:/Users/sanie/STM32Cube/Repository/STM32Cube_FW_WL_V1.5.0/Utilities/trace/adv_trace/stm32_adv_trace.h \
+ ../../../Test2_433MHz/Utilities/trace/adv_trace/stm32_adv_trace.h \
  ../Core/Inc/utilities_conf.h \
- C:/Users/sanie/STM32Cube/Repository/STM32Cube_FW_WL_V1.5.0/Drivers/CMSIS/Include/cmsis_compiler.h \
- C:/Users/sanie/STM32Cube/Repository/STM32Cube_FW_WL_V1.5.0/Drivers/CMSIS/Include/cmsis_gcc.h \
- C:/Users/sanie/STM32Cube/Repository/STM32Cube_FW_WL_V1.5.0/Utilities/misc/stm32_mem.h \
- C:/Users/sanie/STM32Cube/Repository/STM32Cube_FW_WL_V1.5.0/Utilities/misc/stm32_tiny_vsnprintf.h \
+ ../../../Test2_433MHz/Drivers/CMSIS/Include/cmsis_compiler.h \
+ ../../../Test2_433MHz/Drivers/CMSIS/Include/cmsis_gcc.h \
+ ../../../Test2_433MHz/Utilities/misc/stm32_mem.h \
+ ../../../Test2_433MHz/Utilities/misc/stm32_tiny_vsnprintf.h \
  ../Core/Inc/utilities_def.h \
- C:/Users/sanie/STM32Cube/Repository/STM32Cube_FW_WL_V1.5.0/Utilities/sequencer/stm32_seq.h
+ ../../../Test2_433MHz/Utilities/sequencer/stm32_seq.h
 ../SubGHz_Phy/App/app_subghz_phy.h:
 ../SubGHz_Phy/App/subghz_phy_app.h:
 ../Core/Inc/sys_app.h:
 ../Core/Inc/sys_conf.h:
-C:/Users/sanie/STM32Cube/Repository/STM32Cube_FW_WL_V1.5.0/Utilities/trace/adv_trace/stm32_adv_trace.h:
+../../../Test2_433MHz/Utilities/trace/adv_trace/stm32_adv_trace.h:
 ../Core/Inc/utilities_conf.h:
-C:/Users/sanie/STM32Cube/Repository/STM32Cube_FW_WL_V1.5.0/Drivers/CMSIS/Include/cmsis_compiler.h:
-C:/Users/sanie/STM32Cube/Repository/STM32Cube_FW_WL_V1.5.0/Drivers/CMSIS/Include/cmsis_gcc.h:
-C:/Users/sanie/STM32Cube/Repository/STM32Cube_FW_WL_V1.5.0/Utilities/misc/stm32_mem.h:
-C:/Users/sanie/STM32Cube/Repository/STM32Cube_FW_WL_V1.5.0/Utilities/misc/stm32_tiny_vsnprintf.h:
+../../../Test2_433MHz/Drivers/CMSIS/Include/cmsis_compiler.h:
+../../../Test2_433MHz/Drivers/CMSIS/Include/cmsis_gcc.h:
+../../../Test2_433MHz/Utilities/misc/stm32_mem.h:
+../../../Test2_433MHz/Utilities/misc/stm32_tiny_vsnprintf.h:
 ../Core/Inc/utilities_def.h:
-C:/Users/sanie/STM32Cube/Repository/STM32Cube_FW_WL_V1.5.0/Utilities/sequencer/stm32_seq.h:
+../../../Test2_433MHz/Utilities/sequencer/stm32_seq.h:

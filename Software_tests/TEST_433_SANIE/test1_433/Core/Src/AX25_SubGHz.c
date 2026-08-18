@@ -1,19 +1,26 @@
 /**
  * @file AX25_SubGHz.c
- * @brief Implementación estándar de AX.25 HDLC (NRZI y G3RUH) para STM32WLE5 / SubGHz_Phy.
+ * @brief AX.25 UI frame builder for STM32WLE5 / SubGHz_Phy.
  *
- * Compatible al 100% con SoundModem, DireWolf, UZ7HO hs_soundmodem, SDR y módulos LoRa/FSK.
+ * Path A (current, ESP32/SX1278 packet radio):
+ *   Bytes go into Radio.Send() as a GFSK packet payload (preamble, sync,
+ *   length byte supplied by the PHY). No NRZI and no HDLC bit-stuffing.
+ *   Direwolf / soundmodem cannot decode this on-air format.
  *
- * Características:
- *  - Transmisión LSB-first para todos los bytes según estándar AX.25 / HDLC
- *  - Bit-stuffing HDLC (inserción de '0' tras cinco '1's consecutivos)
- *  - CRC-16 CCITT (polinomio 0x8408 reflejado, inicial 0xFFFF, negación final)
- *  - Codificación NRZI estándar para 1200 bps
- *  - Scrambler G3RUH opcional para 9600 bps / G3RUH FSK
+ * Path B (standards-compliant AX.25, not enabled):
+ *   Finish NRZI + bit-stuffing below, strip PHY sync/whitening/length,
+ *   and receive audio (discriminator, RTL-SDR, or DRA818 AFSK) into
+ *   direwolf/soundmodem. Mutually exclusive with SX1278 packet mode.
+ *
+ * CRC-16 CCITT (reflected 0x8408, init 0xFFFF, final invert) is always applied.
  */
 
 #include "AX25_SubGHz.h"
 #include <string.h>
+#if defined(AX25_HOST_DEBUG)
+#include <stdio.h>
+#include <time.h>
+#endif
 
 /* =========================================================================
  * Cálculo de CRC-16 CCITT (FCS estándar AX.25 / HDLC)
@@ -88,15 +95,15 @@ static void bb_appendBit(BitBuf_t *bb, uint8_t bit)
 }
 
 /** Escribe un byte (bit 0 a bit 7, LSB first) sin bit-stuffing (para flags) */
-static void bb_appendBytePlain(BitBuf_t *bb, uint8_t byte)
+static void __attribute__((unused)) bb_appendBytePlain(BitBuf_t *bb, uint8_t byte)
 {
     for (uint8_t i = 0U; i < 8U; i++) {
         bb_appendBit(bb, (byte >> i) & 1U);
     }
 }
 
-/** Escribe un byte (bit 0 a bit 7, LSB first) con bit-stuffing HDLC */
-static void bb_appendByteStuffed(BitBuf_t *bb, uint8_t byte)
+/** Writes a byte LSB-first with HDLC bit-stuffing (Path B / direwolf). */
+static void __attribute__((unused)) bb_appendByteStuffed(BitBuf_t *bb, uint8_t byte)
 {
     for (uint8_t i = 0U; i < 8U; i++) {
         uint8_t bit = (byte >> i) & 1U;
@@ -347,20 +354,19 @@ uint16_t AX25SG_BuildFrame(const AX25SG_Client_t *client,
     uint16_t rawLen = buildRawFrame(client, frame, rawBuf, sizeof(rawBuf));
     if (rawLen == 0U) { return 0U; }
 
-    bool useNrzi = (client->scramblerPoly == 0U);
-
-    BitBuf_t bb = {
-        .buf            = outBuf,
-        .maxLen         = outMaxLen,
-        .bitCount       = 0U,
-        .onesCount      = 0U,
-        .nrziState      = 0U,
-        .useNrzi        = false,
-        .invertPolarity = client->invertPolarity,
-        .overflow       = false
-    };
-
+    /* Path A: keep NRZI off so SX1278 packet mode sees raw AX.25 bytes.
+     * Path B (direwolf): set useNrzi true and call bb_appendByteStuffed. */
     if (client->scramblerPoly != 0U) {
+        BitBuf_t bb = {
+            .buf            = outBuf,
+            .maxLen         = outMaxLen,
+            .bitCount       = 0U,
+            .onesCount      = 0U,
+            .nrziState      = 0U,
+            .useNrzi        = false,
+            .invertPolarity = client->invertPolarity,
+            .overflow       = false
+        };
         uint32_t sr = client->scramblerInit;
         for (uint8_t f = 0U; f < client->preambleLen; f++) {
             bb_appendBytePlainG3RUH(&bb, AX25SG_FLAG, &sr);
@@ -369,20 +375,54 @@ uint16_t AX25SG_BuildFrame(const AX25SG_Client_t *client,
             bb_appendByteStuffedG3RUH(&bb, rawBuf[i], &sr);
         }
         bb_appendBytePlainG3RUH(&bb, AX25SG_FLAG, &sr);
-    } else {
-        for (uint8_t f = 0U; f < client->preambleLen; f++) {
-            bb_appendBytePlain(&bb, AX25SG_FLAG);
-        }
-        for (uint16_t i = 0U; i < rawLen; i++) {
-        	bb_appendBytePlain(&bb, rawBuf[i]);
-        }
-        bb_appendBytePlain(&bb, AX25SG_FLAG);
-        bb_appendBytePlain(&bb, AX25SG_FLAG);
+        if (bb.overflow) { return 0U; }
+        return (uint16_t)((bb.bitCount + 7U) / 8U);
     }
 
-    if (bb.overflow) { return 0U; }
-
-    return (uint16_t)((bb.bitCount + 7U) / 8U);
+    /* Path A: SX126x/SX1278 packet FIFOs already emit MSB-first bytes.
+     * bb_appendBytePlain() packs HDLC LSB-first, which bit-reverses every
+     * byte and breaks the ESP AX.25 decoder (callsigns/FCS). Copy raw
+     * bytes and wrap with optional 0x7E flags instead. */
+    {
+        uint8_t flag = client->invertPolarity ? (uint8_t)~AX25SG_FLAG : AX25SG_FLAG;
+        uint16_t pos = 0U;
+        uint16_t needed = (uint16_t)((uint16_t)client->preambleLen + rawLen + 2U);
+        if (needed > outMaxLen) {
+            return 0U;
+        }
+        for (uint8_t f = 0U; f < client->preambleLen; f++) {
+            outBuf[pos++] = flag;
+        }
+        if (!client->invertPolarity) {
+            memcpy(&outBuf[pos], rawBuf, rawLen);
+            pos = (uint16_t)(pos + rawLen);
+        } else {
+            for (uint16_t i = 0U; i < rawLen; i++) {
+                outBuf[pos++] = (uint8_t)~rawBuf[i];
+            }
+        }
+        outBuf[pos++] = flag;
+        outBuf[pos++] = flag;
+        // #region agent log
+#if defined(AX25_HOST_DEBUG)
+        {
+            FILE *lf = fopen("/home/hernan/Desktop/Comms_CCTE-2026/Software_tests/TEST_433_SANIE/.cursor/debug-40d333.log", "a");
+            if (lf) {
+                fprintf(lf,
+                        "{\"sessionId\":\"40d333\",\"runId\":\"post-fix\",\"hypothesisId\":\"H1\","
+                        "\"location\":\"AX25_SubGHz.c:BuildFrame\",\"message\":\"Path A raw memcpy\","
+                        "\"data\":{\"pos\":%u,\"rawLen\":%u,\"first\":\"%02X\",\"last\":\"%02X\"},"
+                        "\"timestamp\":%ld}\n",
+                        (unsigned)pos, (unsigned)rawLen,
+                        pos ? outBuf[0] : 0, pos ? outBuf[pos - 1U] : 0,
+                        (long)time(NULL) * 1000L);
+                fclose(lf);
+            }
+        }
+#endif
+        // #endregion
+        return pos;
+    }
 }
 
 uint16_t AX25SG_BuildUIFrame(const AX25SG_Client_t *client,

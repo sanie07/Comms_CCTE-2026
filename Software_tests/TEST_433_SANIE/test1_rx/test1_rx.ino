@@ -1,7 +1,20 @@
 #include <RadioLib.h>
 #include <SPI.h>
+#include <ctype.h>
 
-// ─── Pin definitions ───────────────────────────────────────────────────────
+/* Path A: SX1278 FSK packet mode, matching STM32 RadioSetTxGenericConfig.
+ * Whitening off, BT 0.5, CRC off, variable length, sync C1 94 C1.
+ * Path B (direwolf/soundmodem) needs discriminator audio, not this sketch. */
+
+/* ESP32-S3 USB Serial/JTAG is HWCDC (the COM/ttyACM port PuTTY opens), not UART0.
+ * Arduino IDE: USB Mode = Hardware CDC and JTAG, USB CDC On Boot = Enabled.
+ * PuTTY: Serial, 115200 8N1, Flow control None, Implicit CR in every LF. */
+#if defined(CONFIG_IDF_TARGET_ESP32S3) && !(defined(ARDUINO_USB_CDC_ON_BOOT) && ARDUINO_USB_CDC_ON_BOOT)
+  #define LOG USBSerial
+#else
+  #define LOG Serial
+#endif
+
 const int sckPin  = 9;
 const int misoPin = 10;
 const int mosiPin = 11;
@@ -12,129 +25,242 @@ const int ledPin  = 21;
 
 SX1278 radio = new Module(ssPin, dio0Pin, rstPin, RADIOLIB_NC);
 
+volatile bool gotPacket = false;
+
+#if defined(ESP32)
+void IRAM_ATTR onDio0() { gotPacket = true; }
+#else
+void onDio0() { gotPacket = true; }
+#endif
+
+static void hexDump(const byte* data, int len);
+static bool parseAx25Ui(const byte* data, int len);
+
 void setup() {
-  Serial.begin(115200);
+  LOG.begin(115200);
+#if defined(CONFIG_IDF_TARGET_ESP32S3)
+  LOG.setTxTimeoutMs(0);
+#endif
   pinMode(ledPin, OUTPUT);
-  delay(3000);
+
+  /* USB-JTAG re-enumerates after reset; wait so PuTTY can attach and catch the banner. */
+  unsigned long t0 = millis();
+  while (!LOG && (millis() - t0) < 5000) {
+    delay(10);
+  }
+  delay(500);
 
   SPI.begin(sckPin, misoPin, mosiPin, ssPin);
 
-  Serial.println(F("========================================="));
-  Serial.println(F(" SX1278 FSK Diagnostic Receiver v3"));
-  Serial.println(F("========================================="));
+  LOG.println(F("========================================="));
+  LOG.println(F(" SX1278 FSK AX.25 Receiver (Path A)"));
+  LOG.println(F(" USB Serial/JTAG  115200 8N1"));
+  LOG.println(F("========================================="));
+  LOG.flush();
 
-  // ── Step 1: Initialize FSK ──────────────────────────────────────────────
-  // Parameters to match STM32WL:
-  //   RF_FREQUENCY = 433018893 Hz = 433.018893 MHz
-  //   FSK_DATARATE = 1200 bps
-  //   FSK_FDEV     = 5000 Hz = 5.0 kHz
-  //   Preamble     = 8 bytes (0xAA)
-  //   RX BW        = 50 kHz (wider to account for crystal drift)
-  Serial.print(F("[1] beginFSK... "));
-  int state = radio.beginFSK(433.0189, 1.2, 5.0, 50.0, 10, 8, false);
+  /* freq 433.0189 MHz, 1.2 kbps, 5.0 kHz fdev, 20 kHz RX BW, preamble 8 bytes */
+  LOG.print(F("[1] beginFSK... "));
+  int state = radio.beginFSK(433.0189, 1.2, 5.0, 20.0, 10, 8, false);
   if (state != RADIOLIB_ERR_NONE) {
-    Serial.print(F("FAIL: ")); Serial.println(state); while(1) delay(10);
+    LOG.print(F("FAIL: ")); LOG.println(state); while (1) delay(10);
   }
-  Serial.println(F("OK"));
+  LOG.println(F("OK"));
 
-  // ── Step 2: CRC off ─────────────────────────────────────────────────────
-  Serial.print(F("[2] setCRC(false)... "));
+  LOG.print(F("[2] setCRC(false)... "));
   state = radio.setCRC(false);
-  Serial.println(state == RADIOLIB_ERR_NONE ? "OK" : String(state).c_str());
+  LOG.println(state == RADIOLIB_ERR_NONE ? "OK" : String(state).c_str());
 
-  // ── Step 3: Sync Word = 0xC1 0x94 0xC1 ─────────────────────────────────
-  // This is hardcoded in STM32WL's radio.c RadioSetTxConfig() for MODEM_FSK:
-  //   SUBGRF_SetSyncWord( (uint8_t[]){0xC1, 0x94, 0xC1, 0, 0, 0, 0, 0} );
-  //   SyncWordLength = 3 << 3; (3 bytes)
-  Serial.print(F("[3] setSyncWord(C1 94 C1)... "));
+  LOG.print(F("[3] setSyncWord(C1 94 C1)... "));
   uint8_t syncWord[] = {0xC1, 0x94, 0xC1};
   state = radio.setSyncWord(syncWord, 3);
-  Serial.println(state == RADIOLIB_ERR_NONE ? "OK" : String(state).c_str());
+  LOG.println(state == RADIOLIB_ERR_NONE ? "OK" : String(state).c_str());
 
-  // ── Step 4: Data Whitening ON ───────────────────────────────────────────
-  // Both SX1278 and SX1262 use the same IBM whitening: 
-  //   LFSR x^9 + x^5 + 1, seed 0x01FF
-  // STM32WL driver forces: DcFree = RADIO_DC_FREEWHITENING + seed 0x01FF
-  // RadioLib SX1278: setEncoding(WHITENING) uses same algorithm + same seed
-  Serial.print(F("[4] setEncoding(WHITENING)... "));
-  state = radio.setEncoding(RADIOLIB_ENCODING_WHITENING);
-  Serial.println(state == RADIOLIB_ERR_NONE ? "OK" : String(state).c_str());
+  LOG.print(F("[4] setEncoding(NRZ)... "));
+  state = radio.setEncoding(RADIOLIB_ENCODING_NRZ);
+  LOG.println(state == RADIOLIB_ERR_NONE ? "OK" : String(state).c_str());
 
-  // ── Step 5: Packet length mode ──────────────────────────────────────────
-  // STM32 uses fixLen=false → variable length. SX1278 must match.
-  Serial.print(F("[5] variablePacketLengthMode... "));
-  state = radio.variablePacketLengthMode();
-  Serial.println(state == RADIOLIB_ERR_NONE ? "OK" : String(state).c_str());
+  LOG.print(F("[5] variablePacketLengthMode(63)... "));
+  state = radio.variablePacketLengthMode(63);
+  LOG.println(state == RADIOLIB_ERR_NONE ? "OK" : String(state).c_str());
 
-  Serial.println(F("\n========================================="));
-  Serial.println(F(" Listening... (STM32 TX every 5s)"));
-  Serial.println(F("=========================================\n"));
+  LOG.print(F("[6] setDataShaping(BT=0.5)... "));
+  state = radio.setDataShaping(RADIOLIB_SHAPING_0_5);
+  LOG.println(state == RADIOLIB_ERR_NONE ? "OK" : String(state).c_str());
+
+  LOG.print(F("[7] setRxBandwidth(20 kHz)... "));
+  state = radio.setRxBandwidth(20.0);
+  LOG.println(state == RADIOLIB_ERR_NONE ? "OK" : String(state).c_str());
+
+  LOG.print(F("[8] setAFCBandwidth(20 kHz)... "));
+  state = radio.setAFCBandwidth(20.0);
+  LOG.println(state == RADIOLIB_ERR_NONE ? "OK" : String(state).c_str());
+
+  LOG.print(F("[9] setAFC(true)... "));
+  state = radio.setAFC(true);
+  LOG.println(state == RADIOLIB_ERR_NONE ? "OK" : String(state).c_str());
+
+  radio.setDio0Action(onDio0, RISING);
+
+  LOG.print(F("[10] startReceive... "));
+  state = radio.startReceive();
+  LOG.println(state == RADIOLIB_ERR_NONE ? "OK" : String(state).c_str());
+
+  LOG.println();
+  LOG.println(F("Listening (STM32 TX every 5s). Heartbeat '.' every 2s."));
+  LOG.println();
+  LOG.flush();
 }
 
 void loop() {
-  // ── RSSI scan (quick peek at RF energy before blocking receive) ─────────
-  // We read the instantaneous RSSI by briefly entering RX mode
-  // Put radio in RX mode to read RSSI
-  static unsigned long lastRssiPrint = 0;
-  if (millis() - lastRssiPrint > 2000) {
-    lastRssiPrint = millis();
-    Serial.print(F("."));  // heartbeat - shows the loop is alive
+  static unsigned long lastBeat = 0;
+  if (millis() - lastBeat > 2000) {
+    lastBeat = millis();
+    LOG.print(F("."));
+    LOG.flush();
   }
 
-  // ── Try to receive ──────────────────────────────────────────────────────
-  byte buf[256];
-  int state = radio.receive(buf, 0);  // 0 = variable length from packet header
+  if (!gotPacket) {
+    return;
+  }
+  gotPacket = false;
+
+  byte buf[64];
+  int state = radio.readData(buf, 0);
+  int len = radio.getPacketLength();
 
   if (state == RADIOLIB_ERR_NONE) {
-    int len = radio.getPacketLength();
-    Serial.println();
-    Serial.println(F("╔══════════════════════════════════════╗"));
-    Serial.println(F("║        PACKET RECEIVED!              ║"));
-    Serial.println(F("╚══════════════════════════════════════╝"));
-    Serial.print(F("  Length: ")); Serial.println(len);
-    Serial.print(F("  RSSI:  ")); Serial.print(radio.getRSSI()); Serial.println(F(" dBm"));
-    
-    // Raw hex dump (already de-whitened by SX1278 hardware)
-    Serial.println(F("  ── Hex (de-whitened by HW) ──"));
+    LOG.println();
+    LOG.println(F("======== PACKET RECEIVED ========"));
+    LOG.print(F("  Length: ")); LOG.print(len);
+    LOG.print(F("  (expect ~57 bytes)"));
+    LOG.println();
+    LOG.print(F("  RSSI:   ")); LOG.print(radio.getRSSI()); LOG.println(F(" dBm"));
+    LOG.print(F("  FreqErr: ")); LOG.print(radio.getFrequencyError());
+    LOG.println(F(" Hz  (trim STM32 XTAL_DEFAULT_CAP_VALUE if large)"));
+
+    LOG.println(F("  Hex:"));
     hexDump(buf, len);
 
-    // ASCII
-    Serial.print(F("  ASCII: "));
+    LOG.print(F("  ASCII: "));
     for (int i = 0; i < len; i++) {
-      Serial.print(isPrintable(buf[i]) ? (char)buf[i] : '.');
+      LOG.print(isPrintable(buf[i]) ? (char)buf[i] : '.');
     }
-    Serial.println();
-    Serial.println(F("────────────────────────────────────────"));
+    LOG.println();
 
-    // Blink LED
-    digitalWrite(ledPin, HIGH); delay(100); digitalWrite(ledPin, LOW);
+    parseAx25Ui(buf, len);
+    LOG.println(F("================================"));
+    LOG.flush();
 
+    digitalWrite(ledPin, HIGH);
+    delay(80);
+    digitalWrite(ledPin, LOW);
   } else if (state == RADIOLIB_ERR_CRC_MISMATCH) {
-    Serial.print(F("C"));  // CRC error indicator
-
-  } else if (state == RADIOLIB_ERR_RX_TIMEOUT) {
-    // Normal timeout, do nothing (the heartbeat dot shows we're alive)
-
+    LOG.print(F("C"));
   } else {
-    // Some other error
-    Serial.print(F("\n[ERR] code: "));
-    Serial.println(state);
+    LOG.println();
+    LOG.print(F("[ERR] readData: "));
+    LOG.println(state);
+    LOG.flush();
   }
+
+  radio.startReceive();
 }
 
-// ─── Helper: hex dump ──────────────────────────────────────────────────────
-void hexDump(const byte* data, int len) {
+static uint16_t ax25Crc16(const uint8_t *data, size_t len) {
+  uint16_t crc = 0xFFFFU;
+  for (size_t i = 0; i < len; i++) {
+    crc ^= (uint16_t)data[i];
+    for (uint8_t j = 0; j < 8; j++) {
+      if (crc & 1U) {
+        crc = (crc >> 1U) ^ 0x8408U;
+      } else {
+        crc = (crc >> 1U);
+      }
+    }
+  }
+  return (uint16_t)(~crc);
+}
+
+static void printCallsign(const byte* addr) {
+  for (int i = 0; i < 6; i++) {
+    char c = (char)(addr[i] >> 1);
+    if (c != ' ') {
+      LOG.print(c);
+    }
+  }
+  LOG.print(F("-"));
+  LOG.print((addr[6] >> 1) & 0x0F);
+}
+
+static bool parseAx25Ui(const byte* data, int len) {
+  int start = 0;
+  int end = len;
+  while (start < end && data[start] == 0x7E) {
+    start++;
+  }
+  while (end > start && data[end - 1] == 0x7E) {
+    end--;
+  }
+  int frameLen = end - start;
+  if (frameLen < 16) {
+    LOG.println(F("  AX.25: frame too short"));
+    return false;
+  }
+
+  uint16_t gotFcs = (uint16_t)data[start + frameLen - 2] |
+                    ((uint16_t)data[start + frameLen - 1] << 8);
+  uint16_t expFcs = ax25Crc16(&data[start], (size_t)(frameLen - 2));
+  bool crcOk = (gotFcs == expFcs);
+
+  LOG.print(F("  Dest: "));
+  printCallsign(&data[start]);
+  LOG.print(F("  Src: "));
+  printCallsign(&data[start + 7]);
+  LOG.println();
+
+  uint8_t ctrl = data[start + 14];
+  uint8_t pid  = data[start + 15];
+  LOG.print(F("  Ctrl=0x"));
+  if (ctrl < 0x10) LOG.print('0');
+  LOG.print(ctrl, HEX);
+  LOG.print(F(" PID=0x"));
+  if (pid < 0x10) LOG.print('0');
+  LOG.print(pid, HEX);
+  if ((ctrl & 0xEF) != 0x03) {
+    LOG.print(F(" (not UI)"));
+  }
+  if (pid != 0xF0) {
+    LOG.print(F(" (PID != 0xF0)"));
+  }
+  LOG.println();
+
+  LOG.print(F("  FCS "));
+  LOG.println(crcOk ? F("OK") : F("FAIL"));
+
+  int infoLen = frameLen - 18;
+  if (infoLen > 0) {
+    LOG.print(F("  Info: "));
+    for (int i = 0; i < infoLen; i++) {
+      char c = (char)data[start + 16 + i];
+      LOG.print(isPrintable(c) ? c : '.');
+    }
+    LOG.println();
+  }
+  return crcOk;
+}
+
+static void hexDump(const byte* data, int len) {
   for (int i = 0; i < len; i++) {
     if (i % 16 == 0) {
-      if (i > 0) Serial.println();
-      Serial.print(F("  "));
-      if (i < 0x10) Serial.print('0');
-      Serial.print(i, HEX);
-      Serial.print(F(": "));
+      if (i > 0) LOG.println();
+      LOG.print(F("  "));
+      if (i < 0x10) LOG.print('0');
+      LOG.print(i, HEX);
+      LOG.print(F(": "));
     }
-    if (data[i] < 0x10) Serial.print('0');
-    Serial.print(data[i], HEX);
-    Serial.print(' ');
+    if (data[i] < 0x10) LOG.print('0');
+    LOG.print(data[i], HEX);
+    LOG.print(' ');
   }
-  Serial.println();
+  LOG.println();
 }

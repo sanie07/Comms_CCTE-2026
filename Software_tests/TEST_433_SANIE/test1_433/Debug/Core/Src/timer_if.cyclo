@@ -1,4 +1,4 @@
-C:/Users/sanie/STM32Cube/Repository/STM32Cube_FW_WL_V1.5.0/Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_rtc.h:1528:26:LL_RTC_TIME_GetSubSecond	1
+../../../Test2_433MHz/Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_rtc.h:1528:26:LL_RTC_TIME_GetSubSecond	1
 ../Core/Src/timer_if.c:181:21:TIMER_IF_Init	2
 ../Core/Src/timer_if.c:218:21:TIMER_IF_StartTimer	3
 ../Core/Src/timer_if.c:252:21:TIMER_IF_StopTimer	1

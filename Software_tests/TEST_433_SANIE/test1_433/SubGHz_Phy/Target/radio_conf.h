@@ -70,6 +70,9 @@ extern "C" {
   * @brief in XO mode, set internal capacitor (from 0x00 to 0x2F starting 11.2pF with 0.47pF steps)
   * @note override the default configuration of radio_driver.c
   */
+/* Default 0x20 (about 26.2 pF). The 18.893 kHz RF_FREQUENCY offset is the
+ * current calibration; after a successful link, trim this from ESP32
+ * getFrequencyError() if the residual is large. */
 #define XTAL_DEFAULT_CAP_VALUE      ( 0x20UL )
 
 /**
