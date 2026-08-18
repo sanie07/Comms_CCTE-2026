@@ -1,0 +1,16 @@
+../Core/Src/AX25_SubGHz.c:22:17:ax25_crc16	32	static
+../Core/Src/AX25_SubGHz.c:53:13:bb_appendBit	32	static
+../Core/Src/AX25_SubGHz.c:91:13:bb_appendBytePlain	24	static
+../Core/Src/AX25_SubGHz.c:99:13:bb_appendByteStuffed	24	static
+../Core/Src/AX25_SubGHz.c:121:13:bb_appendBytePlainG3RUH	32	static
+../Core/Src/AX25_SubGHz.c:133:13:bb_appendByteStuffedG3RUH	32	static
+../Core/Src/AX25_SubGHz.c:163:13:buildAddr	32	static
+../Core/Src/AX25_SubGHz.c:179:17:buildRawFrame	48	static
+../Core/Src/AX25_SubGHz.c:245:8:AX25SG_Init	32	static
+../Core/Src/AX25_SubGHz.c:264:6:AX25SG_SetScrambler	24	static
+../Core/Src/AX25_SubGHz.c:271:6:AX25SG_SetInvert	16	static
+../Core/Src/AX25_SubGHz.c:277:6:AX25SG_FrameInit	32	static
+../Core/Src/AX25_SubGHz.c:301:8:AX25SG_FrameInitUI	40	static
+../Core/Src/AX25_SubGHz.c:320:8:AX25SG_SetRepeaters	32	static
+../Core/Src/AX25_SubGHz.c:340:10:AX25SG_BuildFrame	64	static
+../Core/Src/AX25_SubGHz.c:388:10:AX25SG_BuildUIFrame	384	static
