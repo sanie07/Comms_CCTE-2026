@@ -60,8 +60,8 @@ all: main-build
 main-build: STM32_test8_DRA_TX_GPS.elf secondary-outputs
 
 # Tool invocations
-STM32_test8_DRA_TX_GPS.elf STM32_test8_DRA_TX_GPS.map: $(OBJS) $(USER_OBJS) C:\Users\sanie\Documents\GitHub\Comms_CCTE-2026\Software_tests\Test8\STM32_test8_DRA_TX_GPS\STM32WLE5CCUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "STM32_test8_DRA_TX_GPS.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\sanie\Documents\GitHub\Comms_CCTE-2026\Software_tests\Test8\STM32_test8_DRA_TX_GPS\STM32WLE5CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32_test8_DRA_TX_GPS.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+STM32_test8_DRA_TX_GPS.elf STM32_test8_DRA_TX_GPS.map: $(OBJS) $(USER_OBJS) C:\Users\sanie\Documents\GitHub\Comms_CCTE-2026\Software_tests\DRA818V_145MHZ_TEST\Test8_DRA_TX_GPS\STM32_test8_DRA_TX_GPS\STM32WLE5CCUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "STM32_test8_DRA_TX_GPS.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\sanie\Documents\GitHub\Comms_CCTE-2026\Software_tests\DRA818V_145MHZ_TEST\Test8_DRA_TX_GPS\STM32_test8_DRA_TX_GPS\STM32WLE5CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32_test8_DRA_TX_GPS.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

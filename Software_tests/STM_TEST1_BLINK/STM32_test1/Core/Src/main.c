@@ -100,6 +100,9 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
 	  HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_4);
+    HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_5);
+    HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_0);
+    HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_1);
 	  HAL_Delay(500);
   }
   /* USER CODE END 3 */

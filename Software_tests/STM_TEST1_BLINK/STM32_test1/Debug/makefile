@@ -60,8 +60,8 @@ all: main-build
 main-build: STM32_test1.elf secondary-outputs
 
 # Tool invocations
-STM32_test1.elf STM32_test1.map: $(OBJS) $(USER_OBJS) C:\Users\sanie\Documents\GitHub\Comms_CCTE-2026\Software\STM32_test1\STM32WLE5CCUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "STM32_test1.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\sanie\Documents\GitHub\Comms_CCTE-2026\Software\STM32_test1\STM32WLE5CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32_test1.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+STM32_test1.elf STM32_test1.map: $(OBJS) $(USER_OBJS) C:\Users\sanie\Documents\GitHub\Comms_CCTE-2026\Software_tests\STM_TEST1_BLINK\STM32_test1\STM32WLE5CCUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "STM32_test1.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\sanie\Documents\GitHub\Comms_CCTE-2026\Software_tests\STM_TEST1_BLINK\STM32_test1\STM32WLE5CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32_test1.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
