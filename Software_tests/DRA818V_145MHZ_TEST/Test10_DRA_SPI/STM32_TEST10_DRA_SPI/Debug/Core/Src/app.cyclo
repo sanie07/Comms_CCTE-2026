@@ -1,0 +1,14 @@
+../Core/Src/app.c:57:16:computeChecksum	2
+../Core/Src/app.c:68:13:spiPrepareAndArm	2
+../Core/Src/app.c:111:13:spiProcessRxPacket	4
+../Core/Src/app.c:139:13:formatAprsLat_e6	3
+../Core/Src/app.c:155:13:formatAprsLon_e6	3
+../Core/Src/app.c:173:13:buildBeaconFrame	4
+../Core/Src/app.c:220:13:onRxFrame	1
+../Core/Src/app.c:231:6:HAL_TIM_PeriodElapsedCallback	2
+../Core/Src/app.c:239:6:App_AFSK_TimerCallback	2
+../Core/Src/app.c:250:6:HAL_GPIO_EXTI_Callback	1
+../Core/Src/app.c:255:6:HAL_SPI_TxRxCpltCallback	2
+../Core/Src/app.c:264:6:HAL_SPI_ErrorCallback	2
+../Core/Src/app.c:277:6:App_Init	2
+../Core/Src/app.c:314:6:App_Run	17

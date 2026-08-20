@@ -1,0 +1,11 @@
+../Core/Src/ax25.c:18:17:crc16_update	24	static
+../Core/Src/ax25.c:31:17:crc16_block	24	static
+../Core/Src/ax25.c:47:20:appendBit	24	static
+../Core/Src/ax25.c:66:13:appendBytePlain	24	static
+../Core/Src/ax25.c:72:13:appendByteStuffed	24	static
+../Core/Src/ax25.c:98:13:encodeAddr	24	static
+../Core/Src/ax25.c:119:6:AX25_BuildTxFrame	336	static
+../Core/Src/ax25.c:204:13:rxReset	4	static
+../Core/Src/ax25.c:213:13:rxProcessFrame	40	static
+../Core/Src/ax25.c:267:6:AX25_Init	16	static
+../Core/Src/ax25.c:273:6:AX25_RxBit	16	static

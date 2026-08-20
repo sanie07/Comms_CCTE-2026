@@ -1,0 +1,13 @@
+../Core/Src/afsk.c:72:23:i32abs	16	static
+../Core/Src/afsk.c:86:16:sineQ15	24	static
+../Core/Src/afsk.c:104:17:phaseIncForHz	16	static
+../Core/Src/afsk.c:113:16:rxGetSymbol	48	static
+../Core/Src/afsk.c:137:6:AFSK_Init	32	static
+../Core/Src/afsk.c:173:6:AFSK_TX_Load	16	static
+../Core/Src/afsk.c:181:6:AFSK_TX_Start	4	static
+../Core/Src/afsk.c:193:6:AFSK_TX_Stop	4	static
+../Core/Src/afsk.c:201:6:AFSK_TX_IsDone	4	static
+../Core/Src/afsk.c:206:6:AFSK_ToneStart	16	static
+../Core/Src/afsk.c:217:6:AFSK_CalAltStart	4	static
+../Core/Src/afsk.c:229:6:AFSK_ToneStop	4	static
+../Core/Src/afsk.c:240:6:AFSK_TimerTick	16	static

@@ -1,0 +1,14 @@
+../Core/Src/app.c:57:16:computeChecksum	24	static
+../Core/Src/app.c:68:13:spiPrepareAndArm	8	static
+../Core/Src/app.c:111:13:spiProcessRxPacket	16	static
+../Core/Src/app.c:139:13:formatAprsLat_e6	64	static
+../Core/Src/app.c:155:13:formatAprsLon_e6	64	static
+../Core/Src/app.c:173:13:buildBeaconFrame	312	static
+../Core/Src/app.c:220:13:onRxFrame	24	static
+../Core/Src/app.c:231:6:HAL_TIM_PeriodElapsedCallback	16	static
+../Core/Src/app.c:239:6:App_AFSK_TimerCallback	8	static
+../Core/Src/app.c:250:6:HAL_GPIO_EXTI_Callback	16	static
+../Core/Src/app.c:255:6:HAL_SPI_TxRxCpltCallback	16	static
+../Core/Src/app.c:264:6:HAL_SPI_ErrorCallback	16	static
+../Core/Src/app.c:277:6:App_Init	8	static
+../Core/Src/app.c:314:6:App_Run	16	static
