@@ -39,6 +39,8 @@ typedef struct {
 esp_err_t sx1278_init(const sx1278_pins_t *pins, const sx1278_fsk_cfg_t *cfg);
 esp_err_t sx1278_start_receive(void);
 esp_err_t sx1278_read_packet(uint8_t *data, size_t max_len, size_t *len);
+esp_err_t sx1278_read_status(uint8_t *irq1, uint8_t *irq2, float *rssi_dbm);
+bool      sx1278_payload_ready(void);
 float     sx1278_get_rssi_dbm(void);
 float     sx1278_get_freq_error_hz(void);
 uint8_t   sx1278_chip_version(void);

@@ -67,7 +67,7 @@ static const char *TAG = "sx1278";
 #define CRC_ON                  0x10
 #define AFC_AUTO_ON             0x10
 #define AGC_AUTO_ON             0x08
-#define RX_TRIG_RSSI            0x01
+#define RX_TRIG_PREAMBLE        0x06   /* RadioLib RX_TRIGGER_PREAMBLE_DETECT */
 #define PREAMBLE_DET_ON         0x80
 #define PREAMBLE_DET_2B         0x20
 #define PREAMBLE_DET_TOL        0x0A
@@ -75,6 +75,8 @@ static const char *TAG = "sx1278";
 #define FIFO_THRESH_DEFAULT     0x1F
 #define FLAG_FIFO_OVERRUN       0x10
 #define FLAG_PAYLOAD_READY      0x04
+#define FLAG_PREAMBLE_DETECT    0x02
+#define FLAG_SYNC_ADDRESS_MATCH 0x01
 #define OCP_ON                  0x20
 
 static spi_device_handle_t s_spi;
@@ -256,7 +258,8 @@ esp_err_t sx1278_init(const sx1278_pins_t *pins, const sx1278_fsk_cfg_t *cfg)
     ESP_ERROR_CHECK(write_reg(REG_RX_BW, RX_BW_20_8KHZ));
     ESP_ERROR_CHECK(write_reg(REG_AFC_BW, RX_BW_20_8KHZ));
 
-    uint8_t rx_cfg = RX_TRIG_RSSI | AGC_AUTO_ON;
+    /* Preamble trigger matches RadioLib setAFCAGCTrigger(PREAMBLE); AFC optional. */
+    uint8_t rx_cfg = (uint8_t)(RX_TRIG_PREAMBLE | AGC_AUTO_ON);
     if (cfg->afc_on) {
         rx_cfg |= AFC_AUTO_ON;
     }
@@ -366,6 +369,35 @@ esp_err_t sx1278_read_packet(uint8_t *data, size_t max_len, size_t *len)
         return ESP_ERR_NO_MEM;
     }
     return ESP_OK;
+}
+
+esp_err_t sx1278_read_status(uint8_t *irq1, uint8_t *irq2, float *rssi_dbm)
+{
+    uint8_t i1 = 0;
+    uint8_t i2 = 0;
+    uint8_t rssi_raw = 0;
+    ESP_ERROR_CHECK(read_reg(REG_IRQ_FLAGS_1, &i1));
+    ESP_ERROR_CHECK(read_reg(REG_IRQ_FLAGS_2, &i2));
+    ESP_ERROR_CHECK(read_reg(REG_RSSI_VALUE, &rssi_raw));
+    if (irq1) {
+        *irq1 = i1;
+    }
+    if (irq2) {
+        *irq2 = i2;
+    }
+    if (rssi_dbm) {
+        *rssi_dbm = -(float)rssi_raw / 2.0f;
+    }
+    return ESP_OK;
+}
+
+bool sx1278_payload_ready(void)
+{
+    uint8_t flags2 = 0;
+    if (read_reg(REG_IRQ_FLAGS_2, &flags2) != ESP_OK) {
+        return false;
+    }
+    return (flags2 & FLAG_PAYLOAD_READY) != 0;
 }
 
 float sx1278_get_rssi_dbm(void)

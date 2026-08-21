@@ -13,5 +13,10 @@
     "--background-index",
     "--query-driver=**",
     "--compile-commands-dir=/home/hernan/Desktop/Comms_CCTE-2026/Software_tests/TEST_433_SANIE/build"
+  ],
+  "idf.port": "/dev/ttyACM0",
+  "idf.flashType": "UART",
+  "idf.openOcdConfigs": [
+    "board/esp32s3-builtin.cfg"
   ]
 }

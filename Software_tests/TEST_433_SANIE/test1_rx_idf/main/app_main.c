@@ -10,7 +10,7 @@
 #include "freertos/task.h"
 #include "sx1278_fsk.h"
 
-/* Same pins as test1_rx.ino */
+/* Same pins as former Arduino sketch (now ESP-IDF only). */
 #define PIN_SCK     9
 #define PIN_MISO    10
 #define PIN_MOSI    11
@@ -19,7 +19,8 @@
 #define PIN_RST     13
 #define PIN_LED     21
 
-#define RF_FREQUENCY_HZ     433018900u
+/* Match STM32 RF_FREQUENCY in subghz_phy_app.h */
+#define RF_FREQUENCY_HZ     433018893u
 #define FSK_BITRATE_BPS     1200u
 #define FSK_FDEV_HZ         5000u
 #define FSK_RX_BW_HZ        20000u
@@ -86,11 +87,7 @@ static void parse_ax25_ui(const uint8_t *data, int len)
     }
     int frame_len = end - start;
     if (frame_len < 16) {
-        // #region agent log
-        log_line("  DBG parse start=%d end=%d flen=%d first=0x%02X crc=-1",
-                 start, end, frame_len, (len > 0) ? data[0] : 0);
-        // #endregion
-        log_line("  AX.25: frame too short");
+        log_line("  AX.25: frame too short (%d)", frame_len);
         return;
     }
 
@@ -98,10 +95,6 @@ static void parse_ax25_ui(const uint8_t *data, int len)
                        ((uint16_t)data[start + frame_len - 1] << 8);
     uint16_t exp_fcs = ax25_crc16(&data[start], (size_t)(frame_len - 2));
     bool crc_ok = (got_fcs == exp_fcs);
-    // #region agent log
-    log_line("  DBG parse start=%d end=%d flen=%d first=0x%02X crc=%d",
-             start, end, frame_len, (len > 0) ? data[0] : 0, crc_ok ? 1 : 0);
-    // #endregion
 
     printf("  Dest: ");
     print_callsign(&data[start]);
@@ -154,15 +147,47 @@ static void pulse_led(void)
     gpio_set_level((gpio_num_t)PIN_LED, 0);
 }
 
+static void handle_packet(void)
+{
+    uint8_t buf[SX1278_FIFO_SIZE];
+    size_t len = 0;
+    esp_err_t err = sx1278_read_packet(buf, sizeof(buf), &len);
+    if (err == ESP_OK) {
+        log_line("");
+        log_line("======== PACKET RECEIVED ========");
+        log_line("  Length: %u  (expect ~56 bytes Path A)", (unsigned)len);
+        log_line("  RSSI:   %.1f dBm", sx1278_get_rssi_dbm());
+        log_line("  FreqErr: %.0f Hz  (trim STM32 XTAL if large)",
+                 sx1278_get_freq_error_hz());
+        log_line("  Hex:");
+        hex_dump(buf, (int)len);
+
+        printf("  ASCII: ");
+        for (size_t i = 0; i < len; i++) {
+            putchar(isprint(buf[i]) ? (char)buf[i] : '.');
+        }
+        printf("\r\n");
+
+        parse_ax25_ui(buf, (int)len);
+        log_line("================================");
+        pulse_led();
+    } else {
+        log_line("[ERR] read_packet: %s", esp_err_to_name(err));
+    }
+    ESP_ERROR_CHECK(sx1278_start_receive());
+}
+
 void app_main(void)
 {
-    /* USB-JTAG re-enumerates after reset; give PuTTY time to attach. */
+    /* USB-JTAG re-enumerates after reset; give the monitor time to attach. */
     vTaskDelay(pdMS_TO_TICKS(1500));
 
     log_line("=========================================");
     log_line(" SX1278 FSK AX.25 Receiver (Path A)");
     log_line(" ESP-IDF  USB Serial/JTAG");
     log_line("=========================================");
+    log_line("NOTE: Path A = Semtech GFSK packet (sync C1 94 C1).");
+    log_line("      SoundModem/Direwolf need Path B (AFSK audio).");
 
     s_rx_sem = xSemaphoreCreateBinary();
     ESP_ERROR_CHECK(gpio_install_isr_service(0));
@@ -209,39 +234,39 @@ void app_main(void)
     log_line("OK");
     log_line("");
     log_line("Listening (STM32 TX every 5s). Heartbeat '.' every 2s.");
+    log_line("Status line every ~10s: RSSI + preamble/sync/payload flags.");
     log_line("");
 
+    unsigned beat = 0;
     while (1) {
-        if (xSemaphoreTake(s_rx_sem, pdMS_TO_TICKS(2000)) == pdTRUE) {
-            uint8_t buf[SX1278_FIFO_SIZE];
-            size_t len = 0;
-            err = sx1278_read_packet(buf, sizeof(buf), &len);
-            if (err == ESP_OK) {
-                log_line("");
-                log_line("======== PACKET RECEIVED ========");
-                log_line("  Length: %u  (expect ~57 bytes)", (unsigned)len);
-                log_line("  RSSI:   %.1f dBm", sx1278_get_rssi_dbm());
-                log_line("  FreqErr: %.0f Hz  (trim STM32 XTAL_DEFAULT_CAP_VALUE if large)",
-                         sx1278_get_freq_error_hz());
-                log_line("  Hex:");
-                hex_dump(buf, (int)len);
+        /* DIO0 ISR or SPI poll of PayloadReady (covers missing DIO0 wire). */
+        bool got = (xSemaphoreTake(s_rx_sem, pdMS_TO_TICKS(200)) == pdTRUE) ||
+                   sx1278_payload_ready();
+        if (got) {
+            handle_packet();
+            continue;
+        }
 
-                printf("  ASCII: ");
-                for (size_t i = 0; i < len; i++) {
-                    putchar(isprint(buf[i]) ? (char)buf[i] : '.');
-                }
-                printf("\r\n");
-
-                parse_ax25_ui(buf, (int)len);
-                log_line("================================");
-                pulse_led();
-            } else {
-                log_line("[ERR] read_packet: %s", esp_err_to_name(err));
-            }
-            ESP_ERROR_CHECK(sx1278_start_receive());
-        } else {
+        beat++;
+        /* 200 ms * 10 = 2 s heartbeat */
+        if ((beat % 10U) == 0U) {
             printf(".");
             fflush(stdout);
+        }
+        /* ~10 s: dump modem status so RF/sync problems are visible */
+        if ((beat % 50U) == 0U) {
+            uint8_t irq1 = 0;
+            uint8_t irq2 = 0;
+            float rssi = 0.0f;
+            sx1278_read_status(&irq1, &irq2, &rssi);
+            log_line("");
+            log_line("[stat] RSSI=%.1f dBm  irq1=0x%02X (pre=%u sync=%u)  irq2=0x%02X (pay=%u ov=%u)",
+                     rssi, irq1,
+                     (irq1 & 0x02) ? 1 : 0,
+                     (irq1 & 0x01) ? 1 : 0,
+                     irq2,
+                     (irq2 & 0x04) ? 1 : 0,
+                     (irq2 & 0x10) ? 1 : 0);
         }
     }
 }
