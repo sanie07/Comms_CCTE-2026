@@ -1,0 +1,22 @@
+{
+  "idf.currentSetup": "/home/hernan/esp/esp-idf",
+  "idf.espIdfPath": "/home/hernan/esp/esp-idf",
+  "idf.toolsPath": "/home/hernan/.espressif",
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32s3"
+  },
+  "idf.sdkconfigFilePath": "${workspaceFolder}/test1_rx_idf/sdkconfig",
+  "cmake.sourceDirectory": "${workspaceFolder}",
+  "cmake.buildDirectory": "${workspaceFolder}/build",
+  "clangd.path": "/home/hernan/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/clangd",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=**",
+    "--compile-commands-dir=/home/hernan/Desktop/Comms_CCTE-2026/Software_tests/TEST_433_SANIE/build"
+  ],
+  "idf.port": "/dev/ttyACM0",
+  "idf.flashType": "UART",
+  "idf.openOcdConfigs": [
+    "board/esp32s3-builtin.cfg"
+  ]
+}
