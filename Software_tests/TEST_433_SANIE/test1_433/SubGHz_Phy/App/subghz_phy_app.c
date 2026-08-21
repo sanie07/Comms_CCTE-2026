@@ -55,7 +55,7 @@ static AX25SG_Client_t ax25Client;
  * would push the frame over the SX1278 63-byte FSK FIFO limit.
  * Path B (direwolf/soundmodem) needs NRZI + bit-stuffing and no packet
  * header; see AX25_SubGHz.c. */
-#define AX25_SRC_CALLSIGN                           "CUBE1 "
+#define AX25_SRC_CALLSIGN                           "CCTE"
 #define AX25_SRC_SSID                               0
 #define AX25_DEST_CALLSIGN                          "FIUNA1"
 #define AX25_DEST_SSID                              1
@@ -210,7 +210,7 @@ static void TransmitPacket(void)
 {
   static uint8_t ax25TxBuf[AX25SG_MAX_FRAME_BUF];
   uint16_t tamano = AX25SG_BuildUIFrame(&ax25Client,
-                                        "GPS:-25.263700,-57.575900,400.0,SAT:8",
+                                        "GPS:-25.330243,-57.517492,100.0,SAT:4",
                                         AX25_DEST_CALLSIGN,
                                         AX25_DEST_SSID,
                                         ax25TxBuf,

@@ -1,5 +1,5 @@
 Drivers/STM32WLxx_HAL_Driver/stm32wlxx_hal_uart.o: \
- /home/hernan/Desktop/Comms_CCTE-2026/Software_tests/Test2_433MHz/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart.c \
+ C:/Users/sanie/Documents/GitHub/Comms_CCTE-2026/Software_tests/Test2_433MHz/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart.c \
  ../../../Test2_433MHz/Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal.h \
  ../Core/Inc/stm32wlxx_hal_conf.h \
  ../../../Test2_433MHz/Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_hal_dma.h \

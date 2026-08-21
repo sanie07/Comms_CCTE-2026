@@ -1,5 +1,5 @@
 Middlewares/SubGHz_Phy/radio_fw.o: \
- /home/hernan/Desktop/Comms_CCTE-2026/Software_tests/Test2_433MHz/Middlewares/Third_Party/SubGHz_Phy/radio_driver/radio_fw.c \
+ C:/Users/sanie/Documents/GitHub/Comms_CCTE-2026/Software_tests/Test2_433MHz/Middlewares/Third_Party/SubGHz_Phy/radio_driver/radio_fw.c \
  ../SubGHz_Phy/Target/timer.h \
  ../../../Test2_433MHz/Utilities/timer/stm32_timer.h \
  ../../../Test2_433MHz/Drivers/CMSIS/Include/cmsis_compiler.h \
@@ -8,9 +8,9 @@ Middlewares/SubGHz_Phy/radio_fw.o: \
  ../../../Test2_433MHz/Utilities/misc/stm32_mem.h \
  ../../../Test2_433MHz/Utilities/misc/stm32_tiny_vsnprintf.h \
  ../Core/Inc/utilities_def.h \
- /home/hernan/Desktop/Comms_CCTE-2026/Software_tests/Test2_433MHz/Middlewares/Third_Party/SubGHz_Phy/radio_driver/radio_fw.h \
- /home/hernan/Desktop/Comms_CCTE-2026/Software_tests/Test2_433MHz/Middlewares/Third_Party/SubGHz_Phy/radio_driver/radio_def.h \
- /home/hernan/Desktop/Comms_CCTE-2026/Software_tests/Test2_433MHz/Middlewares/Third_Party/SubGHz_Phy/radio_driver/radio_ex.h \
+ C:/Users/sanie/Documents/GitHub/Comms_CCTE-2026/Software_tests/Test2_433MHz/Middlewares/Third_Party/SubGHz_Phy/radio_driver/radio_fw.h \
+ C:/Users/sanie/Documents/GitHub/Comms_CCTE-2026/Software_tests/Test2_433MHz/Middlewares/Third_Party/SubGHz_Phy/radio_driver/radio_def.h \
+ C:/Users/sanie/Documents/GitHub/Comms_CCTE-2026/Software_tests/Test2_433MHz/Middlewares/Third_Party/SubGHz_Phy/radio_driver/radio_ex.h \
  ../SubGHz_Phy/Target/radio_conf.h ../Core/Inc/platform.h \
  ../../../Test2_433MHz/Drivers/CMSIS/Device/ST/STM32WLxx/Include/stm32wlxx.h \
  ../../../Test2_433MHz/Drivers/CMSIS/Device/ST/STM32WLxx/Include/stm32wle5xx.h \
@@ -58,7 +58,7 @@ Middlewares/SubGHz_Phy/radio_fw.o: \
  ../../../Test2_433MHz/Utilities/trace/adv_trace/stm32_adv_trace.h \
  ../SubGHz_Phy/Target/radio_board_if.h ../Core/Inc/utilities_def.h \
  ../Core/Inc/sys_debug.h ../Core/Inc/sys_conf.h ../Core/Inc/platform.h \
- /home/hernan/Desktop/Comms_CCTE-2026/Software_tests/Test2_433MHz/Middlewares/Third_Party/SubGHz_Phy/radio_driver/radio_driver.h \
+ C:/Users/sanie/Documents/GitHub/Comms_CCTE-2026/Software_tests/Test2_433MHz/Middlewares/Third_Party/SubGHz_Phy/radio_driver/radio_driver.h \
  ../SubGHz_Phy/Target/mw_log_conf.h
 ../SubGHz_Phy/Target/timer.h:
 ../../../Test2_433MHz/Utilities/timer/stm32_timer.h:
@@ -68,9 +68,9 @@ Middlewares/SubGHz_Phy/radio_fw.o: \
 ../../../Test2_433MHz/Utilities/misc/stm32_mem.h:
 ../../../Test2_433MHz/Utilities/misc/stm32_tiny_vsnprintf.h:
 ../Core/Inc/utilities_def.h:
-/home/hernan/Desktop/Comms_CCTE-2026/Software_tests/Test2_433MHz/Middlewares/Third_Party/SubGHz_Phy/radio_driver/radio_fw.h:
-/home/hernan/Desktop/Comms_CCTE-2026/Software_tests/Test2_433MHz/Middlewares/Third_Party/SubGHz_Phy/radio_driver/radio_def.h:
-/home/hernan/Desktop/Comms_CCTE-2026/Software_tests/Test2_433MHz/Middlewares/Third_Party/SubGHz_Phy/radio_driver/radio_ex.h:
+C:/Users/sanie/Documents/GitHub/Comms_CCTE-2026/Software_tests/Test2_433MHz/Middlewares/Third_Party/SubGHz_Phy/radio_driver/radio_fw.h:
+C:/Users/sanie/Documents/GitHub/Comms_CCTE-2026/Software_tests/Test2_433MHz/Middlewares/Third_Party/SubGHz_Phy/radio_driver/radio_def.h:
+C:/Users/sanie/Documents/GitHub/Comms_CCTE-2026/Software_tests/Test2_433MHz/Middlewares/Third_Party/SubGHz_Phy/radio_driver/radio_ex.h:
 ../SubGHz_Phy/Target/radio_conf.h:
 ../Core/Inc/platform.h:
 ../../../Test2_433MHz/Drivers/CMSIS/Device/ST/STM32WLxx/Include/stm32wlxx.h:
@@ -123,5 +123,5 @@ Middlewares/SubGHz_Phy/radio_fw.o: \
 ../Core/Inc/sys_debug.h:
 ../Core/Inc/sys_conf.h:
 ../Core/Inc/platform.h:
-/home/hernan/Desktop/Comms_CCTE-2026/Software_tests/Test2_433MHz/Middlewares/Third_Party/SubGHz_Phy/radio_driver/radio_driver.h:
+C:/Users/sanie/Documents/GitHub/Comms_CCTE-2026/Software_tests/Test2_433MHz/Middlewares/Third_Party/SubGHz_Phy/radio_driver/radio_driver.h:
 ../SubGHz_Phy/Target/mw_log_conf.h:

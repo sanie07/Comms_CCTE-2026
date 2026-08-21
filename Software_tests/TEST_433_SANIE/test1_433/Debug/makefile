@@ -64,8 +64,8 @@ all: main-build
 main-build: test1_433.elf secondary-outputs
 
 # Tool invocations
-test1_433.elf test1_433.map: $(OBJS) $(USER_OBJS) /home/hernan/Desktop/Comms_CCTE-2026/Software_tests/TEST_433_SANIE/test1_433/STM32WLE5CCUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "test1_433.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/home/hernan/Desktop/Comms_CCTE-2026/Software_tests/TEST_433_SANIE/test1_433/STM32WLE5CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="test1_433.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+test1_433.elf test1_433.map: $(OBJS) $(USER_OBJS) C:\Users\sanie\Documents\GitHub\Comms_CCTE-2026\Software_tests\TEST_433_SANIE\test1_433\STM32WLE5CCUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "test1_433.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\sanie\Documents\GitHub\Comms_CCTE-2026\Software_tests\TEST_433_SANIE\test1_433\STM32WLE5CCUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="test1_433.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
