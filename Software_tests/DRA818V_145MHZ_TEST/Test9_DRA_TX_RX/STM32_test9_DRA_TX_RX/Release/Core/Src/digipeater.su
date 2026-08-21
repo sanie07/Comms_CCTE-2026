@@ -1,0 +1,5 @@
+../Core/Src/digipeater.c:134:6:Digi_Init	8	static
+../Core/Src/digipeater.c:156:6:Digi_IsPending	0	static
+../Core/Src/digipeater.c:161:6:Digi_GetFrame	0	static
+../Core/Src/digipeater.c:170:6:Digi_ClearPending	0	static
+../Core/Src/digipeater.c:178:6:Digi_ProcessFrame	48	static

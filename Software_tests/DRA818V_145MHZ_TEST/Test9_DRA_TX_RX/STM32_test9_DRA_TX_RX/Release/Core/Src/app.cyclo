@@ -1,0 +1,13 @@
+../Core/Src/app.c:142:37:onRxFrameRaw	4
+../Core/Src/app.c:291:13:spiStatusStartIfReady	5
+../Core/Src/app.c:324:6:App_AFSK_TimerCallback	2
+../Core/Src/app.c:316:6:HAL_TIM_PeriodElapsedCallback	2
+../Core/Src/app.c:338:6:App_Init	1
+../Core/Src/app.c:389:6:App_Run	16
+../Core/Src/app.c:652:6:App_GpsHasFix	1
+../Core/Src/app.c:657:6:App_GetGpsCoords	3
+../Core/Src/app.c:668:6:HAL_GPIO_EXTI_Callback	1
+../Core/Src/app.c:673:6:HAL_SPI_TxRxCpltCallback	2
+../Core/Src/app.c:681:6:HAL_SPI_ErrorCallback	1
+../Core/Src/app.c:689:6:HAL_UART_RxCpltCallback	2
+../Core/Src/app.c:698:6:HAL_UART_ErrorCallback	2
