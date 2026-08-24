@@ -390,6 +390,17 @@ void loop()
   uint8_t status = readOneByte();
   uint32_t now   = millis();
 
+  /* 
+   * Workaround for RF interference: 
+   * When the commercial radio transmits, the RF causes the STM32 to reboot. 
+   * During the SPI re-initialization, the MISO line can float or glitch HIGH 
+   * exactly when the ESP32 reads the first bit (MSB), turning 0x00 into 0x80 
+   * and 0x06 into 0x86. We mask out the MSB if the lower 7 bits form a valid status.
+   */
+  if ((status & 0x80) != 0 && (status & 0x7F) <= SPI_STATUS_RX_SEEN) {
+    status &= 0x7F;
+  }
+
   /* ---- Frame dump: received 0x0A header ---- */
   if (status == SPI_STATUS_RX_FRAME) {
     delay(5);                         /* Small pause to let STM32 load first byte */

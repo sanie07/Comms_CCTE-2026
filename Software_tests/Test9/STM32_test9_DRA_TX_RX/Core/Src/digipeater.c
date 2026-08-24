@@ -6,12 +6,13 @@
  *
  *   WIDE1-1 (simple, direct-only)
  *     Path element "WIDE1" with SSID=1 and H-bit=0 is matched.
- *     Action: set H-bit on that element (mark as used). Frame bytes unchanged.
+ *     Action: Modified to be traced. Inserts own callsign and decrements SSID.
  *
  *   WIDE2-n (traced)
  *     Path element "WIDE2" with SSID=n (1<=n<=APRS_DIGI_WIDE2_MAX_N) matched.
- *     Action: insert own callsign (with H-bit) before the element, then
- *     decrement its SSID by 1. If new SSID == 0 also set H-bit on it.
+ *     Action for n=1: replace element with own callsign (with H-bit).
+ *     Action for n>=2: insert own callsign (with H-bit) before the element,
+ *     then decrement its SSID by 1.
  *
  * Duplicate filter: FNV-1a hash of (dest[7]+src[7]+info_field).
  *   10 hash slots, configurable time window (APRS_DIGI_DEDUPE_SECS).
@@ -227,7 +228,8 @@ void Digi_ProcessFrame(const uint8_t *frame, uint16_t len)
                 (memcmp(&frame[elementIdx], WIDE1_CALL, 6U) == 0) &&
                 (ssidN == 1U))
             {
-                aliasType = 1U;
+                /* aliasType = 2U forces it to be treated as a traced path (inserts callsign) */
+                aliasType = 2U;
                 aliasN    = 1U;
                 found     = true;
             }
@@ -268,42 +270,64 @@ void Digi_ProcessFrame(const uint8_t *frame, uint16_t len)
     }
     else if (aliasType == 2U)
     {
-        /* WIDE2-n traced:
-         *   1. Copy bytes 0..(elementIdx-1) unchanged.
-         *   2. Insert own callsign with H-bit.
-         *   3. Copy bytes elementIdx..end unchanged.
-         *   4. Decrement SSID of the WIDE2-n element; set H-bit if SSID→0.
-         */
-        if ((len + 7U) > DIGI_FRAME_BUF_SIZE)
-            return;
+        /* Traced path logic based on N */
+        if (aliasN == 1U)
+        {
+            /* N=1: Replace generic form with digipeater callsign */
+            if (len > DIGI_FRAME_BUF_SIZE)
+                return;
 
-        /* Part before the matched element */
-        memcpy(out, frame, elementIdx);
-        outLen = elementIdx;
+            /* Part before the matched element */
+            memcpy(out, frame, elementIdx);
+            
+            /* Replace element with own callsign */
+            out[elementIdx + 0U] = s_myCall[0];
+            out[elementIdx + 1U] = s_myCall[1];
+            out[elementIdx + 2U] = s_myCall[2];
+            out[elementIdx + 3U] = s_myCall[3];
+            out[elementIdx + 4U] = s_myCall[4];
+            out[elementIdx + 5U] = s_myCall[5];
+            
+            /* Preserve extension bit from original element */
+            uint8_t extBit = frame[elementIdx + 6U] & 0x01U;
+            out[elementIdx + 6U] = (s_myCall[6] & 0xFEU) | extBit;
+            
+            outLen = elementIdx + 7U;
+            
+            /* Copy the rest of the frame */
+            memcpy(&out[outLen], &frame[elementIdx + 7U], len - (elementIdx + 7U));
+            outLen += len - (elementIdx + 7U);
+        }
+        else
+        {
+            /* N>=2: Insert own callsign, decrement N, leave marked as unused */
+            if ((len + 7U) > DIGI_FRAME_BUF_SIZE)
+                return;
 
-        /* Insert own callsign.
-         * Extension bit (bit 0) stays 0 -- another element follows. */
-        out[outLen + 0U] = s_myCall[0];
-        out[outLen + 1U] = s_myCall[1];
-        out[outLen + 2U] = s_myCall[2];
-        out[outLen + 3U] = s_myCall[3];
-        out[outLen + 4U] = s_myCall[4];
-        out[outLen + 5U] = s_myCall[5];
-        out[outLen + 6U] = s_myCall[6] & (uint8_t)(~0x01U); /* ext = 0 */
-        outLen += 7U;
+            /* Part before the matched element */
+            memcpy(out, frame, elementIdx);
+            outLen = elementIdx;
 
-        /* Rest of the original frame (WIDE2-n element and everything after) */
-        memcpy(&out[outLen], &frame[elementIdx], len - elementIdx);
-        outLen += len - elementIdx;
+            /* Insert own callsign.
+             * Extension bit (bit 0) stays 0 -- another element follows. */
+            out[outLen + 0U] = s_myCall[0];
+            out[outLen + 1U] = s_myCall[1];
+            out[outLen + 2U] = s_myCall[2];
+            out[outLen + 3U] = s_myCall[3];
+            out[outLen + 4U] = s_myCall[4];
+            out[outLen + 5U] = s_myCall[5];
+            out[outLen + 6U] = s_myCall[6] & 0xFEU; /* ext = 0 */
+            outLen += 7U;
 
-        /* Decrement SSID of the WIDE2-n element (now at elementIdx+7 in out).
-         * SSID is in bits 4-1 of the SSID byte: subtract 2 from the byte. */
-        uint16_t newElemSsidIdx = elementIdx + 6U + 7U; /* +7 for inserted call */
-        out[newElemSsidIdx] -= 2U; /* Decrement SSID by 1 (stored <<1) */
+            /* Rest of the original frame (WIDEn-N element and everything after) */
+            memcpy(&out[outLen], &frame[elementIdx], len - elementIdx);
+            outLen += len - elementIdx;
 
-        /* If SSID is now 0 (bits 4-1 all zero), set H-bit */
-        if ((out[newElemSsidIdx] & 0x1EU) == 0U)
-            out[newElemSsidIdx] |= 0x80U;
+            /* Decrement SSID of the WIDEn-N element.
+             * SSID is in bits 4-1 of the SSID byte: subtract 2 from the byte. */
+            uint16_t newElemSsidIdx = elementIdx + 6U + 7U; /* +7 for inserted call */
+            out[newElemSsidIdx] -= 2U; /* Decrement SSID by 1 (stored <<1) */
+        }
     }
 
     if (outLen == 0U)

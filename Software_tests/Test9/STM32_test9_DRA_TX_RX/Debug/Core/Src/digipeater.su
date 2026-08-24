@@ -1,8 +1,8 @@
-../Core/Src/digipeater.c:72:17:computeHash	32	static
-../Core/Src/digipeater.c:100:13:isDuplicate	24	static
-../Core/Src/digipeater.c:111:13:storeDedupe	16	static
-../Core/Src/digipeater.c:134:6:Digi_Init	24	static
-../Core/Src/digipeater.c:156:6:Digi_IsPending	4	static
-../Core/Src/digipeater.c:161:6:Digi_GetFrame	16	static
-../Core/Src/digipeater.c:170:6:Digi_ClearPending	4	static
-../Core/Src/digipeater.c:178:6:Digi_ProcessFrame	40	static
+../Core/Src/digipeater.c:73:17:computeHash	32	static
+../Core/Src/digipeater.c:101:13:isDuplicate	24	static
+../Core/Src/digipeater.c:112:13:storeDedupe	16	static
+../Core/Src/digipeater.c:135:6:Digi_Init	24	static
+../Core/Src/digipeater.c:157:6:Digi_IsPending	4	static
+../Core/Src/digipeater.c:162:6:Digi_GetFrame	16	static
+../Core/Src/digipeater.c:171:6:Digi_ClearPending	4	static
+../Core/Src/digipeater.c:179:6:Digi_ProcessFrame	48	static
