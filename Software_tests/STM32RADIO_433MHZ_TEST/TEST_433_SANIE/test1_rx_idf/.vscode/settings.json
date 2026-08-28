@@ -14,4 +14,8 @@
     "--compile-commands-dir=c:\\Users\\sanie\\Documents\\GitHub\\Comms_CCTE-2026\\Software_tests\\TEST_433_SANIE\\test1_rx_idf\\build"
   ],
   "idf.portWin": "COM11"
+<<<<<<< Updated upstream
 }
+=======
+}
+>>>>>>> Stashed changes
