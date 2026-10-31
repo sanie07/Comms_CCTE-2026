@@ -1,0 +1,3 @@
+../Core/Src/app.c:42:6:App_Init	8	static
+../Core/Src/app.c:69:6:App_Run	16	static
+../Core/Src/app.c:121:6:HAL_GPIO_EXTI_Callback	16	static

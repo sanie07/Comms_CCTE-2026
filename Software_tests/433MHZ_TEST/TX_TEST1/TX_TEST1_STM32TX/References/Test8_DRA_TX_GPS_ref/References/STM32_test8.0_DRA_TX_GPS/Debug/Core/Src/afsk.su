@@ -1,0 +1,8 @@
+../Core/Src/afsk.c:101:23:i32abs	16	static
+../Core/Src/afsk.c:107:16:rxGetSymbol	48	static
+../Core/Src/afsk.c:132:6:AFSK_Init	40	static
+../Core/Src/afsk.c:171:6:AFSK_TX_Load	16	static
+../Core/Src/afsk.c:179:6:AFSK_TX_Start	4	static
+../Core/Src/afsk.c:189:6:AFSK_TX_Stop	4	static
+../Core/Src/afsk.c:196:6:AFSK_TX_IsDone	4	static
+../Core/Src/afsk.c:208:6:AFSK_TimerTick	16	static

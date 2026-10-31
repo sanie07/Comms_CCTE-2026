@@ -1,0 +1,7 @@
+../Core/Src/tinygps.c:11:6:TinyGPSPlus_Init	1
+../Core/Src/tinygps.c:15:12:fromHex	5
+../Core/Src/tinygps.c:21:13:parseDegrees	6
+../Core/Src/tinygps.c:39:13:endOfTermHandler	22
+../Core/Src/tinygps.c:104:6:TinyGPSPlus_Encode	7
+../Core/Src/tinygps.c:140:8:TinyGPSLocation_Lat	2
+../Core/Src/tinygps.c:146:8:TinyGPSLocation_Lng	2
